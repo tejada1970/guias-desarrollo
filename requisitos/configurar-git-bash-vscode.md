@@ -54,9 +54,9 @@ terminal predeterminada
 
 A partir de ahora, al abrir la terminal (`Ctrl + ñ`) en VS Code, se utilizará **Git Bash por defecto**, lo cual te ofrece:
 
-✅ Una experiencia más consistente
-✅ Evita errores relacionados con permisos de ejecución
-✅ Acceso a comandos Bash familiares estilo Linux
+- ✅ Una experiencia más consistente
+- ✅ Evita errores relacionados con permisos de ejecución
+- ✅ Acceso a comandos Bash familiares estilo Linux
 
 ---
 
