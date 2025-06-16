@@ -1,4 +1,4 @@
-# 📥 Guía: Clonar repositorio básico en XAMPP (Windows)
+# 📥 Guía: Clonar proyectos básicos en XAMPP (Windows)
 
 Esta guía te ayudará a clonar un repositorio de un proyecto web estático **(HTML/CSS/JS) o (PHP)** y ejecutarlo localmente usando **XAMPP**.
 
