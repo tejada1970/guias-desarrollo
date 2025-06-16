@@ -9,7 +9,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 
 ### 🚀 Repositorios
 - 📄 [Consejos y buenas prácticas para repositorios](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/buenas-practicas-repos.md)
-- 📄 [Clonar proyectos básicos en XAMPP (Windows) – HTML/CSS/JS/PHP](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
+- 📄 [Clonar proyectos básicos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
 ---
 ## 🛠 ¿Por qué usar este repositorio?
 
