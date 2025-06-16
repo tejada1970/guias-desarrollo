@@ -1,6 +1,7 @@
 # 🧰 Guía: Instalación de XAMPP y Composer en Windows
 
 Esta guía te ayudará a instalar y configurar **XAMPP** y, opcionalmente, **Composer**, en un entorno Windows para proyectos PHP.
+> **💡 Nota:** Aunque XAMPP está pensado principalmente para proyectos PHP, también puedes usarlo para **proyectos estáticos con HTML, CSS y JavaScript**.
 
 ---
 
