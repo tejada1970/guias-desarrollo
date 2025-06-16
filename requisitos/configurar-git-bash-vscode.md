@@ -18,8 +18,8 @@ Esto es útil para trabajar con herramientas modernas como **Laravel**, **Node.j
 
 2. Ve a la configuración:
 
-- Usa el atajo: `Ctrl + ,`
-- O desde el menú: `Archivo → Preferencias → Configuración`
+ - Usa el atajo: `Ctrl + ,`
+ - O desde el menú: `Archivo → Preferencias → Configuración`
 
 3. En la barra de búsqueda, escribe:
 
