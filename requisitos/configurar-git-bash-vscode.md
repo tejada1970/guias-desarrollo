@@ -17,11 +17,11 @@ Esto es útil para trabajar con herramientas modernas como **Laravel**, **Node.j
 1. Abre **Visual Studio Code**.
 
 2. Ve a la configuración:
-
+   
 - Usa el atajo: `Ctrl + ,`
 - O desde el menú: `Archivo → Preferencias → Configuración`
 
-3. En la barra de búsqueda, escribe:
+4. En la barra de búsqueda, escribe:
 
 ```
 terminal predeterminada
