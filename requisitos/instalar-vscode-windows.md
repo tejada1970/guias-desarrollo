@@ -19,7 +19,7 @@
 
 Las extensiones enriquecen la experiencia de desarrollo. A continuación se presentan las más recomendadas:
 
-### 🔧 Extensiones generales
+### 🔧 Generales
 
 - **Spanish Language Pack for Visual Studio Code** – Microsoft  
   Traduce la interfaz de VS Code al español.
@@ -35,7 +35,7 @@ Las extensiones enriquecen la experiencia de desarrollo. A continuación se pres
 
 ---
 
-### 🐘 Extensiones para desarrollo PHP / Laravel
+### 🐘 Desarrollo PHP / Laravel
 
 - **Laravel Blade Formatter** – Shuhei Hayashibara  
   Formatea archivos `.blade.php`.
