@@ -11,5 +11,18 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Consejos y buenas prácticas para repositorios](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/buenas-practicas-repos.md)
 - 📄 [Clonar proyectos básicos en XAMPP (Windows) – HTML/CSS/JS/PHP](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
 ---
+## 🛠 ¿Por qué usar este repositorio?
+
+- ✅ Una única versión por guía
+- 🔗 Fácilmente enlazable desde cualquier proyecto
+- 📁 Bien organizado y modular
+---
+## 🌐 Opcional: convertirlo en sitio web
+Herramientas recomendadas:
+- [GitHub Pages](https://pages.github.com/)
+- [Docsify](https://docsify.js.org)
+- [Docusaurus](https://docusaurus.io)
+- [MkDocs](https://www.mkdocs.org/)
+---
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
