@@ -10,3 +10,6 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ### 🚀 Repositorios
 - 📄 [Consejos y buenas prácticas para repositorios](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/buenas-practicas-repos.md)
 - 📄 [Clonar proyectos básicos en XAMPP (Windows) – HTML/CSS/JS/PHP](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
+---
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
