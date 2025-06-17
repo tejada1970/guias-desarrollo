@@ -1,17 +1,17 @@
 # 📚 Guía: Instalación de XAMPP y Composer en Windows
 
-Esta guía te ayudará a instalar y configurar **XAMPP** y, opcionalmente, **Composer**, en un entorno Windows.
+Esta guía te ayudará a instalar y configurar **XAMPP** y, opcionalmente, **Composer**, en un entorno **Windows**.
 
 ---
 
 ## 🧰 1. Instalar XAMPP
 
-Para configurar tu entorno de desarrollo con **XAMPP** sigue estos pasos:
+Para configurar tu entorno de desarrollo con **XAMPP**:
 
-* 1. Visita 👉 [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
-* 2. Descarga la versión para **Windows**.
-* 3. Ejecuta el instalador.
-* 4. Sigue las instrucciones del asistente. Se recomienda **mantener la carpeta de destino por defecto**: `C:\xampp`.
+* Visita 👉 [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
+* Descarga la versión para **Windows**.
+* Ejecuta el instalador.
+* Sigue las instrucciones del asistente. Se recomienda **mantener la carpeta de destino por defecto**: `C:\xampp`.
 
 ---
 
