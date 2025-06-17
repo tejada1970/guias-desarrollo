@@ -2,7 +2,7 @@
 Este repositorio funcionará como "fuente única de verdad" para documentación técnica. Al centralizar las guías aquí, cualquier cambio se reflejará automáticamente en todos los proyectos que la referencien, evitando duplicidad y asegurando coherencia.
 ## 📁 Índice de Guías
 ### 🛠 Consejos
-- 📄 [Consejos - Clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/consejos-clonar.md)
+- 📄 [Consejos - Clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-clonar.md)
 
 ### ⚙️ Requisitos
 - 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-xampp-composer-windows.md)
