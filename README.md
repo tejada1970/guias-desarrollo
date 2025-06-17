@@ -1,6 +1,9 @@
 # 📚 guias-desarrollo
 Este repositorio funcionará como "fuente única de verdad" para documentación técnica. Al centralizar las guías aquí, cualquier cambio se reflejará automáticamente en todos los proyectos que la referencien, evitando duplicidad y asegurando coherencia.
 ## 📁 Índice de Guías
+### 🛠 Consejos
+- 📄 [Consejos - Clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/consejos-clonar.md)
+
 ### ⚙️ Requisitos
 - 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-xampp-composer-windows.md)
 - 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-git-windows.md)
@@ -8,7 +11,6 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/configurar-git-bash-vscode.md)
 
 ### 🚀 Repositorios
-- 📄 [Consejos y buenas prácticas](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/consejos-buenas-practicas.md)
 - 📄 [Clonar proyectos básicos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
 ---
 ## 🛠 ¿Por qué usar este repositorio?
