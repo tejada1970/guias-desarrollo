@@ -16,20 +16,13 @@ Esto es útil para trabajar con herramientas modernas como **Laravel**, **Node.j
 
 1. Abre **Visual Studio Code**.
 
-2. Ve a la configuración:
-   
-- Usa el atajo: `Ctrl + ,`
-- O desde el menú: `Archivo → Preferencias → Configuración`
+2. Ve a la configuración. Puedes usar el atajo: `Ctrl + ,` o desde el menú: `Archivo → Preferencias → Configuración`.
 
-4. En la barra de búsqueda, escribe:
+3. En la barra de búsqueda, escribe: `terminal predeterminada`
 
-```
-terminal predeterminada
-```
+4. Haz clic en `Editar en settings.json`.
 
-4. Haz clic en **Editar en settings.json** (puede aparecer como *Edit in settings.json*).
-
-5. Dentro del archivo `settings.json`, agrega las siguientes líneas al final (sin borrar lo que ya existe):
+5. Dentro del archivo `settings.json`, agrega las siguientes líneas al final:
 
 ```json
 {
