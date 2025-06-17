@@ -29,7 +29,7 @@ Asegurarte de que la extensión **ZIP** de **PHP** esté habilitada:
 
 ---
 
-## 📦 Instalar Composer (solo si usarás frameworks PHP modernos)
+## 📦 Instalar Composer (solo si usarás frameworks PHP)
 
 **Composer** es un gestor de dependencias para proyectos PHP. Solo necesitas instalarlo si vas a trabajar con frameworks como **Laravel, Symfony** u otros que usen paquetes externos.
 
