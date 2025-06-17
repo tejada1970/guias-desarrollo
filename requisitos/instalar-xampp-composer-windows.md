@@ -6,7 +6,7 @@ Esta guía te ayudará a instalar y configurar **XAMPP** y, opcionalmente, **Com
 
 ## ✅ 1. Instalar XAMPP
 
-Para configurar tu entorno de desarrollo con **XAMPP** (recomendado: compatible con **PHP 8.2** o superior) sigue estos pasos:
+Para configurar tu entorno de desarrollo con **XAMPP** sigue estos pasos:
 
 * 1. Visita 👉 [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
 * 2. Descarga la versión para **Windows**.
