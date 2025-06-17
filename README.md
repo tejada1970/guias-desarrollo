@@ -7,7 +7,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ## 📁 Índice de Guías
 
 ### 🛠 Consejos
-- 📄 [Consejos - Clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-clonar.md)
+- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
 - 📄 [Consejos - Organización de proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-organizacion-de-proyectos-en-xampp.md)
 
 ### ⚙️ Requisitos
