@@ -1,4 +1,4 @@
-# 📚 Guía: Consejos - Organización de proyectos en XAMPP
+# 📚 Guía: Consejo para organizar tus proyectos en XAMPP
 
 Esta guía ofrece recomendaciones para organizar tus proyectos dentro de `htdocs` al trabajar con **XAMPP**.
 
