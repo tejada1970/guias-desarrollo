@@ -1,4 +1,4 @@
-# 📥 Guía: Buenas Prácticas al Clonar o Iniciar Repositorios
+# 📥 Guía: Consejos y Buenas Prácticas
 
 Esta guía aplica a cualquier entorno o tecnología (Next.js, Laravel, HTML/CSS/JS, PHP, etc.).
 
@@ -35,11 +35,9 @@ Si tu objetivo es:
 
 Entonces, lo mejor es **comenzar desde cero**, por ejemplo:
 
-- `create-next-app@latest` para Next.js
-- `laravel new my-app` con `composer global require laravel/installer` para Laravel
-- Archivos `HTML, CSS, JS, PHP` propios para proyectos básicos
-
-A continuación, sigue las guías correspondientes para crear el nuevo proyecto en cuestión.
+- `create-next-app@latest` para Next.js.
+- `laravel new my-app` con `composer global require laravel/installer` para Laravel.
+- Archivos `HTML, CSS, JS, PHP` propios para proyectos básicos.
 
 ---
 
