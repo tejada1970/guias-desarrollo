@@ -8,7 +8,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 
 ### 🛠 Consejos
 - 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
-- 📄 [Consejos - Organización de proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-organizacion-de-proyectos-en-xampp.md)
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ### ⚙️ Requisitos
 - 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-xampp-composer-windows.md)
