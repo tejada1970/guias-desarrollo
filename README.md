@@ -14,7 +14,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ### 📥 Clonar
 - 📄 [Clonar proyectos estáticos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyectos-estaticos-xampp-windows.md)
 ---
-## 🛠 ¿Por qué usar este repositorio?
+## 📦 ¿Por qué usar este repositorio?
 
 - ✅ Una única versión por guía
 - 🔗 Fácilmente enlazable desde cualquier proyecto
