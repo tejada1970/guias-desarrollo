@@ -1,4 +1,4 @@
-# 📥 Guía: Consejos - Clonar
+# 📚 Guía: Consejos - Clonar
 
 Esta guía aplica a cualquier entorno o tecnología (Next.js, Laravel, HTML/CSS/JS, PHP, etc.).
 
