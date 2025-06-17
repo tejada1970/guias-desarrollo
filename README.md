@@ -10,8 +10,8 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-vscode-windows.md)
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/configurar-git-bash-vscode.md)
 
-### 🚀 Repositorios
-- 📄 [Clonar proyectos básicos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
+### 📥 Clonar
+- 📄 [Clonar proyectos básicos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-repo-basico-xampp-windows.md)
 ---
 ## 🛠 ¿Por qué usar este repositorio?
 
