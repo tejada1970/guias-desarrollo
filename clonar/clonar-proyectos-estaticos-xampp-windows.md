@@ -50,4 +50,4 @@ code .
 
 ---
 
-*Fin documento*
+*Fin del documento*
