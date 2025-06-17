@@ -1,10 +1,10 @@
-# 🧰 Guía: Instalación de Visual Studio Code en Windows
+# 📚 Guía: Instalación de Visual Studio Code en Windows
 
 **Visual Studio Code** (VS Code) es un editor de código ligero, potente y altamente extensible, ideal para proyectos en múltiples lenguajes y tecnologías como PHP, JavaScript, Laravel, Docker, entre otros.
 
 ---
 
-## 💻 Instalación del editor VS Code
+## 🧰 Instalación del editor VS Code
 
 * Visita 👉 [https://code.visualstudio.com/](https://code.visualstudio.com/).
 * Descarga la versión para **Windows**.
