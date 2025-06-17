@@ -1,4 +1,4 @@
-# 🖥️ Guía: Configurar Git Bash como Terminal Predeterminada en Visual Studio Code
+# 📚 Guía: Configurar Git Bash como Terminal Predeterminada en Visual Studio Code
 
 Para evitar errores comunes al usar PowerShell (como *"la ejecución de scripts está deshabilitada en este sistema"*), se recomienda configurar **Git Bash** como la terminal predeterminada en **Visual Studio Code (VS Code)**.
 
@@ -12,7 +12,7 @@ Esto es útil para trabajar con herramientas modernas como **Laravel**, **Node.j
 
 ---
 
-### ✅ Pasos para configurarla
+### ⚙️ Pasos para configurarla
 
 1. Abre **Visual Studio Code**.
 
