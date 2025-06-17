@@ -8,7 +8,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/configurar-git-bash-vscode.md)
 
 ### 🚀 Repositorios
-- 📄 [Consejos y buenas prácticas para repositorios](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/buenas-practicas-repos.md)
+- 📄 [Consejos y buenas prácticas](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/consejos-buenas-practicas.md)
 - 📄 [Clonar proyectos básicos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/repositorios/clonar-repo-basico-xampp-windows.md)
 ---
 ## 🛠 ¿Por qué usar este repositorio?
