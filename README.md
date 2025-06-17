@@ -3,6 +3,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ## 📁 Índice de Guías
 ### 🛠 Consejos
 - 📄 [Consejos - Clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-clonar.md)
+- 📄 [Consejos - Organización de proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejos-organizacion-de-proyectos-en-xampp.md)
 
 ### ⚙️ Requisitos
 - 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-xampp-composer-windows.md)
