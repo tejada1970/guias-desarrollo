@@ -11,13 +11,14 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ### ⚙️ Requisitos
-- 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-xampp-composer-windows.md)
-- 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-git-windows.md)
-- 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/instalar-vscode-windows.md)
-- 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/configurar-git-bash-vscode.md)
+#### Windows
+- 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-composer-windows.md)
+- 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-windows.md)
+- 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-windows.md)
+- 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-vscode.md)
 
 ### 📥 Clonar
-- 📄 [Clonar proyectos estáticos en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyectos-estaticos-xampp-windows.md)
+- 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp-windows.md)
 
 ---
 

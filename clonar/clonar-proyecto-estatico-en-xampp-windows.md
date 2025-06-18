@@ -1,8 +1,16 @@
-# 📚 Guía: Clonar proyectos estáticos en XAMPP (Windows)
+# 📚 Guía: Clonar proyecto estático en XAMPP (Windows)
 
 Esta guía te ayudará a clonar un repositorio de un proyecto web estático **(HTML/CSS/JS) o (PHP)** y ejecutarlo localmente usando **XAMPP**.
 
-> ✅ Asegúrate de tener instalados y configurados los requisitos previos indicados en el repositorio (por ejemplo, XAMPP, Git, Visual Studio Code).
+> ✅ Antes de continuar, asegúrate de tener instalados y configurados los requisitos necesarios.
+
+---
+
+## ⚙️ Requisitos previos
+
+Para instalar y configurar un entorno completo y óptimo con **XAMPP** en **Windows**, consulta las siguientes guías disponibles en este repositorio:
+
+- 📁 [guias-desarrollo/requisitos/windows](https://github.com/tejada1970/guias-desarrollo/tree/master/requisitos/windows)
 
 ---
 
