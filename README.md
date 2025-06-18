@@ -22,9 +22,9 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ---
 
 ## 📦 ¿Por qué usar este repositorio?
-- ✅ Una única versión por guía
-- 🔗 Fácilmente enlazable desde cualquier proyecto
-- 📁 Bien organizado y modular
+- ✅ Una única versión por guía.
+- 🔗 Fácilmente enlazable desde cualquier proyecto.
+- 📁 Bien organizado y modular.
 
 ---
 
