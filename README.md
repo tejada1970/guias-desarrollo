@@ -12,10 +12,12 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 
 ### ⚙️ Requisitos
 #### Windows
-- 📄 [Instalar XAMPP + Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-composer-windows.md)
-- 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-windows.md)
-- 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-windows.md)
-- 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-vscode.md)
+- 📄 [Instalar XAMPP en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-en-windows.md)
+- 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
+- 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
+- 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-en-vscode.md)
+##### Requisito adicional para Laravel
+- 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
 
 ### 📥 Clonar
 - 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp-windows.md)
