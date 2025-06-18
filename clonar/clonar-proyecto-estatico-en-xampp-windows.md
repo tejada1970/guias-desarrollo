@@ -60,7 +60,7 @@ code .
 
 2. Visualiza el sitio web:
 
-* Abre la terminal en **`Visual Studio Code`** usando el atajo (`Ctrl + s`).
+* Abre la terminal en **Visual Studio Code** usando el atajo (`Ctrl + ñ`).
 * Haz clic en **Go Live** si tienes instalada la extensión **Live Server** (recomendado).
 * O abre tu navegador y escribe en la barra de direcciones: **`http://localhost/nombre_del_proyecto`** para ver el sitio.
 

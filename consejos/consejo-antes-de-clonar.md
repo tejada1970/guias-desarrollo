@@ -33,7 +33,7 @@ Si tu objetivo es:
 - Evitar errores difíciles de depurar
 - Trabajar con un entorno estable y mantenible
 
-Entonces, lo mejor es **comenzar desde cero**, por ejemplo:
+Entonces, lo mejor es **empezar desde cero**, por ejemplo:
 
 - `create-next-app@latest` para Next.js.
 - `laravel new my-app` con `composer global require laravel/installer` para Laravel.
