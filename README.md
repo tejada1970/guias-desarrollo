@@ -10,6 +10,8 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
 - 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
+---
+
 ### ⚙️ Requisitos
 #### Windows
 - 📄 [Instalar XAMPP en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-en-windows.md)
@@ -18,6 +20,8 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-en-vscode.md)
 ##### Requisito adicional para Laravel
 - 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
+
+---
 
 ### 📥 Clonar
 - 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp-windows.md)

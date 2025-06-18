@@ -14,12 +14,16 @@ Esta guía aplica a cualquier entorno o tecnología (Next.js, Laravel, HTML/CSS/
 - Mayor control sobre el entorno desde el inicio.
 - Te obliga a entender el flujo de instalación y configuración.
 
+---
+
 ### 🤔 ¿Cuándo es mejor clonar?
 
 - Si ya tienes una plantilla confiable.
 - Si trabajas en equipo y necesitas el mismo entorno.
 - Si estás corrigiendo o probando algo específico.
 - Si únicamente necesitas explorar el funcionamiento de un proyecto de forma temporal sin intención de conservarlo.
+
+---
 
 ### 🧠 Recomendación
 
