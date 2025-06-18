@@ -10,7 +10,7 @@ Esta guía te ayudará a clonar un repositorio de un proyecto web estático **(H
 
 Para instalar y configurar un entorno completo y óptimo con **XAMPP** en **Windows**, consulta las siguientes guías del índice principal:
 
-- 📁 [Índice de Guías - Requisitos/Windows](https://github.com/tejada1970/guias-desarrollo#-requisitos)
+- 📁 [Índice de Guías - Requisitos/Windows](https://github.com/tejada1970/guias-desarrollo#windows)
 
 ---
 
