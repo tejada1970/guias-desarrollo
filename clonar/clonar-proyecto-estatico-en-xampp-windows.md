@@ -14,9 +14,18 @@ Para instalar y configurar un entorno completo y óptimo con **XAMPP** en **Wind
 
 ---
 
+## 🛠 Consejos y buenas prácticas
+
+> ✅ Si estas pensando en conservar el proyecto, te recomiendo consultar las siguientes guías:
+
+- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+
+---
+
 ## 📥 Pasos para clonar el proyecto
 
-Inicia el panel de **XAMPP** y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
+Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
 
 ### 🔧 Desde Git Bash
 
@@ -51,7 +60,8 @@ code .
 
 2. Visualiza el sitio web:
 
-* Haz clic en **"Go Live"** si tienes instalada la extensión **Live Server** (recomendado)
+* Abre la terminal en **`Visual Studio Code`** usando el atajo (`Ctrl + s`).
+* Haz clic en **Go Live** si tienes instalada la extensión **Live Server** (recomendado).
 * O abre tu navegador y escribe en la barra de direcciones: **`http://localhost/nombre_del_proyecto`** para ver el sitio.
 
 > 🔹 Reemplaza `nombre_del_proyecto` por el nombre exacto de la carpeta clonada.
