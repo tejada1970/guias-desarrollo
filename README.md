@@ -18,7 +18,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 - 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
 - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-en-vscode.md)
-##### Requisito adicional para Laravel
+##### Requisitos adicionales para Laravel
 - 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
 
 ---
