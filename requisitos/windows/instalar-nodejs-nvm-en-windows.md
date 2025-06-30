@@ -18,13 +18,13 @@ Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Nod
 ---
 
 ### ✅ 2. Verifica que NVM esté instalado
-- Abre una terminal (PowerShell o Git Bash) Escribe:
+- Abre una terminal (PowerShell o Git Bash) y escribe:
 
 ```bash
 nvm version
 ```
 
-- Deberías ver la versión de NVM instalada, Por ejemplo:
+- Deberías ver la versión de NVM instalada, por ejemplo:
 
 ```plaintext
 1.1.12
@@ -34,13 +34,13 @@ nvm version
 
 ### ✅ 3. Instalar una versión específica de Node.js
 
-Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
+- Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
 
 ```bash
 nvm install 20.13.1
 ```
 
-Y si también necesitas una versión anterior para otro proyecto, por ejemplo `18.17.0`:
+- Y si también necesitas una versión anterior para otro proyecto, por ejemplo `18.17.0`:
 
 ```bash
 nvm install 18.17.0
@@ -72,11 +72,13 @@ node -v
 
 ### ✅ 5. Opcional: ver todas tus versiones instaladas
 
+- Ejecuta:
+
 ```bash
 nvm list
 ```
 
-Te mostrará algo así:
+- Te mostrará algo así:
 
 ```plaintext
 * 20.13.1 (default)
