@@ -38,10 +38,8 @@ Asegúrate que el archivo de configuración de tu proyecto (por ejemplo, `config
 $host = 'localhost';
 $db = 'mi_base_de_datos'; // debe coincidir con el nombre creado
 $user = 'root';
-$pass = ''; // en XAMPP el usuario root por defecto no tiene contraseña
+$pass = ''; // en XAMPP el usuario root por defecto no tiene contraseña. Cambia esto sólo si tú mismo configuraste una.
 ```
-
-> ⚠️ **Nota:** En XAMPP, por defecto el usuario `root` no tiene contraseña. Cambia esto sólo si tú mismo configuraste una.
 
 #### 🎯 Ejemplo en Laravel (.env)
 
@@ -73,7 +71,7 @@ datasource db {
 
 ---
 
-> ✅ ¡Listo! Con esta guía podrás importar y conectar bases de datos en cualquier tipo de proyecto web que utilice **MySQL/MariaDB**, ya sea con **PHP simple, Laravel, Next.js (con backend)**, u otros frameworks o entornos que lo requieran.
+> ✅ **¡Listo!** Con esta guía podrás importar y conectar bases de datos en cualquier tipo de proyecto web que utilice **MySQL/MariaDB**, ya sea con **PHP simple, Laravel, Next.js (con backend)**, u otros frameworks o entornos que lo requieran.
 
 ---
 
