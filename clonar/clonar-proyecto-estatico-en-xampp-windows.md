@@ -1,4 +1,4 @@
-# 📚 Guía: Clonar proyecto estático en XAMPP (Windows)
+# 📚 Guía: Clonar proyecto estático en XAMPP
 
 Esta guía te ayudará a clonar un proyecto web estático y ejecutarlo localmente con **XAMPP**, usando tecnologías como **HTML**, **CSS*, **JS** y **PHP** (sin uso de frameworks), con o sin base de datos.
 
