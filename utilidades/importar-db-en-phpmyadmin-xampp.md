@@ -41,7 +41,7 @@ $user = 'root';
 $pass = ''; // en XAMPP el usuario root por defecto no tiene contraseña
 ```
 
-- ⚠️ **Nota:** En XAMPP, por defecto el usuario `root` no tiene contraseña. Cambia esto sólo si tú mismo configuraste una.
+> ⚠️ **Nota:** En XAMPP, por defecto el usuario `root` no tiene contraseña. Cambia esto sólo si tú mismo configuraste una.
 
 - Ejemplo en Laravel (.env)
 
