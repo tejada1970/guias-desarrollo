@@ -18,6 +18,8 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
 - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
 - 📄 [Configurar Git Bash en VSCode](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/configurar-git-bash-en-vscode.md)
+##### Requisitos adicionales para Next.js
+- 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
 ##### Requisitos adicionales para Laravel
 - 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
 
@@ -25,6 +27,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 ### 📥 Clonar
 - 📄 [Clonar proyecto estático en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp.md)
+- 📄 [Clonar proyecto Next.js en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-nextjs-en-xampp.md)
 
 ---
 

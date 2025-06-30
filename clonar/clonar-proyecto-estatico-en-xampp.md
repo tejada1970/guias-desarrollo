@@ -31,9 +31,9 @@ Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL
 
 ---
 
-### 🔧 Desde Git Bash
+### 🔧 Clonar con Git Bash y abrir desde el navegador
 
-1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs`:
+1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs` para guardar el proyecto:
 
 ```bash
 cd C:/xampp/htdocs
@@ -45,9 +45,9 @@ cd nombre_del_proyecto
 
 ---
 
-### 🔧 Desde Visual Studio Code
+### 🔧 Clonar con Git Bash y abrir desde Visual Studio Code
 
-1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs`:
+1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs` para guardar el proyecto. Escribe al final `code .` para abrir el proyecto en **Visual Studio Code**:
 
 ```bash
 cd C:/xampp/htdocs
@@ -65,9 +65,9 @@ code .
 
 ---
 
-### 🗄️ Importar base de datos en phpMyAdmin
+### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
 
-Si el proyecto incluye un archivo `.sql`, consulta la siguiente guía para crear y cargar la base de datos en **phpMyAdmin**:
+Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
 
 - 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
 
