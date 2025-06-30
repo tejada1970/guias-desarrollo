@@ -15,7 +15,7 @@ Esta guía explica cómo crear una base de datos e importar un archivo `.sql` en
 ### 2. Crea una nueva base de datos
 
 - Haz clic en la pestaña **Bases de datos**.
-- Escribe un nombre para la base de datos (ejemplo: `mi_base_de_datos`) que coincida con el usado en el código del proyecto.
+- Escribe un nombre para la base de datos (ejemplo: `mi_base_de_datos`) que coincida con el usado en el proyecto.
 - Selecciona el cotejamiento `utf8_general_ci`.
 - Haz clic en **Crear**.
 
