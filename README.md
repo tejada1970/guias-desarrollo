@@ -24,7 +24,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ---
 
 ### 📥 Clonar
-- 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp-windows.md)
+- 📄 [Clonar proyecto estático en XAMPP (Windows)](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp.md)
 
 ---
 
