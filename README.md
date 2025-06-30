@@ -28,6 +28,11 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 
 ---
 
+### 🧱 Utilidades
+- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp)
+
+---
+
 ## 📦 ¿Por qué usar este repositorio?
 - ✅ Una única versión por guía.
 - 🔗 Fácilmente enlazable desde cualquier proyecto.

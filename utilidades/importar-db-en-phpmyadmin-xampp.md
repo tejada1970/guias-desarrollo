@@ -1,4 +1,4 @@
-# 📚 Guía: Importar Base de Datos en phpMyAdmin
+# 📚 Guía: Importar Base de Datos en phpMyAdmin - XAMPP
 
 Esta guía explica cómo crear una base de datos e importar un archivo `.sql` en phpMyAdmin, útil para cualquier proyecto web que necesite base de datos, independientemente de la tecnología (PHP, Laravel, Node.js, etc.).
 
