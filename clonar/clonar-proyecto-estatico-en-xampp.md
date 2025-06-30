@@ -67,52 +67,9 @@ code .
 
 ### 🗄️ Importar base de datos en phpMyAdmin
 
-Si el proyecto incluye un archivo `.sql` (por ejemplo: `small_pets.sql`) o con cualquier otro nombre, sigue estos pasos para crear y cargar la base de datos en **phpMyAdmin**:
+Si el proyecto incluye un archivo `.sql`, consulta la siguiente guía para crear y cargar la base de datos en **phpMyAdmin**:
 
-#### Accede a phpMyAdmin
-
-* Abre el Panel de **XAMPP** como administrador.
-
-* Enciende **Apache y MySQL**.
-
-* En tu navegador, ve a 👉 `http://localhost/phpmyadmin`
-
-#### Crea una nueva base de datos
-
-* Haz clic en la pestaña **"Bases de datos"**.
-
-* Escribe un nombre (por ejemplo: `small_pets`) que coincida con el usado en el código del proyecto.
-
-* Selecciona `utf8_general_ci` como cotejamiento.
-
-* Haz clic en **"Crear"**.
-
-#### Importa el archivo .sql
-
-* Una vez creada, haz clic en el nombre de la base de datos desde el panel lateral.
-
-* Pulsa la pestaña **"Importar"** desde las opciones en la parte superior.
-
-* Haz clic en **"Seleccionar archivo"** y elige el archivo `.sql` proporcionado con el proyecto (por ejemplo: `small_pets.sql`).
-
-* Pulsa en **"Continuar"**.
-
-> ✅ **phpMyAdmin** ejecutará automáticamente el contenido del archivo `.sql`, creando todas las tablas y registros necesarios.
-
-#### Verifica la conexión a la base de datos
-
-Asegúrate de que el archivo de conexión del proyecto (por ejemplo: `conexion.php`, `config.php`, `.env.php` o el que proceda) tenga los siguientes datos correctamente definidos de forma similar a este ejemplo:
-
-```
-$host = 'localhost';
-$db = 'small_pets'; // este debe coincidir con el nombre creado para la base de datos
-$user = 'root';
-$pass = '';
-```
-
-> ⚠️ En **XAMPP**, por defecto el **usuario root** no tiene contraseña. No es necesario modificar nada salvo que lo hayas cambiado manualmente.
-
-Con esto tu proyecto debería estar correctamente conectado a la base de datos y listo para usarse desde `http://localhost/nombre_del_proyecto`.
+- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
 
 ---
 
