@@ -32,7 +32,7 @@ Esta guía explica cómo crear una base de datos e importar un archivo `.sql` en
 
 Asegúrate que el archivo de configuración de tu proyecto (por ejemplo, `config.php`, `.env`, `database.php`, etc.) contenga los datos correctos.
 
-- Ejemplo común para PHP
+#### 🐘 Ejemplo común para PHP
 
 ```php
 $host = 'localhost';
@@ -43,7 +43,7 @@ $pass = ''; // en XAMPP el usuario root por defecto no tiene contraseña
 
 > ⚠️ **Nota:** En XAMPP, por defecto el usuario `root` no tiene contraseña. Cambia esto sólo si tú mismo configuraste una.
 
-- Ejemplo en Laravel (.env)
+#### 🎯 Ejemplo en Laravel (.env)
 
 ```env
 DB_CONNECTION=mysql
@@ -54,9 +54,26 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
+#### ⚛️ Ejemplo en Next.js (.env.local)
+
+Si usas **Prisma, mysql2, Drizzle ORM**, u otra librería que utilice variables de entorno para conectarse a una base de datos **MySQL**, puedes añadir lo siguiente en el archivo `.env.local`:
+
+```env
+DATABASE_URL="mysql://root:@localhost:3306/mi_base_de_datos"
+```
+
+En proyectos con Prisma, este valor se utiliza en `prisma/schema.prisma` así:
+
+```prosma
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+```
+
 ---
 
-✅ ¡Listo! con esta guía podrás importar bases de datos para cualquier proyecto que lo necesite, desde PHP simple hasta frameworks como Laravel, Next.js (con backend), o cualquier otro que use MySQL/MariaDB.
+> ✅ ¡Listo! Con esta guía podrás importar y conectar bases de datos en cualquier tipo de proyecto web que utilice **MySQL/MariaDB**, ya sea con **PHP simple, Laravel, Next.js (con backend)**, u otros frameworks o entornos que lo requieran.
 
 ---
 
