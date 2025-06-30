@@ -86,3 +86,7 @@ nvm list
 ```
 
 - El asterisco `*` indica cuál está activa.
+
+---
+
+*Fin del documento*
