@@ -1,6 +1,6 @@
 # 📚 guias-desarrollo
 
-Este repositorio funcionará como "fuente única de verdad" para documentación técnica. Al centralizar las guías aquí, cualquier cambio se reflejará automáticamente en todos los proyectos que la referencien, evitando duplicidad y asegurando coherencia.
+Este repositorio funcionará como **"fuente única de verdad"** para documentación técnica. Al centralizar las guías aquí, cualquier cambio se reflejará automáticamente en todos los proyectos que la referencien, evitando duplicidad y asegurando coherencia.
 
 ---
 
@@ -29,7 +29,7 @@ Este repositorio funcionará como "fuente única de verdad" para documentación 
 ---
 
 ### 🧱 Utilidades
-- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp)
+- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
 
 ---
 
@@ -49,5 +49,5 @@ Herramientas recomendadas:
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 📄 Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
