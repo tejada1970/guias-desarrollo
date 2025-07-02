@@ -20,6 +20,14 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
+### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
+
+Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
+
+- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
+
+---
+
 ## 🛠 Consejos y buenas prácticas
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar estas guías:
@@ -71,14 +79,6 @@ npm run dev
 ```arduino
 http://localhost:3000
 ```
-
----
-
-### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
-
-Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
-
-- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
 
 ---
 

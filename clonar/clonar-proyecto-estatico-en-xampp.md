@@ -14,6 +14,14 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
+### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
+
+Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
+
+- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
+
+---
+
 ## 🛠 Consejos y buenas prácticas
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar estas guías:
@@ -62,14 +70,6 @@ code .
 * Haz clic en **Go Live** si tienes instalada la extensión **Live Server** (recomendado solo para proyectos estáticos sin PHP).
 
 > ⚠️ **Importante:** La extensión **Live Server** no interpreta archivos PHP. Si el proyecto incluye código PHP, **no uses Go Live**. En su lugar, accede a *`http://localhost/nombre_del_proyecto`* desde el navegador para que **XAMPP** lo procese correctamente.
-
----
-
-### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
-
-Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
-
-- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
 
 ---
 
