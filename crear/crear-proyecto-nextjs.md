@@ -14,9 +14,19 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
-## 🚀 Crear un nuevo proyecto con la última versión de Next.js
+## 🛠 Consejos y buenas prácticas
 
-- Abre la terminal Git Bash y navega a la carpeta donde quieras crear el proyecto, por ejemplo:
+> ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar esta guía:
+
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+
+---
+
+## 🚀 Pasos para crear un nuevo proyecto con la última versión de Next.js
+
+> 🔹 **Reemplaza donde corresponda:** `nombre_del_proyecto` por el nombre real que quieras ponerle al proyecto.
+
+- Abre la terminal `Git Bash` y navega a la carpeta donde quieras crear el proyecto, por ejemplo:
 
 ```bash
 cd C:/xampp/htdocs
@@ -25,7 +35,7 @@ cd C:/xampp/htdocs
 - Crea un nuevo proyecto con `create-next-app@latest`:
 
 ```bash
-npx create-next-app@latest ejemplo-i18n
+npx create-next-app@latest nombre_del_proyecto
 ```
 
 - Durante la configuración:
@@ -37,16 +47,16 @@ npx create-next-app@latest ejemplo-i18n
 - Accede a la carpeta del proyecto:
 
 ```bash
-cd ejemplo-i18n
+cd nombre_del_proyecto
 ```
 
-- Instala next-intl:
+- Ejecuta el siguiente comando para instalar `next-intl`:
 
 ```bash
 npm install next-intl
 ```
 
-- Abre el proyecto con VS Code:
+- Abre el proyecto en VS Code:
 
 ```bash
 code .
