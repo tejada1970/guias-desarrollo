@@ -44,7 +44,7 @@ npx create-next-app@latest nombre_del_proyecto
 
     - Cuando te pregunte si deseas personalizar el **import alias** responde **Yes** y luego presiona **Enter** para aceptar la sugerencia por defecto **@/**
 
-    - Espera a que se instalen todas las dependencias. Suele tardar un poco.
+    - Espera a que se instalen todas las dependencias. La primera vez puede tardar bastante, no te preocupes, ten un poco de paciencia.
 
 - Accede a la carpeta del proyecto:
 
@@ -68,6 +68,8 @@ code .
 
 - Ejecuta el proyecto:
 
+Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`) y ejecuta el comando:
+
 ```bash
 npm run dev
 ```
@@ -76,7 +78,7 @@ Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js func
 
 ---
 
-> 💡 **Importante:** Recuerda instalar la versión **NVM** correspondiente para Next.js v15 o superior. Puedes consultar la guía:
+> 💡 **Importante:** Recuerda tener instalada la versión **NVM** correspondiente para Next.js v15 o superior. Puedes consultar la guía:
 
 - 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
 
