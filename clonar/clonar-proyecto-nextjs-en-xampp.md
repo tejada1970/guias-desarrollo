@@ -12,12 +12,6 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 - 📁 [Índice de Guías - Requisitos/Windows](https://github.com/tejada1970/guias-desarrollo#windows)
 
-### 🧱 Requisitos mínimos para Next.js
-- Node.js y npm
-- Git
-- Visual Studio Code
-- XAMPP (solo si se usa MySQL)
-
 ---
 
 ### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
