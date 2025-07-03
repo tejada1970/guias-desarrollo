@@ -54,7 +54,7 @@ code .
 
 ### 🚀 Ejecutar el proyecto Next.js
 
-Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`).
+Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`):
 
 1. Instala las dependencias:
 
