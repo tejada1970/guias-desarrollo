@@ -35,13 +35,13 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
 
-> 🔹 **Reemplaza donde corresponda:** `https://github.com/usuario/repo.git` por el enlace real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
+> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo `https://github.com/usuario/repo.git` por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
 
 ---
 
 ### 🔧 Clonar con Git Bash
 
-Abre la terminal **Git Bash** y navega a la carpeta `htdocs` para guardar el proyecto. Escribe al final `code .` para abrir el proyecto en **Visual Studio Code**:
+Abre la terminal **`Git Bash`** y ejecuta de uno en uno los siguientes comandos para guardar, clonar, acceder y abrir el proyecto en **Visual Studio Code**:
 
 ```bash
 cd C:/xampp/htdocs
@@ -50,11 +50,11 @@ cd nombre_del_proyecto
 code .
 ```
 
-> 💡 Puedes clonar fuera de `htdocs` si no necesitas usar **Apache**. Solo usa `htdocs` si quieres tener todo junto y organizado o si el proyecto también tiene partes en **PHP**.
-
 ---
 
 ### 🚀 Ejecutar el proyecto Next.js
+
+Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`).
 
 1. Instala las dependencias:
 

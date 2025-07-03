@@ -35,13 +35,13 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
 
-> 🔹 **Reemplaza donde corresponda:** `https://github.com/usuario/repo.git` por el enlace real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
+> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo `https://github.com/usuario/repo.git` por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
 
 ---
 
-### 🔧 Clonar con Git Bash y abrir desde el navegador
+### 🔧 Clonar con Git Bash y ejecutar desde el navegador
 
-1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs` para guardar el proyecto:
+1. Abre la terminal **`Git Bash`** y ejecuta de uno en uno los siguientes comandos para guardar, clonar y acceder al proyecto:
 
 ```bash
 cd C:/xampp/htdocs
@@ -53,9 +53,9 @@ cd nombre_del_proyecto
 
 ---
 
-### 🔧 Clonar con Git Bash y abrir desde Visual Studio Code
+### 🔧 Clonar con Git Bash y ejecutar desde Visual Studio Code
 
-1. Abre la terminal **Git Bash** y navega a la carpeta `htdocs` para guardar el proyecto. Escribe al final `code .` para abrir el proyecto en **Visual Studio Code**:
+1. Abre la terminal **`Git Bash`** y ejecuta de uno en uno los siguientes comandos para guardar, clonar, acceder y abrir el proyecto en **Visual Studio Code**:
 
 ```bash
 cd C:/xampp/htdocs

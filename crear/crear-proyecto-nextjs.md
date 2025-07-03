@@ -26,7 +26,7 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 > 🔹 **Reemplaza donde corresponda:** `nombre_del_proyecto` por el nombre real que quieras ponerle al proyecto.
 
-- Abre la terminal `Git Bash` y navega a la carpeta donde quieras crear el proyecto, por ejemplo:
+- Abre la terminal **`Git Bash`** y navega a la carpeta donde quieras guardar el proyecto, por ejemplo:
 
 ```bash
 cd C:/xampp/htdocs
