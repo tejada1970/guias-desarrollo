@@ -357,7 +357,7 @@ body {
 
 ---
 
-Abre tu navegador en [http://localhost:3000/es](http://localhost:3000/es) o `/en` para probar los idiomas.
+Abre tu navegador en **`http://localhost:3000/es`** o **`/en`** para probar los idiomas.
 
 ¡Espero que esta guía te sea útil para aprender e implementar proyectos multilenguaje con Next.js!
 
