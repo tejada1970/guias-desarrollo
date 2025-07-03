@@ -66,9 +66,7 @@ code .
 
 > ✅ De esta forma, te aseguras de que todas las dependencias estén correctamente instaladas antes de abrir el editor de código.
 
-- Ejecuta el proyecto:
-
-Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`) y ejecuta el comando:
+- Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`) y ejecuta el servidor:
 
 ```bash
 npm run dev
