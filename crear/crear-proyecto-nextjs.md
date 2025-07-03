@@ -44,6 +44,8 @@ npx create-next-app@latest nombre_del_proyecto
 
     - Cuando te pregunte si deseas personalizar el **import alias** responde **Yes** y luego presiona **Enter** para aceptar la sugerencia por defecto **@/**
 
+    - Espera a que se instalen todas las dependencias. Suele tardar un poco.
+
 - Accede a la carpeta del proyecto:
 
 ```bash
