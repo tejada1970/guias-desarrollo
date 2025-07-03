@@ -52,7 +52,7 @@ npm install next-intl
 code .
 ```
 
-- > ✅ De esta forma, te aseguras de que todas las dependencias estén correctamente instaladas antes de abrir el editor de código.
+> ✅ De esta forma, te aseguras de que todas las dependencias estén correctamente instaladas antes de abrir el editor de código.
 
 - Ejecuta el proyecto:
 
@@ -60,9 +60,11 @@ code .
 npm run dev
 ```
 
-Abre tu navegador en [http://localhost:3000](http://localhost:3000) para comprobar que Next.js funciona y se visualiza correctamente.
+Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js funciona y se visualiza correctamente.
 
-> 💡 Recuerda instalar la versión **NVM** correspondiente para Next.js v15 o superior. Puedes consultar la guía:
+---
+
+> 💡 **Importante:** Recuerda instalar la versión **NVM** correspondiente para Next.js v15 o superior. Puedes consultar la guía:
 
 - 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
 
