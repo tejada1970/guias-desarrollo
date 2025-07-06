@@ -35,7 +35,7 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
 
-> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo `https://github.com/usuario/repo.git` por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
+> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo **`https://github.com/usuario/repo.git`** por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
 
 ---
 
@@ -69,7 +69,7 @@ code .
 * Abre la terminal integrada en **VS Code** usando (`Ctrl + ñ`).
 * Haz clic en **Go Live** si tienes instalada la extensión **Live Server** (recomendado solo para proyectos estáticos sin PHP).
 
-> ⚠️ **Importante:** La extensión **Live Server** no interpreta archivos PHP. Si el proyecto incluye código PHP, **no uses Go Live**. En su lugar, accede a *`http://localhost/nombre_del_proyecto`* desde el navegador para que **XAMPP** lo procese correctamente.
+> ⚠️ **Importante:** La extensión **Live Server** no interpreta archivos PHP. Si el proyecto incluye código PHP, **no uses Go Live**. En su lugar, accede a **`http://localhost/nombre_del_proyecto`** desde el navegador para que **XAMPP** lo procese correctamente.
 
 ---
 

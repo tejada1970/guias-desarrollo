@@ -12,7 +12,7 @@ Esto es útil para trabajar con herramientas modernas como **`Laravel`**, **`Nod
 
 ---
 
-### ⚙️ Pasos para configurarla
+### ⚙️ Pasos para la configuración
 
 1. Abre **Visual Studio Code**.
 

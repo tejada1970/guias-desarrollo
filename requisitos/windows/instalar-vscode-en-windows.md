@@ -4,7 +4,7 @@
 
 ---
 
-## 🧰 Instalación del editor VS Code
+## 🧰 Instalar Visual Studio Code
 
 * Visita 👉 [https://code.visualstudio.com/](https://code.visualstudio.com/).
 * Descarga la versión para **Windows**.
@@ -130,7 +130,7 @@ Deberías ver la versión instalada.
 
 Para evitar errores comunes al usar **PowerShell**, se recomienda configurar **`Git Bash`** como la terminal predeterminada en **Visual Studio Code (VS Code)**.
 
-- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/configurar-git-bash-en-vscode.md)
+- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
 
 ---
 

@@ -12,7 +12,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 ---
 
-### ⚙️ Requisitos
+### 🧰 Requisitos
 #### Windows
 - 📄 [Instalar XAMPP en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-en-windows.md)
 - 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
@@ -24,9 +24,14 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 ---
 
-### 📁 Crear
+### ⚙️ Configuraciones
+- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-archivo-phpini-en-xampp.md)
+- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-en-windows.md)
+- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
+- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
-- 📄 [Crear proyecto Next.js)](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
+### 📁 Crear
+- 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
 ---
 
@@ -38,8 +43,6 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 ### 🧱 Utilidades
 - 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
-- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/configurar-git-bash-en-vscode.md)
-- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/configurar-i18n-con-next-intl.md)
 
 ---
 

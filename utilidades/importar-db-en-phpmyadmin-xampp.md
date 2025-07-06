@@ -60,9 +60,9 @@ Si usas **Prisma, mysql2, Drizzle ORM**, u otra librería que utilice variables 
 DATABASE_URL="mysql://root:@localhost:3306/mi_base_de_datos"
 ```
 
-En proyectos con Prisma, este valor se utiliza en `prisma/schema.prisma` así:
+En proyectos con **Prisma**, este valor se utiliza en `prisma/schema.prisma` así:
 
-```prosma
+```prisma
 datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")

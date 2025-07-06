@@ -1,4 +1,4 @@
-# 📚 Guía: Instalar Node.js (NVM) en Windows
+# 📚 Guía: Instalación de Node.js (NVM) en Windows
 
 Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Node Version Manager)**, una herramienta que permite gestionar fácilmente múltiples versiones de `Node.js` en un mismo equipo. Es especialmente útil si trabajas con distintos proyectos que requieren versiones diferentes de Node.
 
@@ -8,16 +8,15 @@ Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Nod
 
 ---
 
-## 🛠️ Paso a paso para instalar NVM en Windows
+## 🧰 Instalar NVM
 
-### ✅ 1. Descargar NVM para Windows
 - Ve a esta página oficial: 👉 [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
 - Busca la última versión y descarga este archivo: `nvm-setup.exe`
 - Ejecuta el instalador. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
 
 ---
 
-### ✅ 2. Verifica que NVM esté instalado
+## ✅ Verifica que NVM esté instalado
 - Abre una terminal (PowerShell o Git Bash) y escribe:
 
 ```bash
@@ -32,7 +31,7 @@ nvm version
 
 ---
 
-### ✅ 3. Instalar una versión específica de Node.js
+## 🧰 Instalar una versión específica de Node.js
 
 - Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
 
@@ -40,7 +39,7 @@ nvm version
 nvm install 20.13.1
 ```
 
-- Y si también necesitas una versión anterior para otro proyecto, por ejemplo `18.17.0`:
+- Y si también necesitas una versión distinta para otro proyecto, por ejemplo `18.17.0`:
 
 ```bash
 nvm install 18.17.0
@@ -48,15 +47,15 @@ nvm install 18.17.0
 
 ---
 
-### ✅ 4. Cambiar entre versiones según el proyecto
+## ✅ Cambiar entre versiones según el proyecto
 
-- Cuando vayas a trabajar en un proyecto, activa la versión que necesites:
+- Cuando vayas a trabajar en un proyecto, activa la versión que necesites.
+
+Ejemplos:
 
 ```bash
 nvm use 20.13.1
 ```
-
-- O para otro proyecto (si necesita la anterior):
 
 ```bash
 nvm use 18.17.0
@@ -70,9 +69,9 @@ node -v
 
 ---
 
-### ✅ 5. Opcional: ver todas tus versiones instaladas
+## ✅ Ver versiones instaladas
 
-- Ejecuta:
+- Ejecuta el siguiente comando para listar todas las versiones que tienes instaladas actualmente:
 
 ```bash
 nvm list

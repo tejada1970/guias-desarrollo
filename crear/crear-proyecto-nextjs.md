@@ -1,4 +1,4 @@
-# 📚 Guía: Crear proyecto Next.js
+# 📚 Guía: Crear un proyecto Next.js desde cero
 
 Esta guía te ayudará a crear un nuevo proyecto con Next.js desde cero.
 
@@ -76,7 +76,7 @@ Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js func
 
 ---
 
-> 💡 **Importante:** Recuerda tener instalada la versión **NVM** correspondiente para Next.js v15 o superior. Puedes consultar la guía:
+> 💡 **Importante:** Recuerda instalar la versión **NVM** correspondiente para tu proyecto **Next.js**. Puedes consultar la guía:
 
 - 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
 

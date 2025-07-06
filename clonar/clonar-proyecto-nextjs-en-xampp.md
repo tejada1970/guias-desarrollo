@@ -35,7 +35,7 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 Inicia el panel de **XAMPP** como administrador y enciende **Apache** (y **MySQL** si el proyecto usa base de datos).
 
-> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo `https://github.com/usuario/repo.git` por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
+> 🔹 **Reemplaza donde corresponda:** la **URL** de ejemplo **`https://github.com/usuario/repo.git`** por la **URL** real del repositorio, y `nombre_del_proyecto` por el nombre real de la carpeta generada al clonar.
 
 ---
 
@@ -68,11 +68,7 @@ npm install
 npm run dev
 ```
 
-3. Abre el navegador y accede a:
-
-```arduino
-http://localhost:3000
-```
+3. Abre el navegador y accede a: **`http://localhost:3000`**
 
 ---
 
