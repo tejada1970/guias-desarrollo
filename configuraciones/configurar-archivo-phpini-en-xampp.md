@@ -4,7 +4,7 @@ Esta guía, te ayudará a habilitar extensiones necesarias (como `zip` o `gd`) y
 
 ---
 
-## Accede al archivo de configuración `php.ini` en XAMPP
+## ⚙️ Accede al archivo de configuración `php.ini` en XAMPP
 
 * Abre el Panel de Control de **XAMPP** como administrador y enciende **Apache**.
 * Haz clic en "**Config**" junto a **Apache**.
@@ -13,9 +13,7 @@ Esta guía, te ayudará a habilitar extensiones necesarias (como `zip` o `gd`) y
 
 ---
 
-## Modificar archivo de configuración `php.ini` para:
-
-### 🗜️ Habilitar la Extensión ZIP de PHP
+## 🗜️ Habilita la Extensión ZIP de PHP
 
 La **extensión ZIP de PHP** permite a los scripts PHP **leer, crear, extraer y manipular archivos** `.zip`, que son archivos comprimidos muy comunes. Es decir, esta extensión proporciona una forma integrada en PHP de trabajar con archivos comprimidos sin necesitar herramientas externas.
 
@@ -28,7 +26,7 @@ Asegurarte de que la **extensión ZIP de PHP** esté habilitada:
 
 ---
 
-### 🖼️ Habilitar la Extensión GD
+## 🖼️ Habilita la Extensión GD
 
 Si tu proyecto utiliza imágenes (subidas, redimensionado, miniaturas, etc.), puede ser necesario habilitar la extensión **GD**:
 

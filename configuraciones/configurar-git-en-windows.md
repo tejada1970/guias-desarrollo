@@ -50,7 +50,7 @@ git config --global core.autocrlf input
 
 ---
 
-## 💡 Resultado:
+## 💡 Resultado
 
 Con esto, **Git** quedará correctamente instalado y configurado para trabajar en cualquier entorno de desarrollo multiplataforma.
 

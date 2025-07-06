@@ -1,12 +1,12 @@
 # 📚 Guía: Configurar `i18n` con `next-intl`
 
-Esta guía describe paso a paso cómo configurar desde cero un entorno multilenguaje utilizando la biblioteca `next-intl` de **Next.js**.
+Esta guía describe paso a paso cómo configurar `i18n` desde cero para la implementación de soporte multilenguaje utilizando la biblioteca `next-intl` de **Next.js**.
 
 ---
 
-## 📘 Documentación oficial de `next-intl`
+## 📚 Recurso oficial
 
-Puedes consultar la documentación oficial de esta configuración en:
+Puedes consultar la documentación oficial de `next-intl` para esta configuración:
 
 🔗 [https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing](https://next-intl.dev/docs/getting-started/app-router/with-i18n-routing)
 

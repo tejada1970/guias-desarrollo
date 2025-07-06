@@ -2,6 +2,8 @@
 
 Este repositorio funcionará como **"fuente única de verdad"** para documentación técnica. Al centralizar las guías aquí, cualquier cambio se reflejará automáticamente en todos los proyectos que la referencien, evitando duplicidad y asegurando coherencia.
 
+> 🗓 Última actualización: 06-07-2025.
+
 ---
 
 ## 📁 Índice de Guías
@@ -9,6 +11,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 ### 🛠 Consejos
 - 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
 - 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📄 [Consejo para evitar conflicto readme en GitHub"](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
 
 ---
 
@@ -32,6 +35,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 ### 📁 Crear
 - 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
+- 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
 
 ---
 

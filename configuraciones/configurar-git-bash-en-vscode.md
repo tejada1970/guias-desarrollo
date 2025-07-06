@@ -12,7 +12,7 @@ Esto es útil para trabajar con herramientas modernas como **`Laravel`**, **`Nod
 
 ---
 
-### ⚙️ Pasos para la configuración
+## ⚙️ Pasos para la configuración
 
 1. Abre **Visual Studio Code**.
 
@@ -43,7 +43,7 @@ Esto es útil para trabajar con herramientas modernas como **`Laravel`**, **`Nod
 
 ---
 
-### 💡 Resultado:
+## 💡 Resultado
 
 A partir de ahora, al abrir la terminal (`Ctrl + ñ`) en VS Code, se utilizará **`Git Bash` por defecto**, lo cual te ofrece:
 
