@@ -58,7 +58,7 @@ cd nombre_del_proyecto
 npm install next-intl
 ```
 
-- Abre el proyecto en VS Code:
+- Abre el proyecto en **VS Code**:
 
 ```bash
 code .

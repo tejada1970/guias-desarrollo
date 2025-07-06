@@ -11,7 +11,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 ### 🛠 Consejos
 - 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
 - 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
-- 📄 [Consejo para evitar conflicto readme en GitHub"](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
+- 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
 
 ---
 
@@ -34,6 +34,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
 ### 📁 Crear
+- 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
 - 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 - 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
 

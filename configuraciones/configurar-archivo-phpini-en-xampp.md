@@ -13,7 +13,7 @@ Esta guía, te ayudará a habilitar extensiones necesarias (como `zip` o `gd`) y
 
 ---
 
-## 🗜️ Habilita la Extensión ZIP de PHP
+## 🗜️ Habilita la extensión ZIP de PHP
 
 La **extensión ZIP de PHP** permite a los scripts PHP **leer, crear, extraer y manipular archivos** `.zip`, que son archivos comprimidos muy comunes. Es decir, esta extensión proporciona una forma integrada en PHP de trabajar con archivos comprimidos sin necesitar herramientas externas.
 
@@ -26,7 +26,7 @@ Asegurarte de que la **extensión ZIP de PHP** esté habilitada:
 
 ---
 
-## 🖼️ Habilita la Extensión GD
+## 🖼️ Habilita la extensión GD
 
 Si tu proyecto utiliza imágenes (subidas, redimensionado, miniaturas, etc.), puede ser necesario habilitar la extensión **GD**:
 
