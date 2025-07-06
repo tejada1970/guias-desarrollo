@@ -35,7 +35,7 @@ Si no tienes una cuenta:
 
 ## 💻 Inicializar Git en tu proyecto local (si aún no lo has hecho)
 
-> 🔹 **Importante:** Reemplaza la **URL** de ejemplo **`https://github.com/tu-usuario/mi-proyecto.git`** en `git remote add origin` por la **URL** real del repositorio que creaste. Verifica también antes de hacer `git push` si tu rama es **master**, **main** u otra.
+> 🔹 **Reemplaza:** la **URL** de ejemplo **`https://github.com/tu-usuario/mi-proyecto.git`** en `git remote add origin` por la **URL** real del repositorio que creaste. Verifica también antes de hacer `git push` si tu rama es **master**, **main** u otra.
 
 Abre una terminal en la raíz de tu proyecto local (ejemplo: `Git Bash` en VS Code) y ejecuta de uno en uno los siguientes comandos:
 

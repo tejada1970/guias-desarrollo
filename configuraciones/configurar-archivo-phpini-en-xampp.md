@@ -35,7 +35,7 @@ Si tu proyecto utiliza imágenes (subidas, redimensionado, miniaturas, etc.), pu
 * Elimina el punto y coma (;) al inicio para habilitarla.
 * Guarda los cambios, cierra el archivo, reinicia **Apache** para aplicar la configuración.
 
-> ⚠️ Nota: Aunque tu proyecto actual no dependa directamente de **GD**, es muy común en proyectos PHP **(como blogs en Laravel)**. Activarla puede evitar errores futuros si se trabaja con imágenes.
+> ⚠️ **Nota:** Aunque tu proyecto actual no dependa directamente de **GD**, es muy común en proyectos PHP **(como blogs en Laravel)**. Activarla puede evitar errores futuros si se trabaja con imágenes.
 
 ---
 
