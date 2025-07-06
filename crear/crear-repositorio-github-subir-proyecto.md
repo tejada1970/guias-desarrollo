@@ -20,16 +20,13 @@ Si no tienes una cuenta:
 1. Inicia sesión en GitHub.
 2. Haz clic en el botón + (esquina superior derecha) → New repository.
 3. Completa los campos:
-- Repository name: Nombre del proyecto (ej. mi-proyecto).
-- (opcional) Description: Puedes añadir una breve descripción sobre tu proyecto.
-- Marca la opción Public o Private según prefieras.
-- (Opcional) Marca Add a README file si quieres iniciar con un archivo README.
-
-⚠️ **Importante: Si tu proyecto local ya tiene un archivo README.md, no marques esta opción. De lo contrario, al subir tu proyecto, podrías recibir un error de merge. Para evitar ese problema, te recomiendo consultar esta guía antes de continuar:**
-
-- 📄 [Consejo para evitar conflicto readme en GitHub"](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
-
-4. Haz clic en Create repository.
+    - **Repository name:** Nombre del proyecto (ej. mi-proyecto).
+    - (opcional) **Description:** Puedes añadir una breve descripción sobre tu proyecto.
+    - Marca la opción **Public** o **Private** según prefieras.
+    - (Opcional) Marca **Add a README file** si quieres iniciar con un archivo README.
+⚠️ **Importante:** Si tu proyecto local ya tiene un archivo `README.md`, **no marques esta opción**. De lo contrario, al subir tu proyecto, podrías recibir un error de **merge**. Para evitar ese problema, te recomiendo consultar esta guía antes de continuar:
+    - 📄 [Consejo para evitar conflicto readme en GitHub"](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
+4. Haz clic en **Create repository**.
 
 ---
 
