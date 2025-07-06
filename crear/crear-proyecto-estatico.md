@@ -38,8 +38,8 @@ cd C:/xampp/htdocs
 
 2. Crea una carpeta para tu proyecto, por ejemplo:
 
-```plaintext
-mi_proyecto
+```bash
+mkdir mi_proyecto
 ```
 
 > 📄 Esta carpeta representará cualquier proyecto que estés desarrollando, ya sea con **HTML, JS o PHP**.
@@ -106,7 +106,6 @@ HTML – `index.html`
 
 PHP – `index.php`
 
-```php
 <!DOCTYPE html>
 <html lang="es">
 <head>
