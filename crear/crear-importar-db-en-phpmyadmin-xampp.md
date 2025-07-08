@@ -32,7 +32,7 @@ El proceso anterior **solo crea la base de datos vacía**. La creación de **tab
 4. Haz clic en **"Seleccionar archivo"** y elige tu archivo `.sql` local para usar en tu proyecto. (por ejemplo: `mi_base_de_datos.sql`).
 5. Pulsa **Continuar** para ejecutar la importación.
 
-> ✅ **phpMyAdmin** ejecutará automáticamente el contenido del archivo .sql, creando todas las tablas y registros necesarios.
+> ✅ **phpMyAdmin ejecutará automáticamente el contenido del archivo .sql, creando todas las tablas y registros necesarios.**
 
 ---
 
