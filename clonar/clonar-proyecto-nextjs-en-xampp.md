@@ -14,11 +14,11 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
-### 🗄️ Importar base de datos en phpMyAdmin (si aplica)
+### 🗄️ Crear/Importar base de datos en phpMyAdmin - XAMPP (si aplica)
 
 Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
 
-- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
+- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-importar-db-en-phpmyadmin-xampp.md)
 
 ---
 

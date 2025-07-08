@@ -82,4 +82,12 @@ Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js func
 
 ---
 
+## 🗄️ Crear/Importar base de datos en phpMyAdmin - XAMPP (si aplica)
+
+Si el proyecto requiere una base de datos, consulta esta guía para crear una nueva base de datos en **phpMyAdmin**:
+
+- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-importar-db-en-phpmyadmin-xampp.md)
+
+---
+
 *Fin del documento*

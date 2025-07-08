@@ -37,6 +37,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
 - 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 - 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
+- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-importar-db-en-phpmyadmin-xampp.md)
 
 ---
 
@@ -47,7 +48,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 ---
 
 ### 🧱 Utilidades
-- 📄 [Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/importar-db-en-phpmyadmin-xampp.md)
+- 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/fases-para-disenar-una-bd.md)
 
 ---
 
