@@ -31,7 +31,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-archivo-phpini-en-xampp.md)
 - 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-en-windows.md)
 - 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
-- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
+- 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
 ### 📁 Crear
 - 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)

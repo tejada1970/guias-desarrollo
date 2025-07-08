@@ -1,6 +1,6 @@
 # 📚 Guía: Fases para Diseñar una Base de Datos (Tecnología Agnóstica)
 
-Esta guía proporciona una metodología general para diseñar bases de datos que puedas aplicar a cualquier tipo de proyecto y tecnología (MySQL, PostgreSQL, MongoDB, PHP, Node.js, Laravel, Next.js, etc.).
+Esta guía proporciona una metodología general para diseñar bases de datos que puedas aplicar a cualquier tipo de proyecto y tecnología (`MySQL`, `PostgreSQL`, `MongoDB`, `PHP`, `Node.js`, `Laravel`, `Next.js`, etc.).
 
 ---
 
@@ -42,8 +42,8 @@ Aquí representamos gráficamente los datos y sus relaciones usando diagramas ER
 - Relaciones (Ej.: Un usuario puede hacer muchos pedidos)
 
 **📌 Herramientas sugeridas:**
-- [draw.io](https://draw.io)
-- [dbdiagram.io](https://dbdiagram.io)
+- 🔗 [draw.io](https://draw.io)
+- 🔗 [dbdiagram.io](https://dbdiagram.io)
 
 ---
 
@@ -72,7 +72,7 @@ Ahora adaptamos el diseño lógico a un sistema específico como MySQL, PostgreS
 **🔧 En esta fase decides:**
 - Tipos de datos específicos (`VARCHAR`, `INT`, `DATETIME`, etc.)
 - Longitudes, restricciones (`NOT NULL`, `DEFAULT`, `UNIQUE`)
-- Motores de almacenamiento (Ej.: InnoDB)
+- Motores de almacenamiento (Ej.: `InnoDB`)
 - Rendimiento (índices, cacheo)
 
 ---

@@ -1,4 +1,4 @@
-# 📚 Guía: Configurar `i18n` con `next-intl`
+# 📚 Guía: Configurar `i18n` con `next-intl` (Soporte Multilenguaje)
 
 Esta guía describe paso a paso cómo configurar `i18n` desde cero para la implementación de soporte multilenguaje utilizando la biblioteca `next-intl` de **Next.js**.
 
