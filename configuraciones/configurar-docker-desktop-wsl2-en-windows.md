@@ -43,7 +43,7 @@ docker run hello-world
 
 - Esto descargará una imagen pequeña y mostrará un mensaje de éxito.  
 
-5. Opcional: eliminar contenedores e imágenes de prueba  
+5. Opcional: listar contenedores e imágenes
 
 ```bash
 docker ps -a

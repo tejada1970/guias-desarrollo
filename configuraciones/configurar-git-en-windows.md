@@ -65,7 +65,7 @@ Este archivo define cómo deben manejarse los finales de línea y asegura consis
 Ejemplo básico para proyectos en **Laravel, Next.js o documentación en Markdown**:
 
 ```ini
-# Forzar finales de línea LF en todo el repositorio
+# Forzar finales de línea LF en todo el repo
 * text=auto eol=lf
 
 # Markdown y archivos de texto
