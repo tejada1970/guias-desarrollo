@@ -29,21 +29,21 @@ Si prefieres Git Bash, PowerShell o CMD, no es necesario activar esta integraci�
 docker --version
 ```
 
-Deberías ver algo como:  
+3. Deberías ver algo como:  
 
 ```
 Docker version 27.0.2, build 123abc
 ```
 
-3. Prueba ejecutando un contenedor:  
+4. Prueba ejecutando un contenedor:  
 
 ```bash
 docker run hello-world
 ```
 
-Esto descargará una imagen pequeña y mostrará un mensaje de éxito.  
+- Esto descargará una imagen pequeña y mostrará un mensaje de éxito.  
 
-4. Opcional: eliminar contenedores e imágenes de prueba  
+5. Opcional: eliminar contenedores e imágenes de prueba  
 
 ```bash
 docker ps -a

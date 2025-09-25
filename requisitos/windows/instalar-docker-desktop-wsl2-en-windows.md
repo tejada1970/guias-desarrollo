@@ -1,4 +1,4 @@
-# 📚 Guía: Instalar Docker Desktop con WSL2 en Windows
+# 📚 Guía: Instalación de Docker Desktop con WSL2 en Windows
 
 Esta guía te ayudará a instalar **Docker Desktop** en Windows 11 usando **WSL2**.  
 
@@ -13,14 +13,14 @@ Gracias a Docker:
 
 ---
 
-## ⚙️ Pasos para la instalación
+## 🧰 Pasos para la instalación
 
 ### 1. Descargar Docker Desktop
 
 1. Ve a la página oficial 👉 [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop/)  
 2. Descarga el instalador para Windows 11 (x86_64 o ARM64 según tu PC).  
 
-¿Cómo saber si tu equipo es x86_64 o ARM64?  
+👉 ¿Cómo saber si tu equipo es x86_64 o ARM64?  
 Abre PowerShell y ejecuta:  
 
 ```powershell
@@ -41,17 +41,16 @@ $env:PROCESSOR_ARCHITECTURE
 
 ---
 
-### 3. Configurar Docker Desktop con WSL2 (opcional)
+## ⚙️ Configurar Docker Desktop con WSL2 (opcional)
 
 👉 Este paso es solo si planeas usar Docker directamente desde Ubuntu en WSL.  
 Si prefieres Git Bash, PowerShell o CMD, no es necesario activar esta integración.
 
 - 📄 [Configurar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-docker-desktop-wsl2-en-windows.md)
----
 
 ---
 
-### 🛠 Utilidades
+## 🛠 Utilidades
 
 Si quieres solucionar errores comunes en la terminal de Ubuntu, revisa:
 

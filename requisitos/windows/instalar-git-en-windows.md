@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación y Configuración de Git en Windows
+# 📚 Guía: Instalación de Git en Windows
 
 **Git** es una herramienta esencial para el control de versiones en proyectos de desarrollo. Esta guía, detalla los pasos para la instalación de **Git** en **Windows** y acceso a la guía de configuración inicial.
 

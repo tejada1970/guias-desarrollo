@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación y Configuración de XAMPP en Windows
+# 📚 Guía: Instalación de XAMPP en Windows
 
 Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Windows**.
 

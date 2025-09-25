@@ -56,4 +56,25 @@ Con esto, **Git** quedará correctamente instalado y configurado para trabajar e
 
 ---
 
+## 📄 Uso de `.gitattributes` (recomendado)
+
+Aunque la opción `core.autocrlf` ayuda en tu entorno local, la mejor práctica es incluir un archivo `.gitattributes` en cada proyecto.
+
+Este archivo define cómo deben manejarse los finales de línea y asegura consistencia entre todos los colaboradores, sin importar si trabajan en **Windows, Linux o macOS**.
+
+Ejemplo básico para proyectos en **Laravel, Next.js o documentación en Markdown**:
+
+```ini
+# Forzar finales de línea LF en todo el repositorio
+* text=auto eol=lf
+
+# Markdown y archivos de texto
+*.md text eol=lf diff=markdown
+*.txt text eol=lf
+```
+
+👉 Con esto, tu repositorio siempre mantendrá un formato uniforme, evitando problemas de compatibilidad y advertencias al hacer `git add .`
+
+---
+
 *Fin del documento*

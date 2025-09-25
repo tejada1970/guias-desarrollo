@@ -1,4 +1,4 @@
-# 📚 Guía: Activar WSL2 y configurar Linux en Windows
+# 📚 Guía: Configurar Linux-WSL2 en Windows
 
 Esta guía detalla los pasos para habilitar **WSL2** y configurar **Ubuntu** dentro de Windows 11.  
 WSL2 (Windows Subsystem for Linux 2) te permite usar un sistema Linux dentro de Windows, sin necesidad de una máquina virtual pesada.  
