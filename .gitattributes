@@ -1,0 +1,6 @@
+# Forzar finales de línea LF en todo el repo
+* text=auto eol=lf
+
+# Markdown y archivos de texto
+*.md text eol=lf diff=markdown
+*.txt text eol=lf

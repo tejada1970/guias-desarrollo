@@ -21,6 +21,14 @@ Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Window
 
 ---
 
+### 🛠 Utilidades
+
+Si quieres solucionar errores comunes en xampp, revisa:
+
+- 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-mysql-xampp.md)
+
+---
+
 ## ⚙️ Configuración del archivo `php.ini` en XAMPP (importante)
 
 El archivo `php.ini` es el archivo principal de configuración de **PHP**. Desde aquí puedes habilitar extensiones necesarias (como `zip` o `gd`), ajustar límites de memoria, el tamaño máximo de archivos subidos, el tiempo máximo de ejecución de scripts, y otros parámetros clave que afectan el comportamiento de tus aplicaciones.
