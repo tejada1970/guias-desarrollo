@@ -36,7 +36,6 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
 - 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
-- 📄 [Configurar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-docker-desktop-wsl2-en-windows.md)
 
 ### 📁 Crear
 - 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
@@ -56,8 +55,6 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/fases-para-disenar-una-bd.md)
 - 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
 - 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-mysql-xampp.md)
-
-
 
 ---
 
