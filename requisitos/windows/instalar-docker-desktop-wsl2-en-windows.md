@@ -121,12 +121,12 @@ docker info
 docker run hello-world
 ```
 
-Esto descargará una imagen pequeña y mostrará un mensaje de éxito:
+   - Esto descargará una imagen pequeña y mostrará un mensaje de éxito:
 
-**Hello from Docker!**
-**This message shows that your installation appears to be working correctly.**
+   - **Hello from Docker!**
+   - **This message shows that your installation appears to be working correctly.**
 
-✅ Deberías ver que Docker se conecta correctamente al daemon de Windows.
+   - ✅ Deberías ver que Docker se conecta correctamente al daemon de Windows.
 
 6. Opcional: listar contenedores e imágenes
 
