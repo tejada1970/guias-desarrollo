@@ -18,17 +18,17 @@ Gracias a Docker:
 ### Instalar Docker Desktop
 
 1. Ve a la página oficial 👉 [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop/)  
-2. Descarga el instalador para Windows 11 (x86_64 o ARM64 según tu PC).
+2. Descarga el instalador para Windows 11 (x86_64 o ARM64 según tu PC):
 
-- 👉 ¿Cómo saber si tu equipo es x86_64 o ARM64?
+   - 👉 ¿Cómo saber si tu equipo es x86_64 o ARM64?
 
-- Abre PowerShell y ejecuta:  
+   - Abre PowerShell y ejecuta:  
 
-```powershell
-$env:PROCESSOR_ARCHITECTURE
-```
+    ```powershell
+    $env:PROCESSOR_ARCHITECTURE
+    ```
 
-- 👉 Lo más común es AMD64 (la mayoría de PCs Windows 11).  
+   - 👉 Lo más común es AMD64 (la mayoría de PCs Windows 11).  
 
 3. Ejecuta el archivo descargado.
 4. Durante la instalación:  
