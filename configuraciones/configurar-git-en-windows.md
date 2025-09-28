@@ -6,7 +6,7 @@ Esta guía, detalla los pasos para configurar **Git** por primera vez en **Windo
 
 ## ⚙️ Pasos para la configuración
 
-Abre la terminal **Git Bash** (búscalo en el menú de inicio) y ejecuta las siguientes configuraciones:
+> 💻 Abre la terminal **Git Bash** (búscalo en el menú de inicio) y ejecuta las siguientes configuraciones:
 
 ### 🧑‍ Configuración global de nombre de usuario y correo electrónico
 
