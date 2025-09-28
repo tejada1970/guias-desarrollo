@@ -56,6 +56,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/fases-para-disenar-una-bd.md)
 - 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
 - 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-mysql-xampp.md)
+- 📄 [Agregar extensión "Talend API Tester" en Google Chrome](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/extension-talend-api-tester-chrome.md)
 
 ---
 
