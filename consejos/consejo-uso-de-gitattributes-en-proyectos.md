@@ -26,10 +26,10 @@ Este archivo `.gitattributes` define cómo Git debe manejar los **finales de lí
         ```
 
 3. **Beneficio**
-    ✅ Con esto, tu repositorio mantendrá un formato uniforme, evitando problemas de compatibilidad y advertencias al hacer `git add .`.
+    - ✅ Con esto, tu repositorio mantendrá un formato uniforme, evitando problemas de compatibilidad y advertencias al hacer `git add .`.
 
 4. **Versionar el archivo**
-    👉 No olvides agregarlo al repositorio y hacer commit para que todos los colaboradores adopten las mismas reglas:
+    - 👉 No olvides agregarlo al repositorio y hacer commit para que todos los colaboradores adopten las mismas reglas:
 
         ```bash
         git add .gitattributes
