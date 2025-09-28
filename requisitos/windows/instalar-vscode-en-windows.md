@@ -6,12 +6,31 @@
 
 ## 🧰 Instalar Visual Studio Code
 
-* Visita 👉 [https://code.visualstudio.com/](https://code.visualstudio.com/).
-* Descarga la versión para **Windows**.
-* Ejecuta el instalador y sigue los pasos del asistente.
-* Se recomienda aceptar las opciones predeterminadas durante la instalación.
+1. Visita 👉 [https://code.visualstudio.com/](https://code.visualstudio.com/).
+2. Descarga la versión para **Windows**.
+3. Ejecuta el instalador y sigue los pasos del asistente.
+4. Se recomienda aceptar las opciones predeterminadas durante la instalación.
+5. ⚠️ **Importante**: Asegúrate de marcar la opción **"Agregar al PATH"** y **"Registrar como editor predeterminado"** si aparecen durante el proceso.
 
-> ✅ Asegúrate de marcar la opción **"Agregar al PATH"** y **"Registrar como editor predeterminado"** si aparecen durante el proceso.
+---
+
+## ✅ Verificar instalación
+
+Abre la terminal integrada con `Ctrl + ñ` y ejecuta:
+
+```bash
+code --version
+```
+
+Deberías ver la versión instalada.
+
+---
+
+## ⚙️ Configurar `Git Bash` como terminal predeterminada en Visual Studio Code (opcional pero recomendado)
+
+Para evitar errores comunes al usar **PowerShell**, se recomienda configurar **`Git Bash`** como la terminal predeterminada en **Visual Studio Code (VS Code)**.
+
+- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
 
 ---
 
@@ -35,22 +54,10 @@ Las extensiones enriquecen la experiencia de desarrollo. A continuación se pres
 
 ---
 
-### 🐘 Desarrollo PHP / Laravel
+### 🌐 HTML / CSS
 
-- **Laravel Blade Formatter** – Shuhei Hayashibara  
-  Formatea archivos `.blade.php`.
-
-- **Laravel Blade Snippets** – Winnie Lin  
-  Snippets útiles para Blade.
-
-- **Laravel Goto View** – codingyu  
-  Navegación entre controladores y vistas Blade.
-
-- **Laravel Snippets** – Winnie Lin  
-  Snippets para funciones y estructuras comunes de Laravel.
-
-- **PHP Intelephense** – Ben Mewburn  
-  IntelliSense avanzado para PHP.
+- **VSCode W3C Web Validator** – IBM
+  Valida archivos HTML y CSS directamente en el editor, asegurando el cumplimiento de los estándares del W3C.
 
 ---
 
@@ -77,10 +84,40 @@ Las extensiones enriquecen la experiencia de desarrollo. A continuación se pres
 
 ---
 
-### 🌐 HTML / CSS
+### 🐘 Desarrollo PHP / Laravel
 
-- **VSCode W3C Web Validator** – IBM
-  Valida archivos HTML y CSS directamente en el editor, asegurando el cumplimiento de los estándares del W3C.
+- **Laravel Blade Formatter** – Shuhei Hayashibara  
+  Formatea archivos `.blade.php`.
+
+- **Laravel Blade Snippets** – Winnie Lin  
+  Snippets útiles para Blade.
+
+- **Laravel Goto View** – codingyu  
+  Navegación entre controladores y vistas Blade.
+
+- **Laravel Snippets** – Winnie Lin  
+  Snippets para funciones y estructuras comunes de Laravel.
+
+- **PHP Intelephense** – Ben Mewburn  
+  IntelliSense avanzado para PHP.
+
+---
+
+### 🗄️ Bases de Datos (si usas microservicios y distintas BD)
+
+- **Database Client** – Database Client
+Conexiones y consultas a PostgreSQL y MySQL directamente desde VS Code.
+
+- **MongoDB for VS Code** – MongoDB
+Herramientas para conectarte, explorar y administrar bases de datos MongoDB.
+
+#### 🔧 Configuración de extensiones en VS Code para bases de datos
+
+Las extensiones de VS Code como "Database Client" (para PostgreSQL/MySQL) o "MongoDB for VS Code" (para MongoDB) facilitan el trabajo con tus bases de datos desde el editor.
+
+Una vez instaladas, deberás crear una conexión. Para ello te recomiendo consultar este tutorial:
+
+- 📄 [Probar Conexiones a BD](https://youtu.be/ekM3S2DX19k?list=PLlerKZbEcUVR6lPYQcFb77CsJVPZpWyFK)
 
 ---
 
@@ -103,7 +140,15 @@ Las extensiones enriquecen la experiencia de desarrollo. A continuación se pres
 ### 📄 Lectura de Documentación
 
 - **vscode-pdf** – tomoki1207
-Permite abrir y visualizar archivos PDF directamente en Visual Studio Code. Ideal para revisar manuales, guías u hojas de especificación sin salir del editor.
+  Permite abrir y visualizar archivos PDF directamente en Visual Studio Code. Ideal para revisar manuales, guías u hojas de especificación sin salir del editor.
+
+- **Markdown PDF** – yzane
+  Convierte archivos Markdown a PDF (y otros formatos como HTML o PNG) de forma sencilla, manteniendo el formato y facilitando la exportación de documentación.
+
+  💡 **Ejemplo para convertir archivos Markdown a PDF**
+  1. Abre tu archivo `.md`.
+  2. Haz clic derecho en el contenido del archivo y selecciona la opción **Markdown PDF: Export (pdf)** en el menú contextual.
+  3. La extensión generará un PDF con todo tu contenido (incluyendo código, diagramas y emojis) en la raíz del proyecto.
 
 ---
 
@@ -111,26 +156,6 @@ Permite abrir y visualizar archivos PDF directamente en Visual Studio Code. Idea
 
 - **GitHub Copilot** – GitHub  
   Asistente de código impulsado por IA (requiere cuenta GitHub Copilot).
-
----
-
-## ✅ Verificar instalación
-
-Abre la terminal integrada con `Ctrl + ñ` y ejecuta:
-
-```bash
-code --version
-```
-
-Deberías ver la versión instalada.
-
----
-
-## ⚙️ Configurar `Git Bash` como terminal predeterminada en Visual Studio Code
-
-Para evitar errores comunes al usar **PowerShell**, se recomienda configurar **`Git Bash`** como la terminal predeterminada en **Visual Studio Code (VS Code)**.
-
-- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
 
 ---
 

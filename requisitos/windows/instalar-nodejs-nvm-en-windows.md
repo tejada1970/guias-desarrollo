@@ -10,46 +10,56 @@ Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Nod
 
 ## 🧰 Instalar NVM
 
-- Ve a esta página oficial: 👉 [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
-- Busca la última versión y descarga este archivo: `nvm-setup.exe`
-- Ejecuta el instalador. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
+1. Ve a esta página oficial: 👉 [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases).
+2. Busca la última versión, accede a **Assets** y descarga este archivo: `nvm-setup.exe`.
+3. Ejecuta el instalador. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
 
 ---
 
 ## ✅ Verifica que NVM esté instalado
-- Abre una terminal (PowerShell o Git Bash) y escribe:
+Abre una terminal (PowerShell o Git Bash) y escribe:
 
 ```bash
 nvm version
 ```
 
-- Deberías ver la versión de NVM instalada, por ejemplo:
+Deberías ver la versión de **NVM** instalada, por ejemplo:
 
 ```plaintext
 1.1.12
 ```
 
+👉 También puedes ejecutar:
+
+```bash
+where nvm
+```
+
+Para confirmar que la ruta está en el **PATH** del sistema.
+
 ---
 
 ## 🧰 Instalar una versión específica de Node.js
 
-- Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
+Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
 
 ```bash
 nvm install 20.13.1
 ```
 
-- Y si también necesitas una versión distinta para otro proyecto, por ejemplo `18.17.0`:
+👉 Si necesitas una versión distinta para otro proyecto, por ejemplo `18.17.0`:
 
 ```bash
 nvm install 18.17.0
 ```
 
+> ⚠️ Si tienes problemas con una versión muy reciente, prueba instalar una versión LTS (Long Term Support).
+
 ---
 
 ## ✅ Cambiar entre versiones según el proyecto
 
-- Cuando vayas a trabajar en un proyecto, activa la versión que necesites.
+Cuando vayas a trabajar en un proyecto, activa la versión que necesites.
 
 Ejemplos:
 
@@ -61,7 +71,7 @@ nvm use 20.13.1
 nvm use 18.17.0
 ```
 
-- Verifica la versión activa con:
+👉 Verifica la versión activa con:
 
 ```bash
 node -v
@@ -71,20 +81,24 @@ node -v
 
 ## ✅ Ver versiones instaladas
 
-- Ejecuta el siguiente comando para listar todas las versiones que tienes instaladas actualmente:
+Ejecuta el siguiente comando para listar todas las versiones que tienes instaladas actualmente:
 
 ```bash
 nvm list
 ```
 
-- Te mostrará algo así:
+Te mostrará algo así:
 
 ```plaintext
-* 20.13.1 (default)
+* 20.13.1 (Currently using 64-bit executable)
 18.17.0
 ```
 
-- El asterisco `*` indica cuál está activa.
+El asterisco `*` indica cuál está activa.
+
+---
+
+> ✅ Con esto ya tienes **NVM** instalado y podrás gestionar varias versiones de Node.js fácilmente.
 
 ---
 

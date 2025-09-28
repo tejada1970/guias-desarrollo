@@ -6,10 +6,10 @@
 
 ## 🧰 Instalar Git
 
-* Visita 👉 [https://git-scm.com/](https://git-scm.com/)
-* Descarga la versión más reciente para **Windows**.
-* Ejecuta el instalador.
-* Durante la instalación, puedes aceptar las opciones por defecto del asistente.
+1. Visita 👉 [https://git-scm.com/](https://git-scm.com/)
+2. Descarga la versión más reciente para **Windows**.
+3. Ejecuta el instalador.
+4. Durante la instalación, puedes aceptar las opciones por defecto del asistente.
 
 ---
 

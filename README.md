@@ -6,7 +6,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 > 📚 Incluye guías paso a paso.
 
-> 🗓 Última actualización: 08-07-2025.
+> 🗓 Última actualización: 28-09-2025.
 
 ---
 
@@ -16,6 +16,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
 - 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 - 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
+- 📄 [Consejo para el uso de `.gitattributes` en tus proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
 
 ---
 

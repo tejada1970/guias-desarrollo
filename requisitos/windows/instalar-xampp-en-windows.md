@@ -6,10 +6,10 @@ Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Window
 
 ## 🧰 Instalar XAMPP
 
-* Visita 👉 [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
-* Descarga la versión para **Windows**.
-* Ejecuta el instalador.
-* Sigue las instrucciones del asistente. Se recomienda **mantener la carpeta de destino por defecto**: `C:\xampp`.
+1. Visita 👉 [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)
+2. Descarga la versión para **Windows**.
+3. Ejecuta el instalador y sigue las instrucciones del asistente.
+4. Durante la instalación se recomienda **mantener la carpeta de destino por defecto**: `C:\xampp`.
 
 ---
 
