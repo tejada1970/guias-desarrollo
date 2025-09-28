@@ -10,11 +10,11 @@ Este archivo `.gitattributes` define cómo Git debe manejar los **finales de lí
 
 ### 📝 Pasos para implementarlo
 
-1. **Crear el archivo:**
-- Crea un archivo llamado `.gitattributes` en la raíz de tu proyecto si aún no lo tienes.
+#### 1. Crear el archivo:
+Crea un archivo llamado `.gitattributes` en la raíz de tu proyecto si aún no lo tienes.
 
-2. **Agregar reglas básicas:**
-- Ejemplo recomendado para proyectos en **Laravel, Next.js o documentación en Markdown**:
+#### 2. Agregar reglas básicas:
+Ejemplo recomendado para proyectos en **Laravel, Next.js o documentación en Markdown**:
 
     ```ini
     # Forzar finales de línea LF en todo el repo
@@ -25,11 +25,11 @@ Este archivo `.gitattributes` define cómo Git debe manejar los **finales de lí
     *.txt text eol=lf
     ```
 
-3. **Beneficio**
-- ✅ Ahora, tu repositorio mantendrá un formato uniforme, evitando problemas de compatibilidad y advertencias al hacer `git add .`.
+#### 3. Beneficio
+✅ Ahora, tu repositorio mantendrá un formato uniforme, evitando problemas de compatibilidad y advertencias al hacer `git add .`.
 
-4. **Versionar el archivo**
-- 👉 No olvides agregarlo al repositorio y hacer commit para que todos los colaboradores adopten las mismas reglas:
+#### 4. Versionar el archivo
+👉 No olvides agregarlo al repositorio y hacer commit para que todos los colaboradores adopten las mismas reglas:
 
     ```bash
     git add .gitattributes
