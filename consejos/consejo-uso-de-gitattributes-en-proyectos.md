@@ -33,6 +33,15 @@ Este archivo `.gitattributes` define cómo Git debe manejar los **finales de lí
         git commit -m "Agregar .gitattributes"
         ```
 
+- #### 🧹 4. (Opcional) Normalizar los finales de línea existentes
+
+    - Si tu repositorio ya contiene archivos con finales de línea inconsistentes (por ejemplo, CRLF en Windows), ejecuta los siguientes comandos para aplicar las reglas del `.gitattributes`:
+
+        ```bash
+        git add --renormalize .
+        git commit -m "Normalizar finales de línea (LF)"
+        ```
+
 ---
 
 ### ✅ Beneficio
