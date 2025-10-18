@@ -12,7 +12,8 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 - ✅ **Visual Studio Code** en Windows.  
   - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
-  - > ✍️ **Nota:** Esta guía contiene: Instalación de VSCode + Recomendaciones para extensiones, WSL2 y terminal predeterminada.
+
+  > ✍️ **Esta guía contiene:** Instalación de VSCode + Recomendaciones para extensiones, WSL2, Backup y terminal predeterminada.
 
 - ✅ **WSL2** habilitado y **Ubuntu** instalado.  
   - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
@@ -28,13 +29,13 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 3. Busca **"WSL"** y selecciona la extensión oficial de Microsoft.  
 4. Instálala.  
 
-🔹 Esta extensión permite a VS Code conectarse y trabajar directamente con el entorno Linux de tu WSL2.
+🔹 Esta extensión permite a **VS Code** conectarse y trabajar directamente con el entorno **Linux de tu WSL2**.
 
 ---
 
 ## 🧱 3. Abrir un proyecto de WSL en VS Code
 
->⚡ Opcional: Puedes crear una carpeta (ej.: docker-projects) para organizar tus proyectos en Ubuntu (WSL).
+>⚡ **Opcional:** Puedes crear una carpeta (ej.: docker-projects) para organizar tus proyectos en Ubuntu (WSL).
 
 1. Abre tu terminal de Ubuntu (WSL):  
    ```bash
@@ -44,21 +45,19 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
    ```bash
    code .
    ```
+3. Esto abrirá **Visual Studio Code en modo remoto (WSL)**, **VS Code** detectará automáticamente que estás dentro de **Linux** y mostrará algo como:
 
-➡️ Esto abrirá **Visual Studio Code en modo remoto (WSL)**.  
-VS Code detectará automáticamente que estás dentro de Linux y mostrará algo como:
-
-```
-Updating VS Code Server to version 03c265b1adee71ac88f833e065f7bb956b60550a
-Removing previous installation...
-Installing VS Code Server for Linux x64 (03c265b1adee71ac88f833e065f7bb956b60550a)
-Downloading: 100%
-Unpacking: 100%
-Unpacked 2265 files and folders to /home/meskalino/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a.
-Looking for compatibility check script at /home/meskalino/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/bin/helpers/check-requirements.sh
-Running compatibility check script
-Compatibility check successful (0)
-```
+   ```
+   Updating VS Code Server to version 03c265b1adee71ac88f833e065f7bb956b60550a
+   Removing previous installation...
+   Installing VS Code Server for Linux x64 (03c265b1adee71ac88f833e065f7bb956b60550a)
+   Downloading: 100%
+   Unpacking: 100%
+   Unpacked 2265 files and folders to /home/usuario/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a.
+   Looking for compatibility check script at /home/usuario/.vscode-server/bin/03c265b1adee71ac88f833e065f7bb956b60550a/bin/helpers/check-requirements.sh
+   Running compatibility check script
+   Compatibility check successful (0)
+   ```
 
 ---
 
@@ -80,21 +79,22 @@ La primera vez que uses `code .` dentro de WSL, VS Code instalará un componente
 
 ## 🧭 5. Buenas prácticas al trabajar con VS Code + WSL
 
-✅ **Siempre trabaja dentro del sistema de archivos Linux** (`/home/usuario/...`), no desde rutas como `/mnt/c/...`.  
-Esto mejora el rendimiento y evita problemas de permisos.
+> ✅ **Siempre trabaja dentro del sistema de archivos Linux** (`/home/usuario/...`), no desde rutas como `/mnt/c/...`.  
+> Esto mejora el rendimiento y evita problemas de permisos.
 
-✅ **Usa las mismas extensiones dentro del entorno remoto.**  
-Cuando abras un proyecto en WSL, VS Code te preguntará si deseas instalar las extensiones también dentro del entorno Linux. Acepta para que funcionen correctamente.
+> ✅ **Usa las mismas extensiones dentro del entorno remoto.**  
+> Cuando abras un proyecto en WSL, VS Code te preguntará si deseas instalar las extensiones también dentro del entorno Linux. Acepta para que funcionen correctamente.
 
-✅ **Docker y WSL2 funcionan juntos.**  
-Si usas contenedores, instala también las extensiones:  
-- *Docker* (Microsoft)  
-- *Docker DX* (Docker)  
+> ✅ **Docker y WSL2 funcionan juntos.**  
+> Si usas contenedores, instala también las extensiones:  
+>
+>  - *Docker* (Microsoft)  
+>  - *Docker DX* (Docker)  
+>
+> Ambas detectarán automáticamente los contenedores ejecutándose en WSL.
 
-Ambas detectarán automáticamente los contenedores ejecutándose en WSL.
-
-✅ **Un servidor por distribución.**  
-Si usas más de una distro de Linux (por ejemplo Ubuntu y Debian), VS Code instalará su propio servidor en cada una.
+> ✅ **Un servidor por distribución.**  
+> Si usas más de una distro de Linux (por ejemplo Ubuntu y Debian), VS Code instalará su propio servidor en cada una.
 
 ---
 
@@ -121,16 +121,16 @@ bin  data  extensions
 code --list-extensions
 ```
 
-Ejemplo de salida:
+- Ejemplo de salida:
 
-```
-bmewburn.vscode-intelephense-client-1.14.4
-bradlc.vscode-tailwindcss-0.14.28
-esbenp.prettier-vscode-11.0.0
-ms-azuretools.vscode-docker-2.0.0
-```
+   ```
+   bmewburn.vscode-intelephense-client-1.14.4
+   bradlc.vscode-tailwindcss-0.14.28
+   esbenp.prettier-vscode-11.0.0
+   ms-azuretools.vscode-docker-2.0.0
+   ```
 
-Cada carpeta tiene el formato `autor.extension-versión`.
+- Cada carpeta tiene el formato `autor.extension-versión`.
 
 **Puedes ver más detalles con:**
 
@@ -186,7 +186,7 @@ code --list-extensions
 code --install-extension nombre.extension
 ```
 
-Ejemplo:
+- Ejemplo:
 
 ```bash
 code --install-extension ms-azuretools.vscode-docker
@@ -201,10 +201,6 @@ code --install-extension ms-azuretools.vscode-docker
 Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
 - 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-y-activar-settings-sync-vscode.md)
-
----
-
-✅ **Con esto, tu entorno VS Code + WSL estará completamente integrado, sincronizado y listo para desarrollo con Docker, Laravel o Node.js.**
 
 ---
 

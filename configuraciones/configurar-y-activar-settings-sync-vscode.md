@@ -48,7 +48,7 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 2. VS Code compara las extensiones instaladas en Windows y las de WSL.  
 3. Si faltan extensiones en WSL, aparecerá una notificación:
 
-> "La extensión 'Prettier' está instalada localmente. ¿Deseas instalarla en WSL: Ubuntu?"
+  - > "La extensión 'Prettier' está instalada localmente. ¿Deseas instalarla en WSL: Ubuntu?"
 
 4. Al aceptar, VS Code instalará la extensión solo dentro del entorno WSL.
 
