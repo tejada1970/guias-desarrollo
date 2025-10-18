@@ -34,6 +34,24 @@ Para evitar errores comunes al usar **PowerShell**, se recomienda configurar **`
 
 ---
 
+## ☁️ Activar sincronización automática (Settings Sync) - (backup opcional y recomendado)
+
+Se recomienda configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
+
+- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-y-activar-settings-sync-vscode.md)
+
+---
+
+## 🐧 Configurar VS Code con WSL2 (opcinal pero recomendado)
+
+Si trabajas en un entorno Linux, se recomienda conectar **Visual Studio Code (VS Code)** instalado en **Windows** con tu entorno **Linux (Ubuntu en WSL2)**, para desarrollar directamente dentro de Linux sin salir de tu editor.  
+
+- 📄 [Configurar VSCode con WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-vscode-con-wsl2.md)
+
+Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, **PHP**, y otros frameworks que funcionan mejor en entornos Linux.  
+
+---
+
 ## 🧩 Extensiones Recomendadas
 
 Las extensiones enriquecen la experiencia de desarrollo. A continuación se presentan las más recomendadas:

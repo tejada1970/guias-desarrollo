@@ -37,6 +37,8 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
 - 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
+- 📄 [Configurar VSCode con WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-vscode-con-wsl2.md)
+- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-y-activar-settings-sync-vscode.md)
 
 ### 📁 Crear
 - 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
