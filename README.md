@@ -6,7 +6,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 > 📚 Incluye guías paso a paso.
 
-> 🗓 Última actualización: 28-09-2025.
+> 🗓 Última actualización: 18-10-2025.
 
 ---
 
