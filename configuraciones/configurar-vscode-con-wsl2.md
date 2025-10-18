@@ -12,8 +12,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 - ✅ **Visual Studio Code** en Windows.  
   - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
-
-  > ✍️ **Esta guía contiene:** Instalación de VSCode + Recomendaciones para extensiones, WSL2, Backup y terminal predeterminada.
+  > ✍️ **Contenido de esta guía:** instalación de VSCode, extensiones recomendadas, WSL2, respaldo (backup) y terminal predeterminada.
 
 - ✅ **WSL2** habilitado y **Ubuntu** instalado.  
   - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
@@ -35,7 +34,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 ## 🧱 3. Abrir un proyecto de WSL en VS Code
 
->⚡ **Opcional:** Puedes crear una carpeta (ej.: docker-projects) para organizar tus proyectos en Ubuntu (WSL).
+>⚡ **Opcional:** crea una carpeta, por ejemplo `docker-projects`, para mantener organizados tus proyectos dentro de Ubuntu (WSL).
 
 1. Abre tu terminal de Ubuntu (WSL):  
    ```bash
@@ -45,7 +44,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
    ```bash
    code .
    ```
-3. Esto abrirá **Visual Studio Code en modo remoto (WSL)**, **VS Code** detectará automáticamente que estás dentro de **Linux** y mostrará algo como:
+3. Esto abrirá **Visual Studio Code en modo remoto (WSL)**, VS Code detectará automáticamente que estás dentro de Linux y mostrará algo como:
 
    ```
    Updating VS Code Server to version 03c265b1adee71ac88f833e065f7bb956b60550a
@@ -79,7 +78,7 @@ La primera vez que uses `code .` dentro de WSL, VS Code instalará un componente
 
 ## 🧭 5. Buenas prácticas al trabajar con VS Code + WSL
 
-> ✅ **Siempre trabaja dentro del sistema de archivos Linux** (`/home/usuario/...`), no desde rutas como `/mnt/c/...`.  
+> ✅ **Siempre trabaja dentro del sistema de archivos Linux** (`/home/usuario/...`), en lugar de rutas montadas de Windows como `/mnt/c/...`.  
 > Esto mejora el rendimiento y evita problemas de permisos.
 
 > ✅ **Usa las mismas extensiones dentro del entorno remoto.**  
@@ -88,13 +87,15 @@ La primera vez que uses `code .` dentro de WSL, VS Code instalará un componente
 > ✅ **Docker y WSL2 funcionan juntos.**  
 > Si usas contenedores, instala también las extensiones:  
 >
->  - *Docker* (Microsoft)  
->  - *Docker DX* (Docker)  
+>  - `Docker (Microsoft)`
+>  - `Docker DX (Docker)`
 >
 > Ambas detectarán automáticamente los contenedores ejecutándose en WSL.
 
 > ✅ **Un servidor por distribución.**  
 > Si usas más de una distro de Linux (por ejemplo Ubuntu y Debian), VS Code instalará su propio servidor en cada una.
+
+> ⚡ Siguiendo estas buenas prácticas, tu entorno VS Code + WSL será más estable y eficiente.
 
 ---
 
