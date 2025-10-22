@@ -17,7 +17,7 @@
 
 Puedes consultar esta guía para configurar **Git** por primera vez:
 
-- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-en-windows.md)
+- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-git-en-windows.md)
 
 ---
 

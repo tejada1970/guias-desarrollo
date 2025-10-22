@@ -37,7 +37,7 @@ Modificar este archivo es esencial para adaptar **PHP** a las necesidades espec�
 
 Para habilitar extensiones necesarias (como `zip` o `gd`) y realizar otras configuraciones en el archivo `php.ini`, puedes consultar esta guía:
 
-- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-archivo-phpini-en-xampp.md)
+- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-archivo-phpini-en-xampp.md)
 
 ---
 

@@ -21,7 +21,8 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 ---
 
 ### 🧰 Requisitos
-#### Windows
+
+#### 🪟 Windows
 - 📄 [Instalar XAMPP en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-en-windows.md)
 - 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
 - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
@@ -29,16 +30,24 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 - 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
 - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
 
+#### 🐧 WSL / Ubuntu
+
 ---
 
 ### ⚙️ Configuraciones
-- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-archivo-phpini-en-xampp.md)
-- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-en-windows.md)
-- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-git-bash-en-vscode.md)
-- 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
-- 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
-- 📄 [Configurar VSCode con WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-vscode-con-wsl2.md)
-- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-y-activar-settings-sync-vscode.md)
+
+#### 🪟 Windows
+- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-archivo-phpini-en-xampp.md)
+- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-git-en-windows.md)
+- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-git-bash-en-vscode.md)
+- 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-i18n-con-next-intl.md)
+- 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
+- 📄 [Configurar VSCode con WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-vscode-con-wsl2.md)
+- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-y-activar-settings-sync-vscode.md)
+
+#### 🐧 WSL / Ubuntu
+
+---
 
 ### 📁 Crear
 - 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
