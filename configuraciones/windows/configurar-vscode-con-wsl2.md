@@ -15,7 +15,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
   > ✍️ **Contenido de esta guía:** instalación de VSCode, extensiones recomendadas, WSL2, respaldo (backup) y terminal predeterminada.
 
 - ✅ **WSL2** habilitado y **Ubuntu** instalado.  
-  - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-linux-wsl2-en-windows.md)
+  - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
 
 - ✅ Extensión **"WSL"** de Microsoft instalada en VS Code.  
 
