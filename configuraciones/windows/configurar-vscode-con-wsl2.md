@@ -201,7 +201,7 @@ code --install-extension ms-azuretools.vscode-docker
 
 Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
-- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-y-activar-settings-sync-vscode.md)
+- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-y-activar-settings-sync-vscode.md)
 
 ---
 
