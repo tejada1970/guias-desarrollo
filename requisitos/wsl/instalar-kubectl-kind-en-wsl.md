@@ -64,6 +64,19 @@ sudo mv kubectl /usr/local/bin/
 kubectl version --client
 ```
 
+**🔍 Salida esperada:**
+
+```bash
+Client Version: v1.34.1
+Kustomize Version: v5.7.1
+
+**📘 Interpretación:**
+
+| **Campo**                     | **Qué significa**                                                                                                                                 | **Estado**  |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **Client Version: v1.34.1**   | Versión del binario `kubectl`. `v1.34.1` es una versión reciente y estable de Kubernetes (junio 2024 aprox.), totalmente compatible con **Kind**. | ✅ Correcto |
+| **Kustomize Version: v5.7.1** | `kubectl` incluye internamente la herramienta **Kustomize**, usada para aplicar configuraciones declarativas avanzadas (overlays, patches, etc.). | ✅ Correcto |
+
 > ✍️ **Notas:**
 > - `/usr/local/bin` es una ruta incluida en el `PATH` del sistema, por eso puedes ejecutar `kubectl` desde cualquier directorio.
 > - Si prefieres instalarlo en otra ruta, asegúrate de agregarla al `PATH` en tu `~/.bashrc` o `~/.zshrc`.
