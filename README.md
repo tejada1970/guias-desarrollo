@@ -32,6 +32,8 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 #### 🐧 WSL / Ubuntu
 
+- 📖 [Instalar kubectl + Kind en WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/wsl/instalar-kubectl-kind-en-wsl.md)
+
 ---
 
 ### ⚙️ Configuraciones
