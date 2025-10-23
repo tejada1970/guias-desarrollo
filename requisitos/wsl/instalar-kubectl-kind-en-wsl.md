@@ -22,16 +22,15 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 1. **Tener instalado WSL2 con una distribución Ubuntu.**  
 
-- 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
-
+   - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
    ```bash
    wsl -l -v
    ```
+   - > ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
-- 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
+   - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
 
 
-> ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
 2. **Tener Docker disponible:**
 
@@ -43,7 +42,7 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
    docker version
    ```
 
- - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
+   - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 
