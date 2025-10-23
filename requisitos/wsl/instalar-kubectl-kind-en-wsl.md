@@ -69,6 +69,7 @@ kubectl version --client
 ```bash
 Client Version: v1.34.1
 Kustomize Version: v5.7.1
+```
 
 **📘 Interpretación:**
 
