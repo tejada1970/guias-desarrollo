@@ -22,13 +22,13 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 1. **Tener instalado WSL2 con una distribución Ubuntu.**  
 
-- 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
+  - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
 
    ```bash
    wsl -l -v
    ```
 
-> ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
+  - > ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
 2. **Tener Docker disponible:**
 
@@ -74,9 +74,10 @@ Kustomize Version: v5.7.1
 | **Client Version: v1.34.1**   | Versión del binario `kubectl`. `v1.34.1` es una versión reciente y estable de Kubernetes (junio 2024 aprox.), totalmente compatible con **Kind**. | ✅ Correcto |
 | **Kustomize Version: v5.7.1** | `kubectl` incluye internamente la herramienta **Kustomize**, usada para aplicar configuraciones declarativas avanzadas (overlays, patches, etc.). | ✅ Correcto |
 
-> ✍️ **Notas:**
-> - `/usr/local/bin` es una ruta incluida en el `PATH` del sistema, por eso puedes ejecutar `kubectl` desde cualquier directorio.
-> - Si prefieres instalarlo en otra ruta, asegúrate de agregarla al `PATH` en tu `~/.bashrc` o `~/.zshrc`.
+✍️ **Notas:**
+>
+- `/usr/local/bin` es una ruta incluida en el `PATH` del sistema, por eso puedes ejecutar `kubectl` desde cualquier directorio.
+- Si prefieres instalarlo en otra ruta, asegúrate de agregarla al `PATH` en tu `~/.bashrc` o `~/.zshrc`.
 
 ---
 
@@ -189,9 +190,9 @@ Deberías ver un nodo (`kind-control-plane`) en estado **Ready**.
 - 📗 [Documentación oficial de kubectl](https://kubernetes.io/docs/reference/kubectl/)
 - 🐳 [Instalar Docker en WSL2](https://docs.docker.com/desktop/wsl/)
 
-> 📄 Guía adicional: Consulta en este repositorio:
+> 👇**También puedes consultar la siguiente guía en este repositorio:**
 >
-> - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
+> 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 
