@@ -22,13 +22,12 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 1. **Tener instalado WSL2 con una distribución Ubuntu.**  
 
-  - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
-
+   - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
    ```bash
    wsl -l -v
    ```
 
-  - > ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
+   - 👉 **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
 2. **Tener Docker disponible:**
 
@@ -99,7 +98,7 @@ Visita la página de [releases de Kind](https://github.com/kubernetes-sigs/kind/
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.30.0/kind-linux-amd64
 ```
 
-> ✍️ **Nota:** Asegúrate de reemplazar `v0.30.0` con la versión más reciente disponible.
+   - 👉 **Importante:** Asegúrate de reemplazar `v0.30.0` con la versión más reciente disponible.
 
 #### ✅ Paso 3: Dar permisos de ejecución
 
@@ -137,7 +136,7 @@ Deberías ver la versión de Kind que descargaste:
 
 ### 🚀 Crear un clúster local con Kind
 
-> ✍️ **Nota:** Asegúrate de que Docker este encendido y corriendo.
+> 👉 **Importante:** Asegúrate de que Docker este encendido y corriendo.
 
 Una vez instaladas las herramientas, puedes crear un clúster de Kubernetes local:
 
