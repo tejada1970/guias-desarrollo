@@ -6,11 +6,11 @@
 
 ## 🧩 1. ¿Qué son y para qué sirven?
 
-| Herramienta | Propósito | Instalación requerida |
-|--------------|------------|------------------------|
-| **kubectl** | Cliente oficial de Kubernetes. Permite interactuar con el clúster (aplicar *manifests*, ver *pods*, consultar *logs*, etc.). | ✅ Sí, manual |
-| **Kind** | Herramienta que permite ejecutar clústeres de Kubernetes dentro de contenedores Docker. Ideal para entornos de desarrollo y pruebas. | ✅ Sí, manual |
-| **Docker** | Motor de contenedores necesario para que Kind cree los nodos del clúster. | ✅ Sí, manual (o desde Docker Desktop) |
+| Herramienta | Propósito                                                                                                                            | Instalación requerida                   |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| **kubectl** | Cliente oficial de Kubernetes. Permite interactuar con el clúster (aplicar *manifests*, ver *pods*, consultar *logs*, etc.).         | ✅ Sí, manual                          |
+| **Kind**    | Herramienta que permite ejecutar clústeres de Kubernetes dentro de contenedores Docker. Ideal para entornos de desarrollo y pruebas. | ✅ Sí, manual                          |
+| **Docker**  | Motor de contenedores necesario para que Kind cree los nodos del clúster.                                                            | ✅ Sí, manual (o desde Docker Desktop) |
 
 ---
 
@@ -22,15 +22,13 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 1. **Tener instalado WSL2 con una distribución Ubuntu.**  
 
-   - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
+- 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
+
    ```bash
    wsl -l -v
    ```
-   - > ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
-   - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
-
-
+> ✍️ **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
 
 2. **Tener Docker disponible:**
 
@@ -41,8 +39,6 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
    ```bash
    docker version
    ```
-
-   - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 
@@ -86,23 +82,61 @@ Kustomize Version: v5.7.1
 
 ### 🧩 Instalar Kind
 
+#### ✅ Paso 1: Eliminar archivos corruptos
+
+Si intentaste descargar el binario anteriormente y el archivo resultante está dañado o incompleto, es recomendable eliminarlo antes de proceder:
+
 ```bash
-# Descargar el binario de Kind (última versión estable)
-curl -Lo ./kind https://kind.sigs.k8s.io/dl/$(curl -Ls https://kind.sigs.k8s.io/dl/latest.txt)/kind-linux-amd64
+rm -f ./kind
+```
 
-# Dar permisos de ejecución
+#### ✅ Paso 2: Descargar el binario de Kind
+
+Visita la página de [releases de Kind](https://github.com/kubernetes-sigs/kind/releases?utm_source=chatgpt.com) en **GitHub** y busca la última versión estable. Por ejemplo, si la última versión es `v0.30.0`, puedes descargar el binario correspondiente a tu sistema operativo. Para Linux (AMD64) o (WSL / Ubuntu en Windows), el comando sería:
+
+```bash
+curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.30.0/kind-linux-amd64
+```
+
+> ✍️ **Nota:** Asegúrate de reemplazar `v0.30.0` con la versión más reciente disponible.
+
+#### ✅ Paso 3: Dar permisos de ejecución
+
+Una vez descargado el archivo, debes otorgarle permisos de ejecución:
+
+```bash
 chmod +x ./kind
+```
 
-# Moverlo a una ruta global
+#### ✅ Paso 4: Mover el binario a un directorio en tu PATH
+
+Para poder ejecutar kind desde cualquier lugar, mueve el archivo a un directorio incluido en tu variable de entorno PATH:
+
+```bash
 sudo mv ./kind /usr/local/bin/kind
+```
 
-# Verificar instalación
+#### ✅ Paso 5: Verificar la instalación
+
+Finalmente, verifica que la instalación fue exitosa ejecutando:
+
+```bash
 kind version
+```
+
+Deberías ver la versión de Kind que descargaste:
+
+**🔍 Salida de ejemplo**
+
+```bash
+ kind v0.30.0 go1.24.6 linux/amd64
 ```
 
 ---
 
-### 🚀 Crear un clúster local con Kind (para prueba)
+### 🚀 Crear un clúster local con Kind
+
+> ✍️ **Nota:** Asegúrate de que Docker este encendido y corriendo.
 
 Una vez instaladas las herramientas, puedes crear un clúster de Kubernetes local:
 
@@ -154,6 +188,10 @@ Deberías ver un nodo (`kind-control-plane`) en estado **Ready**.
 - 📘 [Documentación oficial de Kind](https://kind.sigs.k8s.io/)
 - 📗 [Documentación oficial de kubectl](https://kubernetes.io/docs/reference/kubectl/)
 - 🐳 [Instalar Docker en WSL2](https://docs.docker.com/desktop/wsl/)
+
+> 📄 Guía adicional: Consulta en este repositorio:
+>
+> - 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 
