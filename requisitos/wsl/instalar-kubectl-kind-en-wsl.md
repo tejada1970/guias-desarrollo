@@ -22,7 +22,7 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 1. **Tener instalado WSL2 con una distribución Ubuntu.**  
 
-   - 👉 Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
+   - Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
    ```bash
    wsl -l -v
    ```
@@ -34,7 +34,7 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
    - O bien instalando **Docker Desktop** para Windows (que expone el socket a WSL).
    - O instalando **Docker Engine** directamente dentro de Ubuntu.
 
-   **Verifica que Docker funcione correctamente:**
+3. **Verifica que Docker funcione correctamente:**
    ```bash
    docker version
    ```
