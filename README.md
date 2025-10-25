@@ -6,70 +6,51 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 > 📚 Incluye guías paso a paso.
 
-> 🗓 Última actualización: 18-10-2025.
+> 🗓 Última actualización: 25-10-2025.
 
 ---
 
-## 📁 Índice de Guías
+## 🧭 Estructura del repositorio
 
-### 🛠 Consejos
-- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-antes-de-clonar.md)
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
-- 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
-- 📄 [Consejo para el uso de `.gitattributes` en tus proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
+`entorno-windows/`
+`entorno-wsl-ubuntu/`
 
----
-
-### 🧰 Requisitos
-
-#### 🪟 Windows
-- 📄 [Instalar XAMPP en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-xampp-en-windows.md)
-- 📄 [Instalar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-git-en-windows.md)
-- 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
-- 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
-- 📄 [Instalar Composer en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-composer-en-windows.md)
-- 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
-
-#### 🐧 WSL / Ubuntu
-
-- 📖 [Instalar kubectl + Kind en WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/wsl/instalar-kubectl-kind-en-wsl.md)
+Cada entorno tiene su propia colección de guías **paso a paso**:
+- **instalar/** → Guías de instalación de herramientas o programas. 
+- **configurar/** → Guías de configuración que complementan las instalaciones.
+- **crear/** → Guías para la creación de proyectos o repositorios.
+- **clonar/** → Guías para clonado de proyectos. 
+- **consejos/** → Buenas prácticas y advertencias.
+- **utilidades/** → Soluciones y herramientas complementarias.
 
 ---
 
-### ⚙️ Configuraciones
+## ⚙️ Entornos
 
-#### 🪟 Windows
-- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-archivo-phpini-en-xampp.md)
-- 📄 [Configurar Git en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-git-en-windows.md)
-- 📄 [Configurar Git Bash en VSCode (recomendado)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-git-bash-en-vscode.md)
-- 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-i18n-con-next-intl.md)
-- 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
-- 📄 [Configurar VSCode con WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-vscode-con-wsl2.md)
-- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-y-activar-settings-sync-vscode.md)
+### 🪟 Guías de entorno Windows
+📂 - [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README_generated.md)
 
-#### 🐧 WSL / Ubuntu
+### 🐧 Guías de entorno WSL / Ubuntu
+📂 - [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README_generated.md)
 
 ---
 
-### 📁 Crear
-- 📄 [Crear proyecto estático](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-estatico.md)
-- 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
-- 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
-- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-importar-db-en-phpmyadmin-xampp.md)
+## 🧱 Estructura modular
+- Cada carpeta tiene su propio `README.md` con índice local.
+- Los nombres de archivos están normalizados con **guiones medios (`-`)**.
+- Todo el contenido está en **Markdown puro (.md)** para máxima compatibilidad con GitHub.
+- Sin dependencias externas ni frameworks de documentación.
 
 ---
 
-### 📥 Clonar
-- 📄 [Clonar proyecto estático en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-estatico-en-xampp.md)
-- 📄 [Clonar proyecto Next.js en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-nextjs-en-xampp.md)
-
----
-
-### 🧱 Utilidades
-- 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/fases-para-disenar-una-bd.md)
-- 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
-- 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-mysql-xampp.md)
-- 📄 [Agregar extensión "Talend API Tester" en Google Chrome](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/extension-talend-api-tester-chrome.md)
+## 🧠 6. Beneficios de esta estructura
+- ✅ Escalable: fácil añadir nuevos entornos o secciones.
+- ✅ Uniforme: todas las guías mantienen el mismo formato visual y técnico.
+- ✅ Homogéneo: nomenclatura consistente.
+- ✅ Mantenible: cada carpeta tiene su propio índice local para facilitar la navegación.
+- ✅ Compatible: **Markdown puro**, sigue el estándar de documentación técnica de GitHub.
+- ✅ Profesional: guía clara y legible para cualquier desarrollador que entre al repo.
+- ✅ Lista para crecer: puede añadirse más entornos (ej.: entorno-macos en el futuro).
 
 ---
 
@@ -89,5 +70,5 @@ Herramientas recomendadas:
 
 ---
 
-## 📄 Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+## 📜 Licencia
+Proyecto licenciado bajo [MIT License](LICENSE)
