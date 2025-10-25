@@ -11,7 +11,7 @@ La estructura básica del proyecto será la misma. Solo cambiará el archivo pri
 ## ⚙️ Requisitos previos
 
 Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta:
-- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md#instalar)
+- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md#-instalar)
 
 ---
 
