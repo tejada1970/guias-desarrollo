@@ -9,7 +9,7 @@ Esta guía te ayudará a crear un nuevo proyecto con Next.js desde cero.
 ## ⚙️ Requisitos previos
 
 Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta:
-- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README#instalar)
+- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md#instalar)
 
 ---
 
