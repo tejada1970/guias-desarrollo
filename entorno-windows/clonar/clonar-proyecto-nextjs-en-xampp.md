@@ -8,7 +8,7 @@ Esta guía te ayudará a clonar un proyecto **Next.js** y ejecutarlo localmente,
 
 ## ⚙️ Requisitos previos
 
-Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta:
+Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta primero la sección (instalar/) en:
 - 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md#-instalar)
 
 ---
@@ -25,8 +25,8 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar estas guías:
 
-- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/entorno-windows/consejo-antes-de-clonar.md)
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/entorno-windows/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-antes-de-clonar.md)
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 
