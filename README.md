@@ -17,7 +17,7 @@ Este repositorio funcionará como **"fuente única de verdad"** para documentaci
 
 Cada entorno tiene su propia colección de guías **paso a paso**:
 - **instalar/** → Guías de instalación de herramientas o programas. 
-- **configurar/** → Guías de configuración que complementan las instalaciones.
+- **configurar/** → Guías de configuración para complementar instalaciones.
 - **crear/** → Guías para la creación de proyectos o repositorios.
 - **clonar/** → Guías para clonado de proyectos. 
 - **consejos/** → Buenas prácticas y advertencias.
@@ -28,18 +28,10 @@ Cada entorno tiene su propia colección de guías **paso a paso**:
 ## ⚙️ Entornos
 
 ### 🪟 Guías de entorno Windows
-📂 - [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README_generated.md)
+📂 - [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md)
 
 ### 🐧 Guías de entorno WSL / Ubuntu
-📂 - [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README_generated.md)
-
----
-
-## 🧱 Estructura modular
-- Cada carpeta tiene su propio `README.md` con índice local.
-- Los nombres de archivos están normalizados con **guiones medios (`-`)**.
-- Todo el contenido está en **Markdown puro (.md)** para máxima compatibilidad con GitHub.
-- Sin dependencias externas ni frameworks de documentación.
+📂 - [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README.md)
 
 ---
 
@@ -47,7 +39,7 @@ Cada entorno tiene su propia colección de guías **paso a paso**:
 - ✅ Escalable: fácil añadir nuevos entornos o secciones.
 - ✅ Uniforme: todas las guías mantienen el mismo formato visual y técnico.
 - ✅ Homogéneo: nomenclatura consistente.
-- ✅ Mantenible: cada carpeta tiene su propio índice local para facilitar la navegación.
+- ✅ Mantenible: cada carpeta de entorno tiene su propio índice local para facilitar la navegación.
 - ✅ Compatible: **Markdown puro**, sigue el estándar de documentación técnica de GitHub.
 - ✅ Profesional: guía clara y legible para cualquier desarrollador que entre al repo.
 - ✅ Lista para crecer: puede añadirse más entornos (ej.: entorno-macos en el futuro).
