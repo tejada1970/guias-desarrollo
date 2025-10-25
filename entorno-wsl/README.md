@@ -6,6 +6,10 @@
 
 ## 📁 Índice de Guías
 
+### ⚙️ Configurar
+- 📄 [configurar-vscode-con-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-vscode-con-wsl2.md)
+- 📄 [configurar-y-activar-settings-sync-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-y-activar-settings-sync-vscode.md)
+
 ### 🧰 Instalar
 - 📄 [instalar-kubectl-kind-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-kubectl-kind-en-wsl.md)
 

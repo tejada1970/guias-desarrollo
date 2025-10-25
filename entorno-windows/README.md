@@ -16,8 +16,6 @@
 - 📄 [configurar-git-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-git-en-windows.md)
 - 📄 [configurar-i18n-con-next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-i18n-con-next-intl.md)
 - 📄 [configurar-linux-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-linux-wsl2-en-windows.md)
-- 📄 [configurar-vscode-con-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-vscode-con-wsl2.md)
-- 📄 [configurar-y-activar-settings-sync-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-y-activar-settings-sync-vscode.md)
 
 ### 🛠️ Consejos
 - 📄 [consejo-antes-de-clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-antes-de-clonar.md)
