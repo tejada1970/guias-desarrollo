@@ -8,9 +8,8 @@ Esta guía te ayudará a crear un nuevo proyecto con Next.js desde cero.
 
 ## ⚙️ Requisitos previos
 
-Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta las siguientes guías del índice principal:
-
-- 📁 [Índice de Guías - Requisitos/Windows](https://github.com/tejada1970/guias-desarrollo#windows)
+Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, consulta:
+- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md)
 
 ---
 
@@ -18,7 +17,7 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar esta guía:
 
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/entorno-windows/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 
@@ -78,7 +77,7 @@ Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js func
 
 > 💡 **Importante:** Recuerda instalar la versión **NVM** correspondiente para tu proyecto **Next.js**. Puedes consultar la guía:
 
-- 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-nodejs-nvm-en-windows.md)
+- 📄 [Instalar Node.js (NVM) en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-nodejs-nvm-en-windows.md)
 
 ---
 
@@ -86,7 +85,7 @@ Abre tu navegador en **`http://localhost:3000`** para comprobar que Next.js func
 
 Si el proyecto requiere una base de datos, consulta esta guía para crear una nueva base de datos en **phpMyAdmin**:
 
-- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-importar-db-en-phpmyadmin-xampp.md)
+- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/crear/crear-importar-db-en-phpmyadmin-xampp.md)
 
 ---
 

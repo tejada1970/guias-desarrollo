@@ -14,7 +14,7 @@
 
 ---
 
-## ⚙️ 2. Instalación paso a paso
+## 🧰 2. Instalación paso a paso
 
 A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubuntu)**.
 

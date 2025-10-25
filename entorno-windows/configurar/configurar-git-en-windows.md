@@ -60,7 +60,7 @@ Con esto, **Git** quedará correctamente instalado y configurado para trabajar e
 
 > ✅ Aunque la opción `core.autocrlf` ayuda en tu entorno local, la mejor práctica es incluir un archivo `.gitattributes` en cada proyecto. Te recomiendo consultar esta guía:
 
-- 📄 [Consejo para el uso de `.gitattributes` en tus proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
+- 📄 [Consejo para el uso de `.gitattributes` en tus proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
 
 ---
 

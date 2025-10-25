@@ -11,11 +11,11 @@ Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, **PHP**, y otros 
 Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 - ✅ **Visual Studio Code** en Windows.  
-  - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-vscode-en-windows.md)
+  - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-vscode-en-windows.md)
   > ✍️ **Contenido de esta guía:** instalación de VSCode, extensiones recomendadas, WSL2, respaldo (backup) y terminal predeterminada.
 
 - ✅ **WSL2** habilitado y **Ubuntu** instalado.  
-  - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-linux-wsl2-en-windows.md)
+  - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-linux-wsl2-en-windows.md)
 
 - ✅ Extensión **"WSL"** de Microsoft instalada en VS Code.  
 
@@ -201,7 +201,7 @@ code --install-extension ms-azuretools.vscode-docker
 
 Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
-- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/windows/configurar-y-activar-settings-sync-vscode.md)
+- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-y-activar-settings-sync-vscode.md)
 
 ---
 

@@ -20,7 +20,7 @@ Esta guía, explica cómo **crear una base de datos para un nuevo proyecto** o *
 
 El proceso anterior **solo crea la base de datos vacía**. La creación de **tablas, relaciones, claves foráneas, índices y lógica de negocio** se explica en esta guía complementaria que te ayudará a definir correctamente la estructura interna de cualquier base de datos, sin importar la tecnología del proyecto:
 
-- 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/fases-para-disenar-una-bd.md)
+- 📄 [Fases para Diseñar una Base de Datos (Tecnología Agnóstica)](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/fases-para-disenar-una-bd.md)
 
 ---
 

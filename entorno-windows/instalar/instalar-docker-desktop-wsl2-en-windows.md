@@ -141,7 +141,7 @@ docker images
 
 Si quieres solucionar errores comunes en la terminal de Ubuntu, revisa:
 
-- 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
+- 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
 
 ---
 

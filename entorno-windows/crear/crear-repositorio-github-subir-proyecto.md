@@ -27,7 +27,7 @@ Si no tienes una cuenta:
 
     > ⚠️ **Importante:** Si tu proyecto local ya tiene un archivo `README.md`, **no marques esta opción**. De lo contrario, al subir tu proyecto, podrías recibir un error de **merge**. Para evitar ese problema, te recomiendo consultar esta guía antes de continuar:
 
-    - 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
+    - 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
 
 4. Haz clic en **Create repository**.
 

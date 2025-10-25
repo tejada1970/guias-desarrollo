@@ -28,10 +28,10 @@ Cada entorno tiene su propia colección de guías **paso a paso**:
 ## ⚙️ Entornos
 
 ### 🪟 Guías de entorno Windows
-📂 - [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md)
+📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md)
 
 ### 🐧 Guías de entorno WSL / Ubuntu
-📂 - [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README.md)
+📂 [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README.md)
 
 ---
 
