@@ -191,7 +191,7 @@ Deberías ver un nodo (`kind-control-plane`) en estado **Ready**.
 
 > 👇**También puedes consultar la siguiente guía en este repositorio:**
 >
-> 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/requisitos/windows/instalar-docker-desktop-wsl2-en-windows.md)
+> 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 
@@ -205,4 +205,4 @@ Una vez completados los pasos:
 
 ---
 
-**Fin del documento**
+*Fin del documento*
