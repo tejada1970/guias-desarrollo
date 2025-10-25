@@ -17,7 +17,7 @@ Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Window
 
 > ✅ Si estás pensando en almacenar y conservar tus proyectos locales en **XAMPP**, te recomiendo consultar esta guía:
 
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/consejos/entorno-windows/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 
@@ -25,7 +25,7 @@ Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Window
 
 Si quieres solucionar errores comunes en xampp, revisa:
 
-- 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/entorno-windows/solucionar-error-mysql-xampp.md)
+- 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/solucionar-error-mysql-xampp.md)
 
 ---
 

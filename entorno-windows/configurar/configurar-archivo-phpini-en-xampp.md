@@ -119,7 +119,7 @@ php -v
 
 ### 2. Descarga el driver de MongoDB
 
-- Ve a la página oficial: [PECL MongoDB builds]https://downloads.php.net/~windows/pecl/releases/mongodb/1.17.0/?utm_source=chatgpt.com).  
+- Ve a la página oficial: [PECL MongoDB builds](https://downloads.php.net/~windows/pecl/releases/mongodb/1.17.0/?utm_source=chatgpt.com).  
 - Te llevará a la página: Index of /~windows/pecl/releases/mongodb/1.17.0
 - Descarga el `.zip` correspondiente a tu versión. Si tienes por ejemplo PHP 8.2, 64 bits, Thread Safe (ZTS), buscas algo como: `php_mongodb-1.17.0-8.2-ts-vs16-x64.zip`.
 - Si fuese NTS, bajas el que diga nts.
