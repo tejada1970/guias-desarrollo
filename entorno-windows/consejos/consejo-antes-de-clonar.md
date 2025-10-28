@@ -1,10 +1,10 @@
-# 📚 Guía: Consejo antes de clonar
+# 📚 Guía: consejo-antes-de-clonar
 
 Esta guía aplica a cualquier entorno o tecnología (Next.js, Laravel, HTML/CSS/JS, PHP, etc.).
 
 ---
 
-## 🛠 Consejos y buenas prácticas
+## 🛠️ Consejos y buenas prácticas
 
 ### ✅ Ventajas de empezar desde cero
 

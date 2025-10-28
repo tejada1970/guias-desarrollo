@@ -1,4 +1,4 @@
-# 📚 Guía: Crear un proyecto estático desde cero
+# 📚 Guía: crear-proyecto-estatico
 
 Esta guía te ayudará a crear un proyecto estático desde cero. Está pensada para ser reutilizada en distintos tipos de tecnologías estáticas como: **HTML, CSS, JavaScript, PHP** (sin uso de frameworks ni de base de datos).
 
@@ -15,11 +15,11 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
-## 🛠 Consejos y buenas prácticas
+## 🛠️ Consejos y buenas prácticas
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar esta guía:
 
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📄 [consejo-para-organizar-tus-proyectos-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 
@@ -167,7 +167,7 @@ Esta guía es reutilizable para cualquier proyecto estático. Solo debes asegura
 
 Si el proyecto requiere una base de datos, consulta esta guía para crear una nueva base de datos en **phpMyAdmin**:
 
-- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/crear/crear-importar-db-en-phpmyadmin-xampp.md)
+- 📖 [crear-importar-db-en-phpmyadmin-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/crear/crear-importar-db-en-phpmyadmin-xampp.md)
 
 ---
 

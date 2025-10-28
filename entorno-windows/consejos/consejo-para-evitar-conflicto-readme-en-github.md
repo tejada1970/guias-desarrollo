@@ -1,10 +1,12 @@
-# 📚 Guía: Consejo para evitar conflicto readme en GitHub
+# 📚 Guía: consejo-para-evitar-conflicto-readme-en-github
 
 Esta guía te ayudará a evitar un error muy común con el archivo `README.md` a la hora de crear un nuevo repositorio en **GitHub**.
 
 ---
 
-## 📄 ¿Cuándo (no) marcar “Add a README file”?
+## 🛠️ Consejos y buenas prácticas
+
+### 📄 ¿Cuándo (no) marcar "Add a README file"?
 
 Cuando creas un nuevo repositorio en **GitHub**, puedes optar por iniciar con un archivo `README.md`.
 
@@ -19,7 +21,7 @@ Este error ocurre porque los contenidos del `README.md` local y el que creó **G
 
 ---
 
-## ✅ Recomendación:
+### ✅ Recomendación:
 
 Si ya tienes un `README.md` en tu proyecto local, **no marques la opción** en **GitHub**.
 

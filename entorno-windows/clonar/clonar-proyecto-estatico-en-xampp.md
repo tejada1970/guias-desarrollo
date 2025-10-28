@@ -1,4 +1,4 @@
-# 📚 Guía: Clonar proyecto estático en XAMPP
+# 📚 Guía: clonar-proyecto-estatico-en-xampp
 
 Esta guía te ayudará a clonar un proyecto web estático y ejecutarlo localmente con **XAMPP**, usando tecnologías como **HTML**, **CSS*, **JS** y **PHP** (sin uso de frameworks), con o sin base de datos.
 
@@ -17,7 +17,7 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la base de datos en **phpMyAdmin**:
 
-- 📄 [Crear/Importar Base de Datos en phpMyAdmin - XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/crear/crear-importar-db-en-phpmyadmin-xampp.md)
+- 📖 [crear-importar-db-en-phpmyadmin-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/crear/crear-importar-db-en-phpmyadmin-xampp.md)
 
 ---
 
@@ -25,8 +25,8 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 > ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar estas guías:
 
-- 📄 [Consejo antes de clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-antes-de-clonar.md)
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📖 [consejo-antes-de-clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-antes-de-clonar.md)
+- 📖 [consejo-para-organizar-tus-proyectos-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 

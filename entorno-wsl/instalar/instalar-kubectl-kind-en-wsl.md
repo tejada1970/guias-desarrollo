@@ -1,4 +1,4 @@
-# 📚 Guía: Instalar kubectl + Kind en WSL / Ubuntu
+# 📚 Guía: instalar-kubectl-kind-en-wsl
 
 > 📖 Esta guía te permitirá instalar y configurar **Kind (Kubernetes in Docker)** en **WSL2 (Ubuntu)**, junto con las herramientas necesarias como **kubectl** y **Docker**, para levantar clústeres de Kubernetes de forma local y liviana.
 
@@ -191,7 +191,7 @@ Deberías ver un nodo (`kind-control-plane`) en estado **Ready**.
 
 > 👇**También puedes consultar la siguiente guía en este repositorio:**
 >
-> 📄 [Instalar Docker Desktop con WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-docker-desktop-wsl2-en-windows.md)
+> 📖 [instalar-docker-desktop-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-docker-desktop-wsl2-en-windows.md)
 
 ---
 

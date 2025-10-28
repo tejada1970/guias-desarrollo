@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación de XAMPP en Windows
+# 📚 Guía: instalar-xampp-en-windows
 
 Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Windows**.
 
@@ -17,15 +17,15 @@ Esta guía te ayudará a instalar y configurar **XAMPP**, en un entorno **Window
 
 > ✅ Si estás pensando en almacenar y conservar tus proyectos locales en **XAMPP**, te recomiendo consultar esta guía:
 
-- 📄 [Consejo para organizar tus proyectos en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
+- 📖 [consejo-para-organizar-tus-proyectos-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---
 
-### 🛠 Utilidades
+### 🛠️ Utilidades
 
 Si quieres solucionar errores comunes en xampp, revisa:
 
-- 📄 [Solucionar error de arranque MySQL en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/solucionar-error-mysql-xampp.md)
+- 📖 [solucionar-error-mysql-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/solucionar-error-mysql-xampp.md)
 
 ---
 
@@ -37,7 +37,7 @@ Modificar este archivo es esencial para adaptar **PHP** a las necesidades espec�
 
 Para habilitar extensiones necesarias (como `zip` o `gd`) y realizar otras configuraciones en el archivo `php.ini`, puedes consultar esta guía:
 
-- 📄 [Configurar archivo (php.ini) en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-archivo-phpini-en-xampp.md)
+- 📖 [configurar-archivo-phpini-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-archivo-phpini-en-xampp.md)
 
 ---
 

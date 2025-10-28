@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación de Docker Desktop con WSL2 en Windows
+# 📚 Guía: instalar-docker-desktop-wsl2-en-windows
 
 Esta guía te ayudará a instalar **Docker Desktop** en Windows 11 usando **WSL2**.  
 
@@ -141,7 +141,7 @@ docker images
 
 Si quieres solucionar errores comunes en la terminal de Ubuntu, revisa:
 
-- 📄 [Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
+- 📖 [solucionar-error-terminal-ubuntu-docker-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
 
 ---
 

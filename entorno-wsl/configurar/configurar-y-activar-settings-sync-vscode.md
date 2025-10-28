@@ -1,4 +1,4 @@
-# 📚 Guía: Configurar y activar Settings Sync en VS Code
+# 📚 Guía: configurar-y-activar-settings-sync-vscode
 
 Esta guía explica cómo configurar y activar **Settings Sync** en **Visual Studio Code (VS Code)** para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
@@ -71,6 +71,14 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 - La sincronización es **opcional pero recomendada** para mantener tu entorno consistente entre PCs o tener un respaldo de tus configuraciones y extensiones.
 
 ✅ Con esto, tu entorno **VS Code + WSL** estará respaldado, sincronizado y listo para desarrollo con **Docker, Laravel, Node.js** y cualquier otra tecnología.
+
+---
+
+## 🛠️ Consejos y buenas prácticas
+
+> 💡 Para optimizar el rendimiento de VS Code y gestionar mejor tus extensiones, consulta la siguiente guía:
+
+- 📖 [consejo-para-gestionar-extensiones-en-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-gestionar-extensiones-en-vscode.md)
 
 ---
 

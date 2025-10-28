@@ -1,4 +1,4 @@
-# 📚 Guía: Configurar VS Code con WSL2
+# 📚 Guía: configurar-vscode-con-wsl2
 
 Esta guía explica cómo conectar **Visual Studio Code (VS Code)** instalado en **Windows** con tu entorno **Linux (Ubuntu en WSL2)**, para desarrollar directamente dentro de Linux sin salir de tu editor.  
 
@@ -11,11 +11,11 @@ Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, **PHP**, y otros 
 Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 - ✅ **Visual Studio Code** en Windows.  
-  - 📄 [Instalar VSCode en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-vscode-en-windows.md)
+  - 📖 [instalar-vscode-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-vscode-en-windows.md)
   > ✍️ **Contenido de esta guía:** instalación de VSCode, extensiones recomendadas, WSL2, respaldo (backup) y terminal predeterminada.
 
 - ✅ **WSL2** habilitado y **Ubuntu** instalado.  
-  - 📄 [Configurar Linux-WSL2 en Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-linux-wsl2-en-windows.md)
+  - 📖 [configurar-linux-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-linux-wsl2-en-windows.md)
 
 - ✅ Extensión **"WSL"** de Microsoft instalada en VS Code.  
 
@@ -73,29 +73,6 @@ La primera vez que uses `code .` dentro de WSL, VS Code instalará un componente
 - Permite que VS Code (en Windows) ejecute procesos, tareas, IntelliSense, terminales y depuración directamente dentro de tu Linux (WSL).  
 - No modifica tu proyecto ni tus repositorios.  
 - Solo se instala **una vez** (o cuando VS Code se actualiza).
-
----
-
-## 🧭 5. Buenas prácticas al trabajar con VS Code + WSL
-
-> ✅ **Siempre trabaja dentro del sistema de archivos Linux** (`/home/usuario/...`), en lugar de rutas montadas de Windows como `/mnt/c/...`.  
-> Esto mejora el rendimiento y evita problemas de permisos.
-
-> ✅ **Usa las mismas extensiones dentro del entorno remoto.**  
-> Cuando abras un proyecto en WSL, VS Code te preguntará si deseas instalar las extensiones también dentro del entorno Linux. Acepta para que funcionen correctamente.
-
-> ✅ **Docker y WSL2 funcionan juntos.**  
-> Si usas contenedores, instala también las extensiones:  
->
->  - `Docker (Microsoft)`
->  - `Docker DX (Docker)`
->
-> Ambas detectarán automáticamente los contenedores ejecutándose en WSL.
-
-> ✅ **Un servidor por distribución.**  
-> Si usas más de una distro de Linux (por ejemplo Ubuntu y Debian), VS Code instalará su propio servidor en cada una.
-
-> ⚡ Siguiendo estas buenas prácticas, tu entorno VS Code + WSL será más estable y eficiente.
 
 ---
 
@@ -201,7 +178,7 @@ code --install-extension ms-azuretools.vscode-docker
 
 Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
-- 📄 [Configurar y activar (Settings Sync) en VS Code](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-y-activar-settings-sync-vscode.md)
+- 📖 [configurar-y-activar-settings-sync-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-y-activar-settings-sync-vscode.md)
 
 ---
 
@@ -236,6 +213,18 @@ Con esta configuración, ya puedes:
 - Integrar herramientas como **Docker**, **Composer**, **Node.js**, y **PHP** sin conflictos entre Windows y Linux.  
 
 🟢 **Resultado:** un entorno de desarrollo híbrido, rápido y 100 % compatible con entornos de producción Linux.
+
+---
+
+## 🛠️ Consejos y buenas prácticas
+
+> 💡 Para optimizar el rendimiento de VS Code y gestionar mejor tus extensiones, consulta la siguiente guía:
+
+- 📖 [consejo-para-gestionar-extensiones-en-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-gestionar-extensiones-en-vscode.md)
+
+> ✅ Para trabajar de forma optima con VS Code y WSL, consulta la siguiente guía:
+
+- 📖 [consejo-para-trabajar-con-vscode-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/consejos/consejo-para-trabajar-con-vscode-wsl.md)
 
 ---
 

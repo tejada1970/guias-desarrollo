@@ -1,4 +1,4 @@
-# 📚 Guía: Fases para Diseñar una Base de Datos (Tecnología Agnóstica)
+# 📚 Guía: fases-para-disenar-una-bd
 
 Esta guía proporciona una metodología general para diseñar bases de datos que puedas aplicar a cualquier tipo de proyecto y tecnología (`MySQL`, `PostgreSQL`, `MongoDB`, `PHP`, `Node.js`, `Laravel`, `Next.js`, etc.).
 

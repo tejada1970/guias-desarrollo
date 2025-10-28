@@ -1,10 +1,10 @@
-# 📚 Guía: Consejo para organizar tus proyectos en XAMPP
+# 📚 Guía: consejo-para-organizar-tus-proyectos-en-xampp
 
 Esta guía ofrece recomendaciones para organizar tus proyectos dentro de `htdocs` al trabajar con **XAMPP**.
 
 ---
 
-## 🛠 Consejos y buenas prácticas
+## 🛠️ Consejos y buenas prácticas
 
 Si trabajas con **XAMPP** y planeas manejar varios proyectos con diferentes tecnologías, es recomendable crear una estructura de carpetas organizada dentro del directorio `htdocs`.
 

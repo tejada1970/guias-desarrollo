@@ -1,6 +1,6 @@
-# 📚 Guía: Solucionar error de terminal Ubuntu (fallo catastrófico) causado por Docker Desktop y WSL2
+# 📚 Guía: solucionar-error-terminal-ubuntu-docker-wsl2  
 
-Esta guía te ayudará a solucionar el error:
+Esta guía te ayudará a solucionar el error (fallo catastrófico) causado por Docker Desktop y WSL2:
 
 ```
 Error catastrófico – Wsl/Service/E_UNEXPECTED

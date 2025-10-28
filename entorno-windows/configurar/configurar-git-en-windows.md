@@ -1,4 +1,4 @@
-# 📚 Guía: Configuración inicial de Git en Windows
+# 📚 Guía: configurar-git-en-windows
 
 Esta guía, detalla los pasos para configurar **Git** por primera vez en **Windows**.
 
@@ -56,11 +56,11 @@ Con esto, **Git** quedará correctamente instalado y configurado para trabajar e
 
 ---
 
-## 🛠 Consejos y buenas prácticas
+## 🛠️ Consejos y buenas prácticas
 
 > ✅ Aunque la opción `core.autocrlf` ayuda en tu entorno local, la mejor práctica es incluir un archivo `.gitattributes` en cada proyecto. Te recomiendo consultar esta guía:
 
-- 📄 [Consejo para el uso de `.gitattributes` en tus proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
+- 📖 [consejo-uso-de-gitattributes-en-proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
 
 ---
 

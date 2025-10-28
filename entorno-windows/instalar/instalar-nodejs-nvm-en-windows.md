@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación de Node.js (NVM) en Windows
+# 📚 Guía: instalar-nodejs-nvm-en-windows
 
 Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Node Version Manager)**, una herramienta que permite gestionar fácilmente múltiples versiones de `Node.js` en un mismo equipo. Es especialmente útil si trabajas con distintos proyectos que requieren versiones diferentes de Node.
 

@@ -1,4 +1,4 @@
-# 📚 Guía: Crear un repositorio en GitHub y subir un proyecto local
+# 📚 Guía: crear-repositorio-github-subir-proyecto
 
 Esta guía, te ayudará paso a paso a crear un repositorio en **GitHub** y subir tu proyecto local (desde cero).
 
@@ -27,7 +27,7 @@ Si no tienes una cuenta:
 
     > ⚠️ **Importante:** Si tu proyecto local ya tiene un archivo `README.md`, **no marques esta opción**. De lo contrario, al subir tu proyecto, podrías recibir un error de **merge**. Para evitar ese problema, te recomiendo consultar esta guía antes de continuar:
 
-    - 📄 [Consejo para evitar conflicto readme en GitHub](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
+    - 📖 [consejo-para-evitar-conflicto-readme-en-github](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-evitar-conflicto-readme-en-github.md)
 
 4. Haz clic en **Create repository**.
 

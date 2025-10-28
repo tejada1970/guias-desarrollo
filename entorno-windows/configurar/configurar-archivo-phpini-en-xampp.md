@@ -1,4 +1,4 @@
-# 📚 Guía: Configurar archivo `php.ini` en XAMPP
+# 📚 Guía: configurar-archivo-phpini-en-xampp
 
 Esta guía, te ayudará a habilitar extensiones necesarias (como `zip`) u otras extensiones (como `gd`, `pgsql`, `pdo_pgsql` o `mongodb`).
 
@@ -170,7 +170,7 @@ Las extensiones de VS Code como "Database Client" (para PostgreSQL/MySQL) o "Mon
 
 Una vez instaladas, deberás crear una conexión. Para ello te recomiendo consultar este tutorial sobre la configuración de extensiones en VS Code para bases de datos:
 
-- 📄 [Probar Conexiones a BD](https://youtu.be/ekM3S2DX19k?list=PLlerKZbEcUVR6lPYQcFb77CsJVPZpWyFK)
+- 📖 [Probar Conexiones a BD](https://youtu.be/ekM3S2DX19k?list=PLlerKZbEcUVR6lPYQcFb77CsJVPZpWyFK)
 
 ---
 

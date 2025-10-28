@@ -1,4 +1,4 @@
-# 📚 Guía: Solucionar error de arranque MySQL en XAMPP
+# 📚 Guía: solucionar-error-mysql-xampp
 
 Esta guía te ayudará a solucionar el error de arranque de MySQL en XAMPP cuando el servicio no inicia correctamente debido a corrupción en los archivos de InnoDB.
 

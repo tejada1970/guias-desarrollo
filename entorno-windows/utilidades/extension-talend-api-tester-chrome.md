@@ -1,4 +1,4 @@
-# 📚 Guía: Agregar extensión "Talend API Tester" en Google Chrome
+# 📚 Guía: extension-talend-api-tester-chrome
 
 Esta guía te ayudará a instalar y comenzar a usar la extensión **Talend API Tester** en Google Chrome, una herramienta útil para probar y depurar endpoints de APIs de manera sencilla.
 

@@ -1,4 +1,4 @@
-# 📚 Guía: Instalación de Composer en Windows
+# 📚 Guía: instalar-composer-en-windows
 
 Esta guía te ayudará a instalar **Composer**, en un entorno **Windows**.
 
