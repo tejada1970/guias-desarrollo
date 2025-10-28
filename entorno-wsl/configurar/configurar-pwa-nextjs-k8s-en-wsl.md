@@ -38,6 +38,7 @@ Asegúrate de tener instalado:
 
 ## 📂 Estructura del proyecto (Ejemplo)
 
+```text
 pwa-next/
 ├── k8s/
 │   ├── namespace.yaml
@@ -50,6 +51,7 @@ pwa-next/
 │   ├── next.config.js
 │   └── (código Next.js)
 └──
+```
 
 ---
 
