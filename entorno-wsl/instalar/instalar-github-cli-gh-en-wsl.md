@@ -24,36 +24,66 @@ Con ella podrás:
 
 ## 🧰 Instalar GitHub CLI (gh)
 
-> ✍️ **Nota:**
->
-> **Ubicación recomendada para ejecutar los comandos:**
->
-> Ejecuta todo dentro de tu entorno **WSL (Ubuntu)**, **no en PowerShell ni CMD**.
+> ✍️ **Nota importante:** Ejecuta todos los comandos dentro de tu entorno WSL (Ubuntu), no desde PowerShell ni CMD.
 
-Abre tu terminal **Ubuntu (WSL)** y ejecuta estos comandos:
+### ⚙️ Pasos recomendados (instalación oficial y actualizable)
+
+Ejecuta los siguientes comandos en orden dentro de tu terminal **Ubuntu (WSL)**:
 
 ```bash
-# Actualizar repositorios
-sudo apt update
+# 1️⃣ Instalar dependencias necesarias
+sudo apt install -y curl gnupg
 
-# Instalar GitHub CLI
+# 2️⃣ Agregar la clave GPG oficial de GitHub CLI
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
+sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+
+# 3️⃣ Agregar el repositorio oficial de GitHub CLI
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
+sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+
+# 4️⃣ Actualizar repositorios e instalar GitHub CLI
+sudo apt update
 sudo apt install gh -y
 
-# Verificar versión instalada
+# 5️⃣ Verificar la versión instalada
 gh --version
 ```
 
 🔍 **Salida esperada:** (ejemplo)
 
-```nginx
-gh version 3.0.0 (2025-10-22)
+```bash
+gh version 2.82.1 (2025-10-22)
+https://github.com/cli/cli/releases/tag/v2.82.1
 ```
 
-> ✍️ **Nota:**
+> ⚠️ **Nota de seguridad:**
 >
-> Si obtienes un error de repositorio, asegúrate de tener actualizada la lista de paquetes con `sudo apt update`.
+> Este proceso solo afecta la instalación de GitHub CLI.
+No modifica ni interfiere con otros paquetes o repositorios del sistema.
 >
-> Puedes acceder a: `https://github.com/cli/cli/releases/latest` para comprobar la última versión.
+> Se crea un repositorio exclusivo en `/etc/apt/sources.list.d/github-cli.list` y una clave GPG específica para validar el paquete de GitHub.
+
+---
+
+### 🔄 Actualizar GitHub CLI a la última versión
+
+Una vez instalado con este método, podrás mantenerlo actualizado con un solo comando:
+
+```bash
+sudo apt update && sudo apt upgrade gh -y
+```
+
+Esto:
+- Verifica si hay nuevas versiones publicadas por GitHub.
+- Descarga e instala automáticamente la más reciente.
+- No requiere volver a agregar claves ni repositorios.
+
+### 💡 Tip adicional
+
+Si alguna vez quieres comprobar la versión más reciente disponible manualmente:
+
+Visita 👉 https://github.com/cli/cli/releases/latest
 
 ---
 
