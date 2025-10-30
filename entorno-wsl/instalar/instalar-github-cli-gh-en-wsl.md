@@ -329,7 +329,7 @@ To https://github.com/tu_usuario/my-microservices.git
  * [new branch] develop -> develop
 ```
 
-✅ Resultado final
+### ✅ Resultado final
 
 Has creado un repositorio privado con una estructura base para desplegar microservicios.
 
@@ -344,55 +344,22 @@ Para aprender cómo implementar esta estructura con **Laravel** + **Kubernetes**
 El comando `tree` permite ver la estructura de carpetas y archivos de tu proyecto de forma jerárquica, como un árbol, lo que es mucho más visual que `ls`.
 
 Si no tienes `tree` instalado, consulta la siguiente guía: 
-- 📖 [instalar-tree-en-wsl](instalar-tree-en-wsl.md)
+- 📖 [instalar-tree-en-wsl]((https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md))
 
-🔍 **Salida típica:** (ejemplo)
+🔍 **Salida típica (ejemplo):**
 
 ```text
 .
 ├── app
-│   ├── Console
-│   ├── Exceptions
-│   └── Http
 ├── bootstrap
 ├── config
 ├── database
+├── public
+├── resources
 └── routes
 ```
 
-- Mucho más visual que `ls`, ¿verdad? 😎
-
-🌳 **Ejemplo de uso:**
-
-1. Mostrar solo directorios (útil para Laravel):
-
-```bash
-tree -d -I "vendor|node_modules|storage|.git"
-```
-
-🔍 **Salida esperada:** (ejemplo)
-
-
-2. Mostrar solo hasta 2 niveles de carpetas
-
-```bash
-tree -d -L 2 -I "vendor|node_modules|storage|.git"
-```
-
-🔍 **Salida esperada:** (ejemplo)
-
-
-3. Guardar la salida en un archivo (para documentación)
-
-```bash
-tree -d -L 2 -I "vendor|node_modules|storage|.git" > estructura.txt
-```
-
-> 💡 Tip: Luego puedes abrir `estructura.txt` en VS Code con:
->
-> ```bash
-> code estructura.txt
-> ```
+Mucho más visual que `ls`, ¿verdad? 😎
 
 ---
 
