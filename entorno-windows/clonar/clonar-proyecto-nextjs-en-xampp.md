@@ -23,8 +23,6 @@ Si el proyecto incluye un archivo `.sql`, consulta esta guía para importar la b
 
 ## 🛠️ Consejos y buenas prácticas
 
-> ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar estas guías:
-
 - 📖 [consejo-antes-de-clonar](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-antes-de-clonar.md)
 - 📖 [consejo-para-organizar-tus-proyectos-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 

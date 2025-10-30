@@ -109,21 +109,19 @@ Una vez en uso, toda base de datos requiere mantenimiento:
 
 ---
 
-## 📚 Recursos Recomendados
+## 🔗 Recursos Recomendados
 
 - 🔗 [MySQL Tutorial](https://www.mysqltutorial.org/)
 
 ---
 
-## 🧠 Conclusión
+## ✨ Conclusión
 
 Diseñar una base de datos **no es solo crear tablas**. Implica comprender el dominio del proyecto, aplicar buenas prácticas, y anticiparse a futuros cambios o escalabilidad.
 
 Esta guía te ofrece una base sólida para comenzar con seguridad y claridad cualquier diseño, sin importar la tecnología.
 
----
-
-## ✅ Puedes usar esta guía como plantilla o punto de partida para proyectos con:
+Puedes usar esta guía como plantilla o punto de partida para proyectos con:
 
 - Laravel / PHP  
 - Node.js / Express  

@@ -1,6 +1,6 @@
 # 📚 Guía: instalar-php-composer-nodejs-laravel-en-wsl
 
-> 📘 Esta guía describe dos formas de preparar tu entorno Laravel dentro de **WSL (Ubuntu)**:  
+> Esta guía describe dos formas de preparar tu entorno Laravel dentro de **WSL (Ubuntu)**:  
 >
 > - ⚙️ **Instalación nativa en WSL**, ideal para desarrollo directo. 
 > - 🐋 **Configuración mediante Docker**, (recomendada) para entornos profesionales y colaborativos.
@@ -35,7 +35,7 @@ Asegúrate de tener instalado:
 
 ## ⚙️ Instalación nativa en WSL, ideal para desarrollo directo
 
-### ⚙️ 1. Instalar PHP 8.2+ en WSL (Ubuntu)
+### 🧰 1. Instalar PHP 8.2+ en WSL (Ubuntu)
 
 ```bash
 sudo apt update
@@ -56,7 +56,7 @@ php -v
 PHP 8.2.x (cli) (built: ...)
 ```
 
-### 📦 2. Instalar Composer
+### 🧰 2. Instalar Composer
 
 ```bash
 cd ~
@@ -84,7 +84,7 @@ source ~/.bashrc
 
 > ✍️ **Nota:** Este paso es necesario si planeas instalar paquetes globales con Composer (**por ejemplo laravel**).
 
-### 🟢 3. Instalar Node.js y npm
+### 🧰 3. Instalar Node.js y npm
 
 ```bash
 # Instalar Node.js 20 y npm
@@ -111,7 +111,7 @@ x.x.x (npm version)
 
 > ✍️ **Nota:** Esto permite compilar assets con Vite, Tailwind u otros paquetes frontend de Laravel.
 
-### 🚀 4. Instalar Laravel Installer globalmente
+### 🧰 4. Instalar Laravel Installer globalmente
 
 ```bash
 composer global require laravel/installer
@@ -127,7 +127,7 @@ laravel --version
 Laravel Installer 5.x
 ```
 
-### 🧱 5. Crear un nuevo proyecto Laravel
+### 🚀 5. Crear un nuevo proyecto Laravel
 
 ```bash
 cd ~/projects
@@ -264,7 +264,7 @@ volumes:
   db_data:
 ```
 
-#### 🌱 Crear el proyecto Laravel dentro del contenedor
+#### 📁 Crear el proyecto Laravel dentro del contenedor
 
 Si estás en WSL o Windows, dentro de my-project/user-service/, ejecuta:
 
@@ -487,7 +487,7 @@ server {
 }
 ```
 
-#### 🧰 Crear los proyectos Laravel dentro del contenedor
+#### 📁 Crear los proyectos Laravel dentro del contenedor
 
 Si estás en WSL o Windows, dentro de my-microservices/user-service/, ejecuta:
 
@@ -563,7 +563,7 @@ Así Laravel se conecta directamente al contenedor de base de datos.
 
 ---
 
-## ✅ Conclusión
+## ✨ Conclusión
 
 - Para proyectos **individuales o experimentales**, instalar PHP, Composer y Laravel dentro de **WSL** es suficiente.  
 - Para proyectos **colaborativos, CI/CD o Kubernetes**, define las dependencias en **Dockerfiles** para mantener entornos reproducibles.  
@@ -571,7 +571,7 @@ Así Laravel se conecta directamente al contenedor de base de datos.
 
 ---
 
-## Profesional
+## ✅ Recomendación Profesional
 
 La mejor forma de hacerlo profesionalmente y la más óptima de todas es usando Kubernetes (Kind).
 

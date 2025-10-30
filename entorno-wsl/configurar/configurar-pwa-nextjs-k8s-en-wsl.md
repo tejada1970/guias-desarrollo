@@ -8,9 +8,7 @@ entorno de construcción y ejecución.
 
 ## 🎯 Propósito
 
-Establecer un entorno de desarrollo reproducible para **Next.js** (PWA)
-dentro de **Kind**, usando imágenes Docker y Kubernetes para mantener un
-flujo moderno y limpio, sin dependencias globales de Node.js en el host.
+Establecer un entorno de desarrollo reproducible para **Next.js** (PWA) dentro de **Kind**, usando imágenes Docker y Kubernetes para mantener un flujo moderno y limpio, sin dependencias globales de Node.js en el host.
 
 ---
 
@@ -30,8 +28,12 @@ Asegúrate de tener instalado:
 > - 📖 [instalar-docker-desktop-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-docker-desktop-wsl2-en-windows.md)
 > - 📖 [instalar-git-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-git-en-windows.md)
 > - 📖 [instalar-vscode-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-vscode-en-windows.md)
-> - 📖 [configurar-vscode-con-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-vscode-con-wsl2.md)
 > - 📖 [instalar-kubectl-kind-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-kubectl-kind-en-wsl.md)
+
+---
+
+## 🛠️ Consejos y buenas prácticas
+
 > - 📖 [consejo-para-usar-nodejs-en-docker-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/consejos/consejo-para-usar-nodejs-en-docker-wsl.md)
 
 ---

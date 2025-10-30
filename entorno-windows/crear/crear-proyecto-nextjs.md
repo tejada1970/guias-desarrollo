@@ -15,8 +15,6 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ## 🛠️ Consejos y buenas prácticas
 
-> ✅ Si estás pensando en conservar el proyecto, te recomiendo consultar esta guía:
-
 - 📄 [consejo-para-organizar-tus-proyectos-en-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-organizar-tus-proyectos-en-xampp.md)
 
 ---

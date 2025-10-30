@@ -23,7 +23,9 @@ Esta guía ofrece buenas prácticas para optimizar tu flujo de trabajo con **Vis
 > ✅ **Un servidor por distribución.**  
 > Si usas más de una distro de Linux (por ejemplo Ubuntu y Debian), VS Code instalará su propio servidor en cada una.
 
-> ⚡ Siguiendo estas buenas prácticas, tu entorno VS Code + WSL será más estable y eficiente.
+---
+
+> ✍️ **Nota:** Siguiendo estas buenas prácticas, tu entorno VS Code + WSL será más estable y eficiente.
 
 ---
 

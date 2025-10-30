@@ -25,7 +25,7 @@ Esta guía aplica a cualquier entorno o tecnología (Next.js, Laravel, HTML/CSS/
 
 ---
 
-### 🧠 Recomendación
+### ✅ Recomendación
 
 Si tu objetivo es:
 
@@ -33,11 +33,9 @@ Si tu objetivo es:
 - Evitar errores difíciles de depurar
 - Trabajar con un entorno estable y mantenible
 
-Entonces, lo mejor es **empezar desde cero**, por ejemplo:
+Entonces lo mejor es **crear tu proyecto desde cero** e ir **implementando cada parte paso a paso**, siguiendo las guías o documentación oficial del framework o lenguaje que uses.
 
-- `create-next-app@latest` para Next.js.
-- `laravel new my-app` con `composer global require laravel/installer` para Laravel.
-- Archivos `HTML, CSS, JS, PHP` propios para proyectos básicos.
+De esta forma podrás replicar el funcionamiento del proyecto que querías clonar, **comprendiendo su estructura, dependencias y configuración**, en lugar de solo copiarla.
 
 ---
 

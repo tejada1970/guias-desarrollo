@@ -1,6 +1,6 @@
 # 🐧 Guías de entorno WSL / Ubuntu
 
-> 📚 Colección de guías paso a paso para trabajar con WSL2 (Ubuntu) en Windows, Docker, Kubernetes (Kind), PHP, Composer, Laravel y herramientas de desarrollo modernas.
+> 📚 Colección de guías paso a paso para trabajar con WSL (Ubuntu) en Windows, Docker, Kubernetes (Kind), PHP, Composer, Laravel y herramientas de desarrollo modernas.
 
 ---
 

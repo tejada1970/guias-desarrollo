@@ -10,7 +10,7 @@ Si trabajas con **XAMPP** y planeas manejar varios proyectos con diferentes tecn
 
 Esto te ayudará a mantener el entorno limpio, ordenado y escalable.
 
-📌 Estructura sugerida:
+📁 Estructura sugerida:
 
 ```
 C:\xampp\htdocs
@@ -24,9 +24,9 @@ C:\xampp\htdocs
 │   └── mi-proyecto-laravel\
 ```
 
-Puedes usar nombres como proyectos-laravel, proyectos-nextjs, etc., si deseas mayor claridad, pero lo importante es mantener una convención consistente.
+Puedes usar nombres como (`proyectos-laravel`, `proyectos-nextjs`, etc.), si deseas mayor claridad, pero lo importante es mantener una convención consistente.
 
-> 💡 Una estructura bien pensada te ahorra tiempo, reduce el desorden y mejora la productividad cuando gestionas múltiples entornos.
+> ✍️ **Nota:** Una estructura bien pensada te ahorra tiempo, reduce el desorden y mejora la productividad cuando gestionas múltiples entornos.
 
 ---
 

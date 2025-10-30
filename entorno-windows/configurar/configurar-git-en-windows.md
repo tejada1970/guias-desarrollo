@@ -50,15 +50,13 @@ git config --global core.autocrlf input
 
 ---
 
-## 💡 Resultado
+## ✅ Resultado
 
 Con esto, **Git** quedará correctamente instalado y configurado para trabajar en cualquier entorno de desarrollo multiplataforma.
 
 ---
 
 ## 🛠️ Consejos y buenas prácticas
-
-> ✅ Aunque la opción `core.autocrlf` ayuda en tu entorno local, la mejor práctica es incluir un archivo `.gitattributes` en cada proyecto. Te recomiendo consultar esta guía:
 
 - 📖 [consejo-uso-de-gitattributes-en-proyectos](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-uso-de-gitattributes-en-proyectos.md)
 

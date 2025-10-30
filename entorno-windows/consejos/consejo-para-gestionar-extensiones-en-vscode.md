@@ -94,7 +94,7 @@ Cada perfil puede tener su propio conjunto de extensiones, temas y configuracion
 
 ---
 
-### ⚡ Beneficio
+### ✅ Beneficio
 
 Esta estrategia te permitirá:
 - 🚀 Acelerar el arranque de VS Code  

@@ -44,11 +44,11 @@ Se recomienda configurar y activar **Settings Sync** en VS Code para realizar **
 
 ## 🐧 Configurar VS Code con WSL2 (opcinal pero recomendado)
 
-Si trabajas en un entorno Linux, se recomienda conectar **Visual Studio Code (VS Code)** instalado en **Windows** con tu entorno **Linux (Ubuntu en WSL2)**, para desarrollar directamente dentro de Linux sin salir de tu editor.  
+Si trabajas en un entorno Linux, se recomienda conectar **Visual Studio Code (VS Code)** instalado en **Windows** con tu entorno **Linux (Ubuntu en WSL2)** usando la extensión (`Remote - WSL`), para desarrollar directamente dentro de Linux sin salir de tu editor.  
 
 - 📖 [configurar-vscode-con-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-vscode-con-wsl2.md)
 
-Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, **PHP**, y otros frameworks que funcionan mejor en entornos Linux.  
+Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, y otros frameworks que funcionan mejor en entornos Linux.  
 
 ---
 
@@ -179,11 +179,7 @@ Una vez instaladas, deberás crear una conexión. Para ello te recomiendo consul
 
 ## 🛠️ Consejos y buenas prácticas
 
-> 💡 Para optimizar el rendimiento de VS Code y gestionar mejor tus extensiones, consulta la siguiente guía:
-
 - 📖 [consejo-para-gestionar-extensiones-en-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-gestionar-extensiones-en-vscode.md)
-
-> ✅ Para trabajar de forma optima con VS Code y WSL, consulta la siguiente guía:
 
 - 📖 [consejo-para-trabajar-con-vscode-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/consejos/consejo-para-trabajar-con-vscode-wsl.md)
 

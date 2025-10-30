@@ -24,7 +24,7 @@ Esto permite **restaurar tu entorno en otro equipo o tras reinstalar VS Code**, 
 2. Marca ✅ "Extensions" y ✅ "Settings".  
 3. Inicia sesión con tu cuenta de **Microsoft** o **GitHub**.
 
-> 💡 Nota: No necesitas estar conectado todo el tiempo para trabajar con VS Code en tu WSL. La sesión solo se utiliza para **guardar y sincronizar tu configuración en la nube**.
+> ✍️ **Nota:** No necesitas estar conectado todo el tiempo para trabajar con VS Code en tu WSL. La sesión solo se utiliza para **guardar y sincronizar tu configuración en la nube**.
 
 ---
 
@@ -64,7 +64,7 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 
 ---
 
-## 💡 Nota importante
+## ✍️ Nota importante
 
 - La cuenta de **Microsoft/GitHub** solo se necesita para **backup y sincronización**, no para trabajar con WSL.  
 - Las extensiones ya instaladas en **WSL** funcionan **offline** sin conexión ni login a tú cuenta.  
@@ -75,8 +75,6 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 ---
 
 ## 🛠️ Consejos y buenas prácticas
-
-> 💡 Para optimizar el rendimiento de VS Code y gestionar mejor tus extensiones, consulta la siguiente guía:
 
 - 📖 [consejo-para-gestionar-extensiones-en-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-gestionar-extensiones-en-vscode.md)
 

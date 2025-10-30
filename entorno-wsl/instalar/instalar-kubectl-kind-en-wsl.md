@@ -41,7 +41,7 @@ A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubunt
 
 ---
 
-### 🧱 Instalar kubectl
+### 🧰 Instalar kubectl
 
 Ejecuta los siguientes comandos en tu terminal de **WSL (Ubuntu)**:
 
@@ -80,7 +80,7 @@ Kustomize Version: v5.7.1
 
 ---
 
-### 🧩 Instalar Kind
+### 🧰 Instalar Kind
 
 #### ✅ Paso 1: Eliminar archivos corruptos
 
@@ -183,11 +183,11 @@ Deberías ver un nodo (`kind-control-plane`) en estado **Ready**.
 
 ---
 
-## 🧰 Recursos útiles
+## 🔗 Recursos útiles
 
-- 📘 [Documentación oficial de Kind](https://kind.sigs.k8s.io/)
-- 📗 [Documentación oficial de kubectl](https://kubernetes.io/docs/reference/kubectl/)
-- 🐳 [Instalar Docker en WSL2](https://docs.docker.com/desktop/wsl/)
+- 🔗 [Documentación oficial de Kind](https://kind.sigs.k8s.io/)
+- 🔗 [Documentación oficial de kubectl](https://kubernetes.io/docs/reference/kubectl/)
+- 🔗 [Instalar Docker en WSL2](https://docs.docker.com/desktop/wsl/)
 
 > 👇**También puedes consultar la siguiente guía en este repositorio:**
 >

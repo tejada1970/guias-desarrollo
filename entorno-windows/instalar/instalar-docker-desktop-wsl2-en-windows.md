@@ -137,9 +137,7 @@ docker images
 
 ---
 
-## 🛠 Utilidades
-
-Si quieres solucionar errores comunes en la terminal de Ubuntu, revisa:
+## 🧱 Utilidades
 
 - 📖 [solucionar-error-terminal-ubuntu-docker-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
 

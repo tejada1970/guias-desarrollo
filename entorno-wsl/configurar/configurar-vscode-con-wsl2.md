@@ -212,17 +212,13 @@ Con esta configuración, ya puedes:
 - Usar todas las extensiones y funcionalidades de VS Code directamente en Linux.  
 - Integrar herramientas como **Docker**, **Composer**, **Node.js**, y **PHP** sin conflictos entre Windows y Linux.  
 
-🟢 **Resultado:** un entorno de desarrollo híbrido, rápido y 100 % compatible con entornos de producción Linux.
+✅ **Resultado:** un entorno de desarrollo híbrido, rápido y 100 % compatible con entornos de producción Linux.
 
 ---
 
 ## 🛠️ Consejos y buenas prácticas
 
-> 💡 Para optimizar el rendimiento de VS Code y gestionar mejor tus extensiones, consulta la siguiente guía:
-
 - 📖 [consejo-para-gestionar-extensiones-en-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/consejos/consejo-para-gestionar-extensiones-en-vscode.md)
-
-> ✅ Para trabajar de forma optima con VS Code y WSL, consulta la siguiente guía:
 
 - 📖 [consejo-para-trabajar-con-vscode-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/consejos/consejo-para-trabajar-con-vscode-wsl.md)
 
