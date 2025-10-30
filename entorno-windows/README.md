@@ -41,7 +41,9 @@
 ### 🧱 Utilidades
 - 📖 [extension-talend-api-tester-chrome](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/extension-talend-api-tester-chrome.md)
 - 📖 [fases-para-disenar-una-bd](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/fases-para-disenar-una-bd.md)
-- 📖 [solucionar-error-mysql-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/utilidades/solucionar-error-mysql-xampp.md)
+
+### 🚨 Errores comunes
+- 📖 [solucionar-error-mysql-xampp](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/errores/solucionar-error-mysql-xampp.md)
 
 ---
 

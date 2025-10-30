@@ -22,8 +22,9 @@
 - 📖 [instalar-github-cli-gh-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-github-cli-gh-en-wsl.md)
 - 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
 
-### 🧱 Utilidades
-- 📖 [solucionar-error-terminal-ubuntu-docker-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
+### 🚨 Errores comunes
+- 📖 [solucionar-error-catastrofico-en-terminal-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-catastrofico-en-terminal-wsl2.md)
+- 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
 
 ---
 

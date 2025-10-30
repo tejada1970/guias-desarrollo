@@ -89,38 +89,90 @@ Visita 👉 https://github.com/cli/cli/releases/latest
 
 ## 🔐 Autenticarse en GitHub
 
+### Preparar WSL para abrir enlaces en navegador
+
+Antes de ejecutar `gh auth login`, asegúrate de tener las utilidades necesarias:
+
+```bash
+sudo apt install wslu xdg-utils -y
+```
+
+Esto permite a WSL abrir URLs en tu navegador de Windows cuando GitHub CLI solicita autenticación por web.
+
 **Ejecuta el comando:**
 
 ```bash
 gh auth login
 ```
 
-**Durante el proceso:**
+**Durante el proceso:** (usa las flechas y presiona Enter)
 
-- Te preguntará GitHub.com o Enterprise → selecciona GitHub.com.
-- Pregunta cómo deseas autenticarte → selecciona Web browser.
-- Se abrirá tu navegador pidiéndote iniciar sesión en GitHub y autorizar gh.
-- Una vez autorizado, la terminal mostrará algo como:
+Responde así:
+- GitHub.com o Enterprise → Selecciona GitHub.com
+- Protocolo para Git → Selecciona HTTPS
+- ¿Autenticar Git con tus credenciales? → Presiona `Y`, luego `Enter`
+- Método de autenticación de GitHub CLI → Selecciona Login with a web browser
 
-```pgsql
-Logged in to GitHub as <tu_usuario>
+Te pedirá iniciar sesión en GitHub y autorizar `gh`:
+  - ! First copy your one-time code: 9A2B-D33F
+  - Press Enter to open https://github.com/login/device in your browser...
+
+Pulsa `Enter` para abrir la web de GitHub desde WLS.
+  
+> ✍️ **Nota:**
+>
+> Si por algún motivo te aparece un error abriendo el navegador, consulta esta guía:
+>
+> - 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
+
+### ⚙️ Pasos para autenticación
+
+1. Copia el **código de un solo uso** que te muestra `gh`, por ejemplo:
+
+```sql
+! First copy your one-time code: 9A2B-D33F
 ```
 
-**Verificar autenticación:**
+2. Inicia sesión en tu cuenta de GitHub con tu usuario y contraseña de siempre.
+
+3. Device Activation -> pincha en **continue**.
+
+4. Device Activation / Enter the code displayed on your device -> Introduce el código de un solo uso que te ha dado `gd` -> pincha en **continue**.
+
+5. Authorize GitHub CLI -> pincha en `Authorize github`.
+
+6. Si ves -> Congratulations, you're all set! -> todo ha salido bien.
+
+7. Vuelve a la terminal **WSL (Ubuntu)** y comprobarás que se ha completado la Autorización:
+
+```sql
+! First copy your one-time code: 5F43-5665
+Press Enter to open https://github.com/login/device in your browser...
+✓ Authentication complete.
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+! Authentication credentials saved in plain text
+✓ Logged in as tu_usuario
+```
+
+8. Verifica que todo esté correcto:
 
 ```bash
 gh auth status
 ```
 
-**Deberías ver:**
+**Deberías ver algo así:**
 
 ```kotlin
 github.com
-  ✓ Logged in as tu_usuario
-  ✓ Git operations for this host enabled
+  ✓ Logged in to github.com account tu_usuario (/home/tu_usuario/.config/gh/hosts.yml)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: gho_************************************
+  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
 ```
 
-> ✍️ **Nota:** Si trabajas con varias cuentas, puedes usar gh auth logout y volver a iniciar sesión con otra.
+> ✍️ **Nota:** Si trabajas con varias cuentas, puedes usar `gh auth logout` y volver a iniciar sesión con otra.
 
 ---
 
