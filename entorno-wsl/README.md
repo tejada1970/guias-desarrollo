@@ -31,3 +31,10 @@ Estas guías en general contienen:
 - 🔍 Comandos de verificación  
 - ✅ Resultado esperado  
 - 📘 Consejos y advertencias
+
+---
+
+## 🧭 Visita también:
+
+### 🪟 Guías de entorno Windows
+- 📂 [Windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/README.md)

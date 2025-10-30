@@ -51,3 +51,10 @@ Estas guías en general contienen:
 - 🔍 Comandos de verificación  
 - ✅ Resultado esperado  
 - 📘 Consejos y advertencias
+
+---
+
+## 🧭 Visita también:
+
+### 🐧 Guías de entorno WSL / Ubuntu
+- 📂 [WSL / Ubuntu](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/README.md)
