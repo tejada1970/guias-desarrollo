@@ -2,7 +2,7 @@
 
 > Esta guía describe dos formas de preparar tu entorno Laravel dentro de **WSL (Ubuntu)**:  
 >
-> - ⚙️ **Instalación nativa en WSL**, ideal para desarrollo directo. 
+> - 🧰 **Instalación nativa en WSL**, ideal para desarrollo directo. 
 > - 🐋 **Configuración mediante Docker**, (recomendada) para entornos profesionales y colaborativos.
  
 ---
@@ -32,7 +32,7 @@ Asegúrate de tener instalado:
 
 ---
 
-## ⚙️ Instalación nativa en WSL, ideal para desarrollo directo
+## 🧰 Instalación nativa en WSL, ideal para desarrollo directo
 
 ### 🧰 1. Instalar PHP 8.2+ en WSL (Ubuntu)
 
