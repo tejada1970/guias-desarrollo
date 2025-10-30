@@ -20,7 +20,7 @@
 - 📖 [instalar-kubectl-kind-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-kubectl-kind-en-wsl.md)
 - 📖 [instalar-php-composer-nodejs-laravel-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-php-composer-nodejs-laravel-en-wsl.md)
 - 📖 [instalar-github-cli-gh-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-github-cli-gh-en-wsl.md)
-- 📖 [instalar-tree-en-wsl]((https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md))
+- 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
 
 ### 🧱 Utilidades
 - 📖 [solucionar-error-terminal-ubuntu-docker-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/utilidades/solucionar-error-terminal-ubuntu-docker-wsl2.md)
