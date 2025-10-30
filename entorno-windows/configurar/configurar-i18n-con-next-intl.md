@@ -4,7 +4,7 @@ Esta guía describe paso a paso cómo configurar `i18n` desde cero para la imple
 
 ---
 
-## 📚 Recurso oficial
+## 🔗 Recurso oficial
 
 Puedes consultar la documentación oficial de `next-intl` para esta configuración:
 

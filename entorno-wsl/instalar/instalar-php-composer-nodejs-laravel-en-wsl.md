@@ -63,12 +63,12 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 rm composer-setup.php
 ```
 
-🔍 **Verificar instalación:**
+✅ **Verificar instalación:**
 ```bash
 composer --version
 ```
 
-✅ **Salida esperada:**
+🔍 **Salida esperada:**
 ```
 Composer version 2.x.x ...
 ```
@@ -93,14 +93,14 @@ sudo apt install -y nodejs
 sudo npm install -g npm@latest
 ```
 
-🔍 **Verificar versiones:**
+✅ **Verificar versiones:**
 
 ```bash
 node -v
 npm -v
 ```
 
-✅ **Salida esperada:**
+🔍 **Salida esperada:**
 
 ```scss
 v20.x.x
@@ -115,12 +115,12 @@ x.x.x (npm version)
 composer global require laravel/installer
 ```
 
-🔍 **Verificar instalación:**
+✅ **Verificar instalación:**
 ```bash
 laravel --version
 ```
 
-✅ **Salida esperada:**
+🔍 **Salida esperada:**
 ```
 Laravel Installer 5.x
 ```

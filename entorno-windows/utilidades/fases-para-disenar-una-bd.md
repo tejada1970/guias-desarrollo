@@ -4,7 +4,7 @@ Esta guía proporciona una metodología general para diseñar bases de datos que
 
 ---
 
-## 🧭 ¿Por qué seguir un proceso de diseño?
+## 🤔 ¿Por qué seguir un proceso de diseño?
 
 Un buen diseño de base de datos asegura:
 
@@ -25,7 +25,7 @@ Antes de crear cualquier tabla, debes entender **qué datos se necesitan** y **q
 - ¿Qué información se guarda de cada una?  
 - ¿Cómo se relacionan entre sí?
 
-**📌 Herramientas útiles:**
+**🧰 Herramientas útiles:**
 - Entrevistas con el cliente/usuario
 - Historias de usuario
 - Casos de uso
@@ -41,7 +41,7 @@ Aquí representamos gráficamente los datos y sus relaciones usando diagramas ER
 - Atributos (Ej.: nombre, correo, precio)
 - Relaciones (Ej.: Un usuario puede hacer muchos pedidos)
 
-**📌 Herramientas sugeridas:**
+**🧰 Herramientas sugeridas:**
 - 🔗 [draw.io](https://draw.io)
 - 🔗 [dbdiagram.io](https://dbdiagram.io)
 

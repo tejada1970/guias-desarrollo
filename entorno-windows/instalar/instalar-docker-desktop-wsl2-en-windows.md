@@ -13,9 +13,9 @@ Gracias a Docker:
 
 ---
 
-## 🧰 Pasos para la instalación
+## ⚙️ Pasos para la instalación
 
-### Instalar Docker Desktop
+### 🧰 Instalar Docker Desktop
 
 1. Ve a la página oficial 👉 [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop/)  
 2. Descarga el instalador para Windows 11 (x86_64 o ARM64 según tu PC):
@@ -44,7 +44,7 @@ Gracias a Docker:
 
 ---
   
-### Cómo crear una cuenta de Docker correctamente
+### 💻 Cómo crear una cuenta de Docker correctamente
 
 1. Si inicias sesión con **Google**, Docker te pedirá que configures un nombre de usuario.
 2. Elegir un buen nombre de usuario:
@@ -59,7 +59,7 @@ Gracias a Docker:
 
 ---
 
-### Pasos finales
+### ⚙️ Pasos finales
 
 1. Docker te pedirá acceso a una app, una vez le permitas, te mostrará dos pasos para escoger una opción en cada uno.
 2. Finalmente, te mostrará la interfaz del panel de Docker.

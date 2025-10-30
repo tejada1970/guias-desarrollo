@@ -4,7 +4,7 @@ Esta guía te ayudará a instalar y comenzar a usar la extensión **Talend API T
 
 ---
 
-## 🧠 Qué es Talend API Tester
+## ❓ Qué es Talend API Tester
 
 **Talend API Tester** es una extensión gratuita de Chrome que permite:
 - Probar endpoints REST y SOAP.
@@ -28,7 +28,7 @@ Es una alternativa ligera a herramientas como Postman, ideal para trabajar direc
 
 ---
 
-## ✅ Paso a paso detallado
+## ⚙️ Paso a paso detallado
 
 1. **Abrir la Chrome Web Store**  
    - Escribe en la barra de direcciones:  
@@ -66,7 +66,7 @@ Es una alternativa ligera a herramientas como Postman, ideal para trabajar direc
 
 ---
 
-## 🔍 Por qué usar Talend API Tester
+## 🤔 ¿Por qué usar Talend API Tester?
 
 - No requiere instalar software externo (funciona dentro de Chrome).  
 - Ideal para entornos controlados donde no se permite instalar programas como Postman.  

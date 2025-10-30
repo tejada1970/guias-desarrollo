@@ -4,7 +4,7 @@ Esta guía explica cómo configurar y activar **Settings Sync** en **Visual Stud
 
 ---
 
-## ☁️ ¿Qué es Settings Sync?
+## ❓ ¿Qué es Settings Sync?
 
 **Settings Sync** (sincronización de configuración) es una función de VS Code que guarda en la nube —vinculada a tu cuenta de Microsoft o GitHub— tus:
 
@@ -18,7 +18,7 @@ Esto permite **restaurar tu entorno en otro equipo o tras reinstalar VS Code**, 
 
 ---
 
-## ⚙️ Activar Settings Sync (backup opcional y recomendado)
+## ☁️ Activar Settings Sync (backup opcional y recomendado)
 
 1. En VS Code, haz clic en el icono de usuario → **Turn On Settings Sync...**  
 2. Marca ✅ "Extensions" y ✅ "Settings".  
@@ -28,7 +28,7 @@ Esto permite **restaurar tu entorno en otro equipo o tras reinstalar VS Code**, 
 
 ---
 
-## 🐧 Cómo funciona Settings Sync con WSL
+## 🤔 ¿Cómo funciona Settings Sync con WSL?
 
 Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separados**:
 
@@ -54,7 +54,7 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 
 ---
 
-## 📝 Resumen de acciones
+## ✅ Resumen de acciones
 
 | Acción                  | Qué hace                                                   |
 |-------------------------|------------------------------------------------------------|

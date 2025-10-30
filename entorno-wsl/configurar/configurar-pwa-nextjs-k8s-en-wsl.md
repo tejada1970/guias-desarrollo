@@ -1,8 +1,7 @@
 # 📚 Guía: configurar-pwa-nextjs-k8s-en-wsl
 
 Esta guía explica cómo configurar y desplegar una aplicación **PWA
-basada en Next.js** dentro de **Kubernetes (Kind)**, usando Docker como
-entorno de construcción y ejecución.
+basada en Next.js** dentro de **Kubernetes (Kind)**, usando Docker como entorno de construcción y ejecución.
 
 ---
 
@@ -38,14 +37,28 @@ Asegúrate de tener instalado:
 
 ---
 
-## 📂 Estructura del proyecto (Ejemplo)
+## 🐙 GitHub CLI `gh` (opcional-recomendado)
+
+Guía para instalar y usar la herramienta oficial de GitHub desde la terminal. Por ejemplo, para crear repositorios desde la línea de comandos:
+- 📖 [instalar-github-cli-gh-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-github-cli-gh-en-wsl.md)
+
+---
+
+## 📂 Estructura del proyecto (ejemplo)
 
 ```text
 pwa-next/
+|
+├── .gitignore
+├── .gitattributes
+├── README.md
+├── LICENSE
+|
 ├── k8s/
 │   ├── namespace.yaml
 │   ├── deployment.yaml
 │   ├── service.yaml
+|
 ├── frontend/
 │   ├── Dockerfile
 │   ├── package.json
@@ -57,7 +70,7 @@ pwa-next/
 
 ---
 
-## ⚙️ Dockerfile para PWA (Next.js)
+## 🐋 Dockerfile para PWA (Next.js)
 
 Este Dockerfile está pensado **para desarrollo local**, usando el
 servidor de desarrollo de Next.js (`npm run dev`).
@@ -87,7 +100,7 @@ CMD ["npm", "run", "dev"]
 
 ---
 
-## Añadir `.dockerignore` (muy recomendado para PWA):
+## 📝 Añadir `.dockerignore` (muy recomendado para PWA):
 
 ```dockerignore
 node_modules
@@ -98,7 +111,7 @@ node_modules
 
 ---
 
-## 🏗️ Crear la imagen Docker
+## ⚡ Crear la imagen Docker
 
 Desde la raíz del proyecto (`pwa-next/`):
 
@@ -126,7 +139,7 @@ Luego abre en tu navegador:\
 
 ---
 
-## ☸️ Desplegar en Kubernetes (Kind)
+## 🚀 Desplegar en Kubernetes (Kind)
 
 ### 🏷️ Namespace de Kubernetes
 
@@ -182,9 +195,7 @@ spec:
   type: ClusterIP
 ```
 
----
-
-## ⚡ Crear la imagen Docker
+### ⚡ Crear la imagen Docker
 
 Desde la raíz del proyecto `pwa-next/`:
 
@@ -192,9 +203,7 @@ Desde la raíz del proyecto `pwa-next/`:
 docker build -t pwa-next ./frontend
 ```
 
----
-
-## 🚀 Desplegar en Kind
+### 🚀 Desplegar en Kind
 
 ``` bash
 # Crea el clúster local
@@ -236,7 +245,10 @@ Este entorno te permite trabajar con una **PWA moderna basada en
 Next.js** dentro de **Kubernetes (Kind)**, totalmente aislada,
 reproducible y sin dependencias globales.
 
-> ✍️ **Nota:** Esta configuración usa `npm run dev` para desarrollo dentro de `Kubernetes`.
+> ✍️ **Nota:**
+>
+> Esta configuración usa `npm run dev` para desarrollo dentro de `Kubernetes`.
+>
 > Cuando prepares el entorno de producción, deberás crear una segunda imagen con `npm run build` + `next start`.
 
 ---

@@ -15,7 +15,7 @@ Si no tienes una cuenta:
 
 ---
 
-## 🗃️ Crear un nuevo repositorio
+## 📁 Crear un nuevo repositorio
 
 1. Inicia sesión en GitHub.
 2. Haz clic en el botón + (esquina superior derecha) → New repository.

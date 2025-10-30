@@ -10,7 +10,7 @@ Esta guía te ayudará a evitar problemas con la opción `core.autocrlf` y a man
 
 Este archivo `.gitattributes` define cómo Git debe manejar los **finales de línea** y otros aspectos de los archivos, asegurando consistencia en todo el proyecto.
 
-#### 📝 Pasos para implementarlo:
+#### ⚙️ Pasos para implementarlo:
 
 - ##### 1. Crear el archivo
     - Crea un archivo llamado `.gitattributes` en la raíz de tu proyecto si aún no lo tienes.

@@ -6,7 +6,7 @@ Esta guía ofrece una **recomendación práctica** para optimizar el uso de **No
 
 ## 🛠️ Consejos y buenas prácticas
 
-### 💡 Evita instalar Node.js globalmente
+### 👉 Evita instalar Node.js globalmente
 
 > 🚫 **No instales** `Node.js` ni `NPM` de forma global en **Windows** o **WSL**.  
 > En su lugar, define la versión y las dependencias directamente dentro del **Dockerfile** de tu aplicación **frontend o PWA**.
@@ -15,7 +15,7 @@ Esto garantiza que todos los desarrolladores, entornos de CI/CD y servidores com
 
 ---
 
-### 🧩 Beneficios de usar Node.js dentro de Docker
+### ✅ Beneficios de usar Node.js dentro de Docker
 
 | Ventaja             | Descripción                                                   |
 |---------------------|---------------------------------------------------------------|
@@ -26,7 +26,7 @@ Esto garantiza que todos los desarrolladores, entornos de CI/CD y servidores com
 
 ---
 
-### 🧱 Ejemplo de Dockerfile (para desarrollo)
+### 📝 Ejemplo de Dockerfile (para desarrollo)
 
 ``` dockerfile
 # Etapa base: desarrollo local

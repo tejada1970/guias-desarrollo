@@ -17,6 +17,7 @@ Esta guía te ayudará a instalar `Node.js` en **Windows** utilizando **NVM (Nod
 ---
 
 ## ✅ Verifica que NVM esté instalado
+
 Abre una terminal (PowerShell o Git Bash) y escribe:
 
 ```bash

@@ -6,7 +6,7 @@ Esta guía te ayudará a evitar un error muy común con el archivo `README.md` a
 
 ## 🛠️ Consejos y buenas prácticas
 
-### 📄 ¿Cuándo (no) marcar "Add a README file"?
+### 🤔 ¿Cuándo (no) marcar "Add a README file"?
 
 Cuando creas un nuevo repositorio en **GitHub**, puedes optar por iniciar con un archivo `README.md`.
 

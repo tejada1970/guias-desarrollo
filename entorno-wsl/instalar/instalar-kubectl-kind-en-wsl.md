@@ -4,7 +4,7 @@
 
 ---
 
-## 🧩 1. ¿Qué son y para qué sirven?
+## ❓ 1. ¿Qué son y para qué sirven?
 
 | Herramienta | Propósito                                                                                                                            | Instalación requerida                   |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
@@ -14,7 +14,7 @@
 
 ---
 
-## 🧰 2. Instalación paso a paso
+## ⚙️ 2. Instalación paso a paso
 
 A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubuntu)**.
 
@@ -166,7 +166,7 @@ kind delete cluster --name demo-cluster
 
 ---
 
-## 🧩 3. Verificación final
+## ✅ 3. Verificación final
 
 Puedes probar que todo funcione ejecutando:
 

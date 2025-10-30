@@ -3,7 +3,6 @@
 Esta guía muestra cómo desplegar **microservicios Laravel** con **PHP + Composer + Node** en **Kubernetes (Kind)**, sin Docker Compose.
 
 Incluye:
-
 - User Service
 - Order Service
 - API Gateway (Nginx)
@@ -37,10 +36,23 @@ Asegúrate de tener instalado:
 
 ---
 
-## 📂 Estructura del proyecto
+## 🐙 GitHub CLI `gh` (opcional-recomendado)
 
-```
+Guía para instalar y usar la herramienta oficial de GitHub desde la terminal. Por ejemplo, para crear repositorios desde la línea de comandos:
+- 📖 [instalar-github-cli-gh-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-github-cli-gh-en-wsl.md)
+
+---
+
+## 📂 Estructura del proyecto (ejemplo)
+
+```text
 my-microservices/
+|
+├── .gitignore
+├── .gitattributes
+├── README.md
+├── LICENSE
+|
 ├── k8s/
 │   ├── namespace.yaml
 │   ├── databases.yaml
@@ -57,17 +69,14 @@ my-microservices/
 │       ├── service.yaml
 │       └── configmap.yaml
 ├── user-service/
-│   ├── Dockerfile
-│   └── (código Laravel)
-├── order-service/
-│   ├── Dockerfile
-│   └── (código Laravel)
-└──
+│   └── Dockerfile
+└── order-service/
+    └── Dockerfile
 ```
 
 ---
 
-## 🧰 Dockerfile con PHP, Composer y Node
+## 🐋 Dockerfile con PHP, Composer y Node
 
 Cada microservicio debe tener su **Dockerfile** listo. Ejemplo:
 
@@ -124,7 +133,7 @@ docker build -t order-service:latest ./order-service
 
 ---
 
-## 🏗️ Crear proyecto Laravel (solo una vez)
+## 📁 Crear proyecto Laravel (solo una vez)
 
 Ejecuta estos comandos **desde la raíz del proyecto** (`my-microservices/`):
 
@@ -136,7 +145,6 @@ docker run --rm -v ./order-service:/var/www order-service:latest composer create
 👉 Esto crea un proyecto Laravel dentro de cada servicio usando la imagen que ya construiste, **sin instalar PHP, Composer ni Node en tu máquina local**.
 
 Explicación:
-
 - `--rm` → elimina el contenedor al terminar.
 - `-v ./user-service:/var/www` → monta la carpeta del microservicio en /var/www dentro del contenedor.
 - `user-service:latest` → imagen Docker que contiene PHP + Composer + Node.

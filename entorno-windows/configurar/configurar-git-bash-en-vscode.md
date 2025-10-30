@@ -12,7 +12,7 @@ Debes tener **Visual Studio Code** instalado en tu sistema.
 
 ---
 
-## 🧪 ¿Qué es `Git Bash`?
+## ❓ ¿Qué es `Git Bash`?
 
 **`Git Bash`** es una terminal que simula un entorno Linux (`Bash`) en Windows. Permite usar comandos como `ls`, `cd`, `touch`, `rm`, entre otros.
 

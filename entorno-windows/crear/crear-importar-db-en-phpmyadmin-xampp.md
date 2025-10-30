@@ -6,7 +6,7 @@ Esta guía, explica cómo **crear una base de datos para un nuevo proyecto** o *
 
 ---
 
-## 📁 Pasos para crear una base de datos (para un nuevo proyecto)
+## ⚙️ Pasos para crear una base de datos (para un nuevo proyecto)
 
 1. Abre el **Panel de Control de XAMPP** como administrador.
 2. Activa los servicios de **Apache** y **MySQL**.
@@ -16,7 +16,7 @@ Esta guía, explica cómo **crear una base de datos para un nuevo proyecto** o *
 6. Selecciona el cotejamiento **`utf8_general_ci`**.
 7. Haz clic en **Crear**.
 
-### ℹ️ ¿Y luego qué?
+### 🤔 ¿Y luego qué?
 
 El proceso anterior **solo crea la base de datos vacía**. La creación de **tablas, relaciones, claves foráneas, índices y lógica de negocio** se explica en esta guía complementaria que te ayudará a definir correctamente la estructura interna de cualquier base de datos, sin importar la tecnología del proyecto:
 
@@ -24,7 +24,7 @@ El proceso anterior **solo crea la base de datos vacía**. La creación de **tab
 
 ---
 
-## 📁 Pasos para importar una base de datos (si el proyecto incluye un archivo .sql)
+## ⚙️ Pasos para importar una base de datos (si el proyecto incluye un archivo .sql)
 
 1. Crea una nueva base de datos (**repite los pasos del apartado de arriba**).
 2. Una vez creada, haz clic en el **nombre de la base de datos** desde el panel lateral izquierdo.

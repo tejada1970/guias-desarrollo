@@ -4,7 +4,7 @@ Esta guía te ayudará a solucionar el error de arranque de MySQL en XAMPP cuand
 
 ---
 
-## 🔎 Qué significa el error
+## ❓ Qué significa el error
 
 Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje como:
 
@@ -32,7 +32,7 @@ Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje com
 
 ---
 
-## ✅ Paso a paso detallado
+## ⚙️ Paso a paso detallado
 
 1. **Cerrar el panel de XAMPP y acceder a:** `xampp/mysql/`  
 
@@ -56,7 +56,7 @@ Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje com
 
 ---
 
-## ✅ Por qué esto funciona
+## 🤔 ¿Por qué esto funciona?
 
 El error:
 

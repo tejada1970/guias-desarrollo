@@ -4,7 +4,7 @@ Esta guía te ayudará a instalar **Composer**, en un entorno **Windows**.
 
 **Composer** es un gestor de dependencias para proyectos PHP. Solo necesitas instalarlo si vas a trabajar con frameworks como **Laravel, Symfony** u otros que usen paquetes externos.
 
-> 💡 Si tu proyecto es un sitio PHP básico (sin frameworks), o estás desarrollando con tecnologías como **Next.js, React** u otros frameworks JavaScript, **NO necesitas Composer**.
+> ✍️ **Nota:** Si tu proyecto es un sitio PHP básico (sin frameworks), o estás desarrollando con tecnologías como **Next.js, React** u otros frameworks JavaScript, **NO necesitas Composer**.
 
 ---
 

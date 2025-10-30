@@ -6,7 +6,7 @@ Ideal para proyectos con **Laravel**, **Node.js**, **Docker**, **PHP**, y otros 
 
 ---
 
-## 🧩 1. Requisitos previos
+## ⚙️ 1. Requisitos previos
 
 Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
@@ -21,7 +21,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 ---
 
-## ⚙️ 2. Instalar la extensión "WSL" en VS Code
+## 🧰 2. Instalar la extensión "WSL" en VS Code
 
 1. Abre **VS Code** en Windows.  
 2. Ve a la pestaña de **Extensiones** (icono de cuadraditos a la izquierda o `Ctrl + Shift + X`).  
@@ -34,7 +34,7 @@ Antes de comenzar, asegúrate de tener instalado y configurado lo siguiente:
 
 ## 🧱 3. Abrir un proyecto de WSL en VS Code
 
->⚡ **Opcional:** crea una carpeta, por ejemplo `docker-projects`, para mantener organizados tus proyectos dentro de Ubuntu (WSL).
+**Opcional:** crea una carpeta, por ejemplo `docker-projects`, para mantener organizados tus proyectos dentro de Ubuntu (WSL).
 
 1. Abre tu terminal de Ubuntu (WSL):  
    ```bash
@@ -69,7 +69,7 @@ La primera vez que uses `code .` dentro de WSL, VS Code instalará un componente
 ~/.vscode-server/
 ```
 
-### 🔍 ¿Para qué sirve?
+### ❓ ¿Para qué sirve?
 - Permite que VS Code (en Windows) ejecute procesos, tareas, IntelliSense, terminales y depuración directamente dentro de tu Linux (WSL).  
 - No modifica tu proyecto ni tus repositorios.  
 - Solo se instala **una vez** (o cuando VS Code se actualiza).
@@ -135,12 +135,12 @@ Cuando trabajas con VS Code y WSL, existen **dos entornos de extensiones separad
 | 🪟 Windows      | En tu PC            | `%USERPROFILE%\.vscode\extensions` | Extensiones locales del editor.                       |
 | 🐧 WSL (Ubuntu) | Dentro de Ubuntu    | `~/.vscode-server/extensions`      | Extensiones que se ejecutan dentro del entorno Linux. |
 
-### 💡 ¿Por qué tengo menos extensiones en WSL?
+### 🤔 ¿Por qué tengo menos extensiones en WSL?
 
 - No todas las extensiones se instalan automáticamente dentro de Ubuntu.  
 - VS Code suele mostrar una notificación preguntando si deseas instalar también las extensiones locales en WSL, pero si cerraste o ignoraste esa notificación, ya no vuelve a aparecer.
 
-### 🧭 Instalar extensiones manualmente en WSL (VS Code)
+### 🧰 Instalar extensiones manualmente en WSL (VS Code)
 
 1. Abre un proyecto dentro de WSL (verás `WSL: Ubuntu` en la esquina inferior izquierda).
 2. Abre la paleta de comandos (`Ctrl + Shift + P` o `F1`).
@@ -174,7 +174,7 @@ code --install-extension ms-azuretools.vscode-docker
 
 ## ☁️ Activar sincronización automática (Settings Sync)
 
-> ⚡ backup opcional y recomendado.
+**backup opcional y recomendado.**
 
 Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para realizar **backup y sincronización de tus configuraciones, extensiones y preferencias**, incluyendo su funcionamiento con **WSL (Windows Subsystem for Linux)**.
 
@@ -204,7 +204,7 @@ Esta guía explica cómo configurar y activar **Settings Sync** en VS Code para 
 
 ---
 
-## 🏁 Resumen
+## ✅ Resumen
 
 Con esta configuración, ya puedes:
 

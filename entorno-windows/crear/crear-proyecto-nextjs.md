@@ -19,7 +19,7 @@ Para instalar y configurar un entorno óptimo de desarrollo en **Windows**, cons
 
 ---
 
-## 🚀 Pasos para crear un nuevo proyecto con la última versión de Next.js
+## ⚙️ Pasos para crear un nuevo proyecto con la última versión de Next.js
 
 > 🔹 **Reemplaza donde corresponda:** `nombre_del_proyecto` por el nombre real que quieras ponerle al proyecto.
 
