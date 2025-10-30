@@ -18,26 +18,21 @@
 
 A continuación, se describen los pasos para preparar tu entorno en **WSL (Ubuntu)**.
 
-### 🔹 Requisitos previos
+## 🧠 Antes de comenzar
 
-1. **Tener instalado WSL2 con una distribución Ubuntu.**  
+Asegúrate de tener instalado:
 
-   - Puedes verificarlo en `PowerShell`, `CMD` o `Git Bash`:
-   ```bash
-   wsl -l -v
-   ```
+- ✅ **Windows 11 con WSL2 (Ubuntu)**  
+- ✅ **Docker Desktop con integración WSL2 habilitada (motor de contenedores)**
+- ✅ **Git**  
+- ✅ **Visual Studio Code + extensión (`Remote - WSL`)**
 
-   - 👉 **Importante:** Asegúrate de que tu distribución tenga **versión 2**.
-
-2. **Tener Docker disponible:**
-
-   - O bien instalando **Docker Desktop** para Windows (que expone el socket a WSL).
-   - O instalando **Docker Engine** directamente dentro de Ubuntu.
-
-3. **Verifica que Docker funcione correctamente:**
-   ```bash
-   docker version
-   ```
+> 📖 Consulta las guías: 
+> 
+> - 📖 [configurar-linux-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/configurar/configurar-linux-wsl2-en-windows.md)
+> - 📖 [instalar-docker-desktop-wsl2-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-docker-desktop-wsl2-en-windows.md)
+> - 📖 [instalar-git-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-git-en-windows.md)
+> - 📖 [instalar-vscode-en-windows](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-windows/instalar/instalar-vscode-en-windows.md)
 
 ---
 
