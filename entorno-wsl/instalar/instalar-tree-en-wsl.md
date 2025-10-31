@@ -121,11 +121,11 @@ tree -d -L 2 -I "vendor|node_modules|storage.git"
 
 ## 📝 Exportar la estructura a un archivo
 
+Esto genera un archivo de texto plano con la estructura del proyecto. 
+
 ```bash
 tree -d -L 2 -I "vendor|node_modules|storage|.git" > estructura.txt
 ```
-
-- Esto genera un archivo de texto plano con la estructura del proyecto. 
 
 Abrir en VS Code:
 
@@ -134,13 +134,16 @@ code estructura.txt
 ```
 
 > 💡 **Tip:**  
-> Puedes acceder y copiar el archivo `estructura.txt` que has creado, desde el **Explorador de Windows**. Abre el explorador y pega esta ruta en la barra de direcciones:
 >
-> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects\nombre-del-proyecto` (Cambia el nombre del proyecto para ver otro cualquiera).
+> Desde el **Explorador de Windows** puedes acceder al archivo **`estructura.txt`** que has creado y copiarlo.
 >
-> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects` (para ver todos los proyectos).
+> Abre el explorador y pega una de estas rutas en la barra de direcciones:
+> 
+> **`\\wsl$\Ubuntu\home\tu_usuario\docker-projects\nombre-del-proyecto`** (cambia el nombre del proyecto para ver otro cualquiera).
 >
-> `\\wsl$\Ubuntu\home\tu_usuario\nombre-del-proyecto` (si no tienes una carpeta personalizada donde guardar los proyectos de `docker`).
+> **`\\wsl$\Ubuntu\home\tu_usuario\docker-projects`** (ver proyectos de tu carpeta personalizada).
+>
+> **`\\wsl$\Ubuntu\home\tu_usuario\nombre-del-proyecto`** (ver proyectos de la raíz).
 
 ---
 
