@@ -528,7 +528,8 @@ tu_usuario/my-microservices
 
 - ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
 
-### 🚨 Errores comunes
+#### 🚨 Errores comunes
+Si te aparece un error al intentar eliminar el repositorio, consulta esta guía:
 - 📖 [solucionar-error-gh-delete-repo-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-gh-delete-repo-wsl.md)
 
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
