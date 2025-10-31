@@ -89,7 +89,7 @@ Visita 👉 https://github.com/cli/cli/releases/latest
 
 ## 🔐 Autenticarse en GitHub
 
-### 🌐 Preparar WSL para abrir enlaces en navegador
+### 1. 🌐 Preparar WSL para abrir enlaces en navegador
 
 Antes de ejecutar `gh auth login`, asegúrate de tener las utilidades necesarias:
 
@@ -122,11 +122,11 @@ Press Enter to open https://github.com/login/device in your browser...
 
 Pulsa `Enter` para abrir la web de GitHub desde WLS.
 
-### 🚨 Errores comunes
+#### 🚨 Errores comunes
 Si por algún motivo te aparece un error abriendo el navegador, consulta esta guía:
 - 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
 
-### ⚙️ Pasos para autenticación
+### 2. ⚙️ Pasos para autenticación
 
 1. Copia el código de un solo uso que muestra `gh`:
 
@@ -327,15 +327,13 @@ ejemplo-repo-docs/
 
 ## 📁 Crear repositorios para microservicios Laravel
 
-> 💡 Ubicación recomendada:
-> 
-> Ejecuta todos los comandos desde tu carpeta base de proyectos, por ejemplo:
->
-> ```bash
-> cd ~/docker-projects
-> ```
+Ejecuta todos los comandos desde tu carpeta base de proyectos, por ejemplo
 
-### 📁 Crear un repositorio privado desde la terminal
+```bash
+cd ~/docker-projects
+```
+
+### 1. 📁 Crear un repositorio privado desde la terminal
 
 ```bash
 gh repo create my-microservices --private --confirm
@@ -349,7 +347,7 @@ gh repo create my-microservices --private --confirm
 
 > ✍️ **Nota:** Esto crea el repositorio remoto vacío en tu cuenta de GitHub, sin necesidad de abrir el navegador.
 
-### 📥 Clonar y preparar el repositorio local
+### 2. 📥 Clonar y preparar el repositorio local
 
 Clona el nuevo repositorio, entra en él y abrelo en **Visual Studio Code**:
 
@@ -359,7 +357,7 @@ cd my-microservices
 code .
 ```
 
-### 📝 Crear archivos base del repositorio
+### 3. 📝 Crear archivos base del repositorio
 
 Crea los archivos esenciales antes del primer commit:
 
@@ -381,7 +379,7 @@ O abrirlo directamente en VS Code:
 code README.md
 ```
 
-### 📁 3. Crear estructura base del proyecto
+### 📁 4. Crear estructura base del proyecto
 
 Ejemplo de estructura para proyectos de microservicios:
 
@@ -396,7 +394,7 @@ mkdir -p user-service order-service
 touch user-service/Dockerfile order-service/Dockerfile
 ```
 
-### 📁 4. Estructura resultante (ejemplo)
+### 📁 5. Estructura resultante (ejemplo)
 
 ```text
 my-microservices/
@@ -429,7 +427,7 @@ my-microservices/
 
 > ✍️ **Nota:** Esto es solo un ejemplo general. Ajusta la estructura a tus necesidades.
 
-### 🚀 5. Primer commit y push inicial
+### 🚀 6. Primer commit y push inicial
 
 ```bash
 git add .
@@ -461,7 +459,7 @@ Para aprender cómo implementar esta estructura con **Laravel** + **Kubernetes**
 El comando `tree` permite ver la estructura de carpetas y archivos de tu proyecto de forma jerárquica, como un árbol, lo que es mucho más visual que `ls`.
 
 Si no tienes `tree` instalado, consulta la siguiente guía: 
-- 📖 [instalar-tree-en-wsl]((https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md))
+- 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
 
 🔍 **Salida típica (ejemplo):**
 
