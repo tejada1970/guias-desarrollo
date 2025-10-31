@@ -525,7 +525,8 @@ gh repo delete tu_usuario/my-microservices
 gh repo delete tu_usuario/my-microservices --yes
 ```
 
-- > ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+> ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+>
 
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
@@ -534,9 +535,10 @@ cd ~/docker-projects
 rm -rf my-microservices
 ```
 
-- > ⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
+> ⚠️ Este comando **elimina definitivamente la carpeta**. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
+>
 
-- ✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
+✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
 
 ---
 
