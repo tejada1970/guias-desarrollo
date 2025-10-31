@@ -217,7 +217,7 @@ Ejecutar desde tu carpeta base de proyectos, por ejemplo:
 
 ```bash
 cd ~/docker-projects
-gh repo create ejemplo-repo-docs --private --confirm
+gh repo create ejemplo-repo-docs --private
 ```
 
 🔍 **Salida esperada:** (ejemplo)
@@ -335,7 +335,7 @@ ejemplo-repo-docs/
 
 ## 📁 Crear repositorios para microservicios Laravel
 
-Ejecuta todos los comandos desde tu carpeta base de proyectos, por ejemplo
+Ejecuta todos los comandos desde tu carpeta base de proyectos, por ejemplo:
 
 ```bash
 cd ~/docker-projects
@@ -344,7 +344,7 @@ cd ~/docker-projects
 ### 1. 📁 Crear un repositorio privado desde la terminal
 
 ```bash
-gh repo create my-microservices --private --confirm
+gh repo create my-microservices --private
 ```
 
 🔍 **Salida esperada:** (ejemplo)
@@ -474,9 +474,6 @@ Para aprender cómo implementar esta estructura con **Laravel** + **Kubernetes**
 
 El comando `tree` permite ver la estructura de carpetas y archivos de tu proyecto de forma jerárquica, como un árbol, lo que es mucho más visual que `ls`.
 
-Si no tienes `tree` instalado, consulta la siguiente guía: 
-- 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
-
 🔍 **Salida típica (ejemplo):**
 
 ```text
@@ -492,6 +489,79 @@ Si no tienes `tree` instalado, consulta la siguiente guía:
 
 Mucho más visual que `ls`, ¿verdad? 😎
 
+Si no tienes `tree` instalado, consulta la siguiente guía: 
+- 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
+
+---
+
+## 🗑️ Eliminar repositorio en GitHub
+
+1. 🔐 Primero, asegúrate de que estás autenticado correctamente:
+
+```bash
+gh auth status
+```
+
+Si no lo estás, autentícate con:
+
+```bash
+gh auth login
+```
+
+2. 🔥 Ejecuta el siguiente comando para eliminar tu repositorio remoto (por ejemplo):
+
+⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+
+```bash
+gh repo delete tu_usuario/my-microservices
+```
+
+El CLI te pedirá confirmación:
+
+```text
+? Are you sure you want to delete the repository tu_usuario/my-microservices? (y/N)
+```
+
+- Escribe `y` para confirmar y eliminarlo.
+- Si deseas **evitar la confirmación**, añade la bandera `--yes`:
+
+```bash
+gh repo delete tu_usuario/my-microservices --yes
+```
+
+🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
+
+⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
+
+```bash
+cd ~/docker-projects
+rm -rf my-microservices
+```
+
+✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
+
+---
+
+## 🧰 Comandos útiles de GitHub CLI
+
+| Acción                           | Comando                                         |
+| -------------------------------- | ------------------------------------------------|
+| Ver ayuda general                | `gh help`                                       |
+| Crear un repositorio público     | `gh repo create nombre-repo --public`           |
+| Crear un repositorio privado     | `gh repo create nombre-repo --private`          |
+| Listar tus repositorios          | `gh repo list`                                  |
+| Ver detalles de un repo          | `gh repo view nombre-repo`                      |
+| Crear un issue rápido            | `gh issue create`                               |
+| Ver issues abiertos              | `gh issue list`                                 |
+| Crear un pull request            | `gh pr create`                                  |
+| Clonar un repo por nombre        | `gh repo clone tu_usuario/nombre-repo`          |
+| Verificar sesión                 | `gh auth status`                                |
+| Iniciar sesión                   | `gh auth login`                                 |
+| Eliminar repo remoto             | `gh repo delete usuario/repositorio`            |
+| Sin confirmación al eliminar     | `gh repo delete usuario/repositorio --yes`      |
+
+✅ Puedes usar `gh help <comando>` para obtener más información sobre cualquiera de estos comandos.
+
 ---
 
 ## ✅ Recomendaciones adicionales
@@ -505,26 +575,11 @@ Mucho más visual que `ls`, ¿verdad? 😎
 
 ---
 
-## 🧰 Comandos útiles de GitHub CLI
-
-| Acción                    | Comando                                |
-| ------------------------- | -------------------------------------- |
-| Ver ayuda general         | `gh help`                              |
-| Crear un repositorio      | `gh repo create`                       |
-| Listar tus repositorios   | `gh repo list`                         |
-| Ver detalles de un repo   | `gh repo view nombre-repo`             |
-| Crear un issue rápido     | `gh issue create`                      |
-| Ver issues abiertos       | `gh issue list`                        |
-| Crear un pull request     | `gh pr create`                         |
-| Clonar un repo por nombre | `gh repo clone tu_usuario/nombre-repo` |
-
----
-
 ## ✨ Conclusión
 
-Con esta guía, ahora puedes:
+Con esta guía, ahora puedes desde la terminal:
 - Instalar y autenticarte con **GitHub CLI**.
-- Crear y gestionar repositorios desde la terminal.
+- Crear, gestionar y eliminar repositorios.
 - Clonar repositorios en `~/docker-projects`.
 - Hacer `commit` y `push` al repositorio remoto.
 - Automatizar flujos de trabajo sin salir de tu entorno **WSL2**.
