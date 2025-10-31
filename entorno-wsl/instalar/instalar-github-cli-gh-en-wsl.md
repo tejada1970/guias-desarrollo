@@ -558,17 +558,17 @@ rm -rf nombre-del-proyecto
 | Acción                           | Comando                                         |
 | -------------------------------- | ------------------------------------------------|
 | Ver ayuda general                | `gh help`                                       |
-| Crear un repositorio público     | `gh repo create nombre-repo --public`           |
-| Crear un repositorio privado     | `gh repo create nombre-repo --private`          |
+| Crear un repositorio público     | `gh repo create nombre-del-repo --public`       |
+| Crear un repositorio privado     | `gh repo create nombre-del-repo --private`      |
 | Listar tus repositorios          | `gh repo list`                                  |
-| Ver detalles de un repo          | `gh repo view nombre-repo`                      |
+| Ver detalles de un repo          | `gh repo view nombre-del-repo`                  |
 | Crear un issue rápido            | `gh issue create`                               |
 | Ver issues abiertos              | `gh issue list`                                 |
 | Crear un pull request            | `gh pr create`                                  |
 | Clonar un repo por nombre        | `gh repo clone tu_usuario/nombre-del-repo`      |
 | Verificar sesión                 | `gh auth status`                                |
 | Iniciar sesión                   | `gh auth login`                                 |
-| Eliminar repo remoto             | `gh repo delete usuario/nombre-del-repo`        |
+| Eliminar repo remoto             | `gh repo delete tu_usuario/nombre-del-repo`     |
 
 ---
 
