@@ -538,13 +538,13 @@ rm -rf my-microservices
 
 - ⚠️ Este comando **elimina definitivamente la carpeta**. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
 
-✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
+✅ **Listo:** tu repositorio ha sido eliminado tanto de GitHub como (opcionalmente) de tu entorno local.
 
 ---
 
 ## 🧰 Comandos útiles de GitHub CLI
 
-✅ Puedes usar `gh help <comando>` para obtener más información sobre cualquiera de estos comandos.
+👉 Puedes usar `gh help <comando>` para obtener más información sobre cualquiera de estos comandos.
 
 | Acción                           | Comando                                         |
 | -------------------------------- | ------------------------------------------------|
