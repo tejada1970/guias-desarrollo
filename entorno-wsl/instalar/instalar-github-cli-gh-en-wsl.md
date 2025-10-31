@@ -517,17 +517,19 @@ gh repo delete tu_usuario/my-microservices
 - El CLI te pedirá confirmación:
 
 ```text
-? Are you sure you want to delete the repository tu_usuario/my-microservices? (y/N)
+? Type tu_usuario/my-microservices to confirm deletion:
 ```
 
-- Escribe `y` para confirmar y eliminarlo.
-- Si deseas **evitar la confirmación**, añade la bandera `--yes`:
+- Esto significa que debes escribir exactamente el nombre completo del repositorio (con el usuario o la organización) para confirmar su eliminación y luego presionas Enter. Por ejemplo:
 
 ```bash
-gh repo delete tu_usuario/my-microservices --yes
+tu_usuario/my-microservices
 ```
 
 - ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+
+### 🚨 Errores comunes
+- 📖 [solucionar-error-gh-delete-repo-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-gh-delete-repo-wsl.md)
 
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
@@ -560,7 +562,6 @@ rm -rf my-microservices
 | Verificar sesión                 | `gh auth status`                                |
 | Iniciar sesión                   | `gh auth login`                                 |
 | Eliminar repo remoto             | `gh repo delete usuario/repositorio`            |
-| Sin confirmación al eliminar     | `gh repo delete usuario/repositorio --yes`      |
 
 ---
 

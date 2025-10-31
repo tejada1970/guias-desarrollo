@@ -26,6 +26,7 @@
 ### 🚨 Errores comunes
 - 📖 [solucionar-error-catastrofico-en-terminal-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-catastrofico-en-terminal-wsl2.md)
 - 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
+- 📖 [solucionar-error-gh-delete-repo-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-gh-delete-repo-wsl.md)
 
 ---
 
