@@ -441,6 +441,8 @@ my-microservices/
 >
 > - 📖 [configurar-git-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-git-en-wsl.md)
 
+Agrega todos los archivos y sube la estructura inicial a GitHub:
+
 ```bash
 git init
 git add .
