@@ -4,7 +4,9 @@ Esta guía te ayudará a solucionar el error de arranque de MySQL en XAMPP.
 
 ---
 
-## ❓ ¿Qué significa este error?
+## 🚨 Errores comunes
+
+### ❓ ¿Qué significa este error?
 
 Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje como:
 
@@ -22,7 +24,7 @@ Esto sucede cuando el servicio no inicia correctamente debido a corrupción en l
 
 ---
 
-## ✅ Resumen de la solución
+### ✅ Resumen de la solución
 
 1. Cierra el panel de XAMPP y accede a: `xampp/mysql/`  
 2. Renombra la carpeta `data/` a `data_old/`  
@@ -34,7 +36,7 @@ Esto sucede cuando el servicio no inicia correctamente debido a corrupción en l
 
 ---
 
-## ⚙️ Paso a paso detallado
+### ⚙️ Paso a paso detallado
 
 1. **Cerrar el panel de XAMPP y acceder a:** `xampp/mysql/`  
 
@@ -58,7 +60,7 @@ Esto sucede cuando el servicio no inicia correctamente debido a corrupción en l
 
 ---
 
-## 🤔 ¿Por qué esto funciona?
+### 🤔 ¿Por qué esto funciona?
 
 El error:
 
@@ -66,8 +68,9 @@ El error:
 Missing MLOG_CHECKPOINT … Plugin initialization aborted
 ```
 
-se debe a corrupción en los archivos de InnoDB.  
-Al reemplazar la carpeta `data/` por un backup limpio y luego traer solo tus bases de datos + `ibdata1`, recuperas tus datos en un entorno de InnoDB limpio evitando la corrupción de los archivos del sistema.
+Se debe a corrupción en los archivos de InnoDB.
+
+✅ Al reemplazar la carpeta `data/` por un backup limpio y luego traer solo tus bases de datos + `ibdata1`, recuperas tus datos en un entorno de InnoDB limpio evitando la corrupción de los archivos del sistema.
 
 ---
 

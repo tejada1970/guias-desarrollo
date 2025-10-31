@@ -4,7 +4,9 @@ Esta guía te ayudará a solucionar el error que aparece al intentar autenticart
 
 ---
 
-## ❓ ¿Qué significa este error?
+## 🚨 Errores comunes
+
+### ❓ ¿Qué significa este error?
 
 Al ejecutar:
 
@@ -22,7 +24,7 @@ y elegir el método de autenticación por navegador (**Login with a web browser*
 
 Esto significa que GitHub CLI no puede abrir el navegador automáticamente desde WSL, porque no encuentra las utilidades necesarias (`xdg-open` o `wslview`) para hacerlo.
 
-### 🤔 ¿Por qué sucede?
+#### 🤔 ¿Por qué sucede?
 
 Por defecto, WSL no tiene un entorno gráfico (no hay navegador instalado dentro de Linux).
 Cuando `gh` intenta abrir la página de autenticación en tu navegador, busca alguno de los comandos:
@@ -38,7 +40,7 @@ Si ninguno está disponible en `$PATH`, se produce el error anterior.
 
 ---
 
-## ✅ Solución rápida
+### ✅ Solución rápida
 
 Instala las utilidades necesarias:
 
@@ -46,7 +48,7 @@ Instala las utilidades necesarias:
 sudo apt install -y wslu xdg-utils
 ```
 
-### 🤔 ¿Qué hacen?
+#### 🤔 ¿Qué hacen?
 
 | Paquete       | Función                                                                               |
 |---------------|---------------------------------------------------------------------------------------|
@@ -55,7 +57,7 @@ sudo apt install -y wslu xdg-utils
 
 ---
 
-## ⚙️ Reautenticación con `gh`
+### 🔐 Reautenticación con `gh`
 
 Una vez instaladas las utilidades:
 
@@ -83,7 +85,7 @@ Press Enter to open https://github.com/login/device in your browser...
 
 ✅ Ahora sí, al pulsar Enter, se abrirá tu navegador correctamente.
 
-### ⚙️ Pasos para autenticación
+#### ⚙️ Pasos para autenticación
 
 1. Copia el código de un solo uso que muestra `gh`:
 
@@ -127,7 +129,7 @@ github.com
 
 ---
 
-## 🧭 Si no se abre automáticamente
+### 🧭 Si no se abre automáticamente
 
 1. Copia el código que muestra `gh`, por ejemplo: `9A2B-D33F`.  
 2. Abre manualmente tu navegador y entra en: [https://github.com/login/device](https://github.com/login/device)  

@@ -4,7 +4,9 @@ Esta guía te ayudará a solucionar el error `403` **al intentar eliminar un rep
 
 ---
 
-## ❓ ¿Qué significa este error?
+## 🚨 Errores comunes
+
+### ❓ ¿Qué significa este error?
 
 Si al intentar eliminar un repositorio obtienes un error como:
 
@@ -19,7 +21,7 @@ Esto significa:
 
 ---
 
-## ⚙️ Pasos para solucionarlo
+### ⚙️ Pasos para solucionarlo
 
 1. **Refresca tu autenticación y añade el scope `delete_repo`:**
 
@@ -47,7 +49,7 @@ gh repo delete tu_usuario/nombre-del-repo
 
 ---
 
-### ✅ Esto asegura que el repositorio se elimine correctamente sin errores de permisos.
+#### ✅ Esto asegura que el repositorio se elimine correctamente sin errores de permisos.
 
 ---
 
