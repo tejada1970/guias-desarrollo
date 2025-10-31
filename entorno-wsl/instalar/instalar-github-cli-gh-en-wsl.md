@@ -285,11 +285,19 @@ touch docs/maestros/doc-maestro.md
 
 ## 🚀 Primer commit y push inicial
 
+> ⚠️ **Importante:** 
+>
+> Antes de realizar el primer commit y push, asegúrate de tener **Git instalado y configurado en WSL**. Consulta la guía:
+>
+> - 📖 [configurar-git-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-git-en-wsl.md)
+
 Agrega todos los archivos y sube la estructura inicial a GitHub:
 
 ```bash
+git init
 git add .
 git commit -m "Inicializar repositorio con estructura base de documentación"
+git branch -M master
 git push -u origin master
 ```
 
@@ -429,9 +437,17 @@ my-microservices/
 
 ### 🚀 6. Primer commit y push inicial
 
+> ⚠️ **Importante:** 
+>
+> Antes de realizar el primer commit y push, asegúrate de tener **Git instalado y configurado en WSL**. Consulta la guía:
+>
+> - 📖 [configurar-git-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-git-en-wsl.md)
+
 ```bash
+git init
 git add .
 git commit -m "Inicializar repositorio con estructura base de microservicios"
+git branch -M develop
 git push -u origin develop
 ```
 

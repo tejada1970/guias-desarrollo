@@ -7,6 +7,7 @@
 ## 📁 Índice de Guías
 
 ### ⚙️ Configurar
+- 📖 [configurar-git-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-git-en-wsl.md)
 - 📖 [configurar-vscode-con-wsl2](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-vscode-con-wsl2.md)
 - 📖 [configurar-y-activar-settings-sync-vscode](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-y-activar-settings-sync-vscode.md)
 - 📖 [configurar-laravel-k8s-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/configurar/configurar-laravel-k8s-en-wsl.md)
