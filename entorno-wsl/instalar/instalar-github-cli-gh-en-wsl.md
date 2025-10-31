@@ -89,7 +89,7 @@ Visita 👉 https://github.com/cli/cli/releases/latest
 
 ## 🔐 Autenticarse en GitHub
 
-### Preparar WSL para abrir enlaces en navegador
+### 🌐 Preparar WSL para abrir enlaces en navegador
 
 Antes de ejecutar `gh auth login`, asegúrate de tener las utilidades necesarias:
 
@@ -121,12 +121,10 @@ Press Enter to open https://github.com/login/device in your browser...
 ```
 
 Pulsa `Enter` para abrir la web de GitHub desde WLS.
-  
-> ✍️ **Nota:**
->
-> Si por algún motivo te aparece un error abriendo el navegador, consulta esta guía:
->
-> - 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
+
+### 🚨 Errores comunes
+Si por algún motivo te aparece un error abriendo el navegador, consulta esta guía:
+- 📖 [solucionar-error-openbrowser-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-openbrowser-en-wsl.md)
 
 ### ⚙️ Pasos para autenticación
 
