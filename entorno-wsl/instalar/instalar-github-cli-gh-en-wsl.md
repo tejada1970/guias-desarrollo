@@ -511,19 +511,19 @@ gh auth login
 🔥 2. Ejecuta el siguiente comando para eliminar tu repositorio remoto (por ejemplo):
 
 ```bash
-gh repo delete tu_usuario/my-microservices
+gh repo delete tu_usuario/nombre-del-repo
 ```
 
 - El CLI te pedirá confirmación:
 
 ```text
-? Type tu_usuario/my-microservices to confirm deletion:
+? Type tu_usuario/nombre-del-repo to confirm deletion:
 ```
 
 - Esto significa que debes escribir exactamente el nombre completo del repositorio (con el usuario o la organización) para confirmar su eliminación y luego presionas Enter. Por ejemplo:
 
 ```bash
-tu_usuario/my-microservices
+tu_usuario/nombre-del-repo
 ```
 
 - ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
@@ -532,17 +532,17 @@ tu_usuario/my-microservices
 Si te aparece un error al intentar eliminar el repositorio, consulta esta guía:
 - 📖 [solucionar-error-gh-delete-repo-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-gh-delete-repo-wsl.md)
 
-🔍 **Si todo esta correcto te mostrará:**
+- 🔍 **Si todo esta correcto te mostrará:**
 
 ```kotlin
-✓ Deleted repository tejada1970/my-microservices
+✓ Deleted repository tu_usuario/nombre-del-repo
 ```
 
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
 ```bash
 cd ~/docker-projects
-rm -rf my-microservices
+rm -rf nombre-del-proyecto
 ```
 
 - ⚠️ Este comando **elimina definitivamente la carpeta**. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
@@ -565,10 +565,10 @@ rm -rf my-microservices
 | Crear un issue rápido            | `gh issue create`                               |
 | Ver issues abiertos              | `gh issue list`                                 |
 | Crear un pull request            | `gh pr create`                                  |
-| Clonar un repo por nombre        | `gh repo clone tu_usuario/nombre-repo`          |
+| Clonar un repo por nombre        | `gh repo clone tu_usuario/nombre-del-repo`      |
 | Verificar sesión                 | `gh auth status`                                |
 | Iniciar sesión                   | `gh auth login`                                 |
-| Eliminar repo remoto             | `gh repo delete usuario/repositorio`            |
+| Eliminar repo remoto             | `gh repo delete usuario/nombre-del-repo`        |
 
 ---
 

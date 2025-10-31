@@ -1,4 +1,4 @@
-# 📚 Guía: solucionar-error-gh-delete-repo-wsl 
+# 📚 Guía: solucionar-error-gh-delete-repo-wsl
 
 Esta guía te ayudará a solucionar el error `403` **al intentar eliminar un repositorio con GitHub CLI (`gh`) en WSL**.
 
@@ -47,7 +47,7 @@ gh repo delete tu_usuario/nombre-del-repo
 - Te pedirá confirmar:
 
 ```bash
-? Type tejada1970/my-microservices to confirm deletion:
+? Type tu_usuario/nombre-del-repo to confirm deletion:
 ```
 
 - Escribe:
