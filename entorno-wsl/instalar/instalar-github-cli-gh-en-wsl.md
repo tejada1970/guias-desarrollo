@@ -64,8 +64,6 @@ No modifica ni interfiere con otros paquetes o repositorios del sistema.
 >
 > Se crea un repositorio exclusivo en `/etc/apt/sources.list.d/github-cli.list` y una clave GPG específica para validar el paquete de GitHub.
 
----
-
 ### 🔄 Actualizar GitHub CLI a la última versión
 
 Una vez instalado con este método, podrás mantenerlo actualizado con un solo comando:
