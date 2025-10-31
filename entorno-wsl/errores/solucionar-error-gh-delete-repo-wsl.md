@@ -27,7 +27,7 @@ Esto significa:
 gh auth refresh -h github.com -s delete_repo
 ```
 
-Esto abrirá tu navegador para **reautorizar la CLI** con permisos de eliminación de repositorios.
+  - Esto abrirá tu navegador para **reautorizar la CLI** con permisos de eliminación de repositorios.
 
 2. **Verifica los scopes de tu token:**
 
@@ -35,7 +35,7 @@ Esto abrirá tu navegador para **reautorizar la CLI** con permisos de eliminaci�
 gh auth status --show-token
 ```
 
-Asegúrate de que aparezca `delete_repo` en la lista de scopes.
+  - Asegúrate de que aparezca `delete_repo` en la lista de scopes.
 
 3. **Vuelve a intentar eliminar el repositorio:**
 
@@ -43,7 +43,7 @@ Asegúrate de que aparezca `delete_repo` en la lista de scopes.
 gh repo delete tu_usuario/nombre-del-repo
 ```
 
-> ⚠️ Nota: Debes ser el **propietario del repositorio** o tener permisos de administrador. Si estás usando WSL o Linux, asegúrate de que el navegador pueda abrir la ventana de autorización correctamente y que estás autenticado con la cuenta correcta.
+> ✍️ **Nota:** Debes ser el **propietario del repositorio** o tener permisos de administrador. Si estás usando WSL o Linux, asegúrate de que el navegador pueda abrir la ventana de autorización correctamente y que estás autenticado con la cuenta correcta.
 
 ---
 
