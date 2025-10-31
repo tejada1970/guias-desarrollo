@@ -494,47 +494,47 @@ Mucho más visual que `ls`, ¿verdad? 😎
 
 ## 🗑️ Eliminar repositorio en GitHub
 
-🔐 Primero, asegúrate de que estás autenticado correctamente:
+🔐 1.  Primero, asegúrate de que estás autenticado correctamente:
 
 ```bash
 gh auth status
 ```
 
-Si no lo estás, autentícate con:
+- Si no lo estás, autentícate con:
 
 ```bash
 gh auth login
 ```
 
-🔥 Ejecuta el siguiente comando para eliminar tu repositorio remoto (por ejemplo):
-
-> ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+🔥 2. Ejecuta el siguiente comando para eliminar tu repositorio remoto (por ejemplo):
 
 ```bash
 gh repo delete tu_usuario/my-microservices
 ```
 
-El CLI te pedirá confirmación:
+- El CLI te pedirá confirmación:
 
 ```text
 ? Are you sure you want to delete the repository tu_usuario/my-microservices? (y/N)
 ```
 
-Escribe `y` para confirmar y eliminarlo.
-Si deseas **evitar la confirmación**, añade la bandera `--yes`:
+- Escribe `y` para confirmar y eliminarlo.
+- Si deseas **evitar la confirmación**, añade la bandera `--yes`:
 
 ```bash
 gh repo delete tu_usuario/my-microservices --yes
 ```
 
-🔥 Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
+- > ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
 
-> ⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
+🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
 ```bash
 cd ~/docker-projects
 rm -rf my-microservices
 ```
+
+- > ⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
 
 - ✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
 
