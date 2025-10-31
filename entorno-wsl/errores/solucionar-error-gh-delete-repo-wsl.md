@@ -66,6 +66,15 @@ tu_usuario/nombre-del-repo
 
 ---
 
+### ✨ Conclusión
+
+| Problema                             | Causa                                                              | Solución                                                   |
+|--------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| `HTTP 403: Must have admin rights`   | No tienes permisos de administrador sobre el repositorio           | Asegúrate de ser **propietario o tener permisos de admin** |
+| `needs the "delete_repo" scope`      | Tu token de GitHub CLI no tiene permiso para eliminar repositorios | Ejecuta: `gh auth refresh -h github.com -s delete_repo`    |
+
+---
+
 #### ✅ Esto asegura que el repositorio se elimine correctamente sin errores de permisos.
 
 ---
