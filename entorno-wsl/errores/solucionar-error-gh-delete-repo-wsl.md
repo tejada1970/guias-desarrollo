@@ -44,8 +44,25 @@ gh auth status --show-token
 ```bash
 gh repo delete tu_usuario/nombre-del-repo
 ```
+- Te pedirá confirmar:
 
-> ✍️ **Nota:** Debes ser el **propietario del repositorio** o tener permisos de administrador. Si estás usando WSL o Linux, asegúrate de que el navegador pueda abrir la ventana de autorización correctamente y que estás autenticado con la cuenta correcta.
+```bash
+? Type tejada1970/my-microservices to confirm deletion:
+```
+
+- Escribe:
+
+```bash
+tu_usuario/nombre-del-repo
+```
+
+- 🔍 **Salida esperada:**
+
+```kotlin
+✓ Deleted repository tu_usuario/nombre-del-repo
+```
+
+> ✍️ **Nota:** Debes ser el **propietario del repositorio** o tener **permisos de administrador**. Si estás usando **WSL** o **Linux**, asegúrate de que el navegador pueda abrir la ventana de autorización correctamente y que estás autenticado con la cuenta correcta.
 
 ---
 

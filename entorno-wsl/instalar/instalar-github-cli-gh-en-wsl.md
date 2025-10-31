@@ -532,6 +532,12 @@ tu_usuario/my-microservices
 Si te aparece un error al intentar eliminar el repositorio, consulta esta guía:
 - 📖 [solucionar-error-gh-delete-repo-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/errores/solucionar-error-gh-delete-repo-wsl.md)
 
+🔍 **Si todo esta correcto te mostrará:**
+
+```kotlin
+✓ Deleted repository tejada1970/my-microservices
+```
+
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
 ```bash
