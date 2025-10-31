@@ -8,7 +8,7 @@ Error catastrófico – Wsl/Service/E_UNEXPECTED
 
 ---
 
-## 🔎 ¿Qué significa el error?
+## ❓ ¿Qué significa este error?
 
 Básicamente, WSL (el servicio de Linux en Windows) se quedó colgado.
 
@@ -34,7 +34,7 @@ Press any key to continue...
 
 ---
 
-## ✅ Pasos para solucionarlo
+## ⚙️ Pasos para solucionarlo
 
 ### Opción 1: Reiniciar la integración de Docker Desktop
 

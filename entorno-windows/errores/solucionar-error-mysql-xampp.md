@@ -1,10 +1,10 @@
 # 📚 Guía: solucionar-error-mysql-xampp
 
-Esta guía te ayudará a solucionar el error de arranque de MySQL en XAMPP cuando el servicio no inicia correctamente debido a corrupción en los archivos de InnoDB.
+Esta guía te ayudará a solucionar el error de arranque de MySQL en XAMPP.
 
 ---
 
-## ❓ Qué significa el error
+## ❓ ¿Qué significa este error?
 
 Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje como:
 
@@ -17,6 +17,8 @@ Al intentar iniciar MySQL desde el panel de XAMPP, puede aparecer un mensaje com
 12:51:14  [mysql]   If you need more help, copy and post this
 12:51:14  [mysql]   entire log window on the forums
 ```
+
+Esto sucede cuando el servicio no inicia correctamente debido a corrupción en los archivos de InnoDB.
 
 ---
 

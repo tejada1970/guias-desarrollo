@@ -114,8 +114,11 @@ Responde así:
 - Método de autenticación de GitHub CLI → Selecciona Login with a web browser
 
 Te pedirá iniciar sesión en GitHub y autorizar `gh`:
-  - ! First copy your one-time code: 9A2B-D33F
-  - Press Enter to open https://github.com/login/device in your browser...
+
+```sql
+! First copy your one-time code: 9A2B-D33F
+Press Enter to open https://github.com/login/device in your browser...
+```
 
 Pulsa `Enter` para abrir la web de GitHub desde WLS.
   
@@ -127,23 +130,18 @@ Pulsa `Enter` para abrir la web de GitHub desde WLS.
 
 ### ⚙️ Pasos para autenticación
 
-1. Copia el **código de un solo uso** que te muestra `gh`, por ejemplo:
+1. Copia el código de un solo uso que muestra `gh`:
 
 ```sql
 ! First copy your one-time code: 9A2B-D33F
 ```
 
-2. Inicia sesión en tu cuenta de GitHub con tu usuario y contraseña de siempre.
-
-3. Device Activation -> pincha en **continue**.
-
-4. Device Activation / Enter the code displayed on your device -> Introduce el código de un solo uso que te ha dado `gd` -> pincha en **continue**.
-
-5. Authorize GitHub CLI -> pincha en `Authorize github`.
-
-6. Si ves -> Congratulations, you're all set! -> todo ha salido bien.
-
-7. Vuelve a la terminal **WSL (Ubuntu)** y comprobarás que se ha completado la Autorización:
+2. Inicia sesión en GitHub.  
+3. Device Activation → **Continue**  
+4. Introduce el código de un solo uso → **Continue**  
+5. Authorize GitHub CLI → **Authorize GitHub**  
+6. Mensaje esperado: **Congratulations, you're all set!** 🎉  
+7. Regresa a la terminal WSL y verifica:
 
 ```sql
 ! First copy your one-time code: 5F43-5665
@@ -173,6 +171,45 @@ github.com
 ```
 
 > ✍️ **Nota:** Si trabajas con varias cuentas, puedes usar `gh auth logout` y volver a iniciar sesión con otra.
+
+---
+
+## 🔒 Cerrar sesión en GitHub
+
+**No es obligatorio cerrar sesión** desde la terminal una vez que terminas de usar GitHub CLI (`gh`).
+
+El inicio de sesión se mantiene localmente en WSL mediante un token guardado en:
+
+```arduino
+~/.config/gh/hosts.yml
+```
+
+Esto significa que:
+- Tu sesión **permanece activa** mientras ese token exista.
+- No representa un riesgo de seguridad mientras **solo tú tengas acceso** a tu entorno WSL.
+- Así, no necesitas volver a autenticarte cada vez que uses `gh` o Git con HTTPS.
+
+Si por seguridad o limpieza prefieres cerrar sesión, puedes hacerlo fácilmente con:
+
+```bash
+gh auth logout
+```
+
+Luego elige el host (`github.com`) cuando te lo pida.
+
+También puedes hacerlo de manera forzada (sin confirmación):
+
+```bash
+gh auth logout -h github.com --hostname github.com
+```
+
+Esto:
+- Elimina el token del archivo de configuración.
+- Hace que el próximo uso de `gh` te pida volver a autenticarte.
+
+### ✅ Recomendación práctica
+- **Si estás en tu propio equipo**, puedes mantener la sesión abierta sin problema.
+- **Si usas un entorno compartido, público o temporal (por ejemplo, una VM o servidor ajeno), sí conviene cerrar sesión** al terminar.
 
 ---
 
