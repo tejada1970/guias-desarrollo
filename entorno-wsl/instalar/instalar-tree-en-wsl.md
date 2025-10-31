@@ -135,9 +135,12 @@ code estructura.txt
 
 > 💡 **Tip:**  
 > Puedes acceder y copiar el archivo `estructura.txt` que has creado, desde el **Explorador de Windows**. Abre el explorador y pega esta ruta en la barra de direcciones:
-> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects\nombre-del-proyecto`. Cambia el nombre del proyecto para ver otro cualquiera.
-> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects` (para ver todos los proyectos)
-> `\\wsl$\Ubuntu\home\tu_usuario\nombre-del-proyecto (si no tienes una carpeta personalizada donde guardar los proyectos de `docker`)
+>
+> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects\nombre-del-proyecto` (Cambia el nombre del proyecto para ver otro cualquiera).
+>
+> `\\wsl$\Ubuntu\home\tu_usuario\docker-projects` (para ver todos los proyectos).
+>
+> `\\wsl$\Ubuntu\home\tu_usuario\nombre-del-proyecto` (si no tienes una carpeta personalizada donde guardar los proyectos de `docker`).
 
 ---
 
@@ -164,6 +167,7 @@ Esto:
 
 ### 📂 Ejemplo de estructura (resumida):
 
+```text
 .
 ├── app
 │   ├── Http
@@ -175,6 +179,7 @@ Esto:
 │   └── app.php
 └── routes
     └── web.php
+```
 
 👉 Mucho más visual y útil para documentación, porque conserva el formato "en árbol".
 
