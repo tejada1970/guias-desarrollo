@@ -487,7 +487,7 @@ El comando `tree` permite ver la estructura de carpetas y archivos de tu proyect
 
 Mucho más visual que `ls`, ¿verdad? 😎
 
-Si no tienes `tree` instalado, consulta la siguiente guía: 
+🌳 Si no tienes `tree` instalado, consulta la siguiente guía: 
 - 📖 [instalar-tree-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-tree-en-wsl.md)
 
 ---
@@ -496,45 +496,45 @@ Si no tienes `tree` instalado, consulta la siguiente guía:
 
 1. 🔐 Primero, asegúrate de que estás autenticado correctamente:
 
-```bash
-gh auth status
-```
+  ```bash
+  gh auth status
+  ```
 
-Si no lo estás, autentícate con:
+  - Si no lo estás, autentícate con:
 
-```bash
-gh auth login
-```
+  ```bash
+  gh auth login
+  ```
 
 2. 🔥 Ejecuta el siguiente comando para eliminar tu repositorio remoto (por ejemplo):
 
-⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
+  - ⚠️ Esto **solo elimina el repositorio en GitHub**, no la carpeta local en tu máquina.
 
-```bash
-gh repo delete tu_usuario/my-microservices
-```
+  ```bash
+  gh repo delete tu_usuario/my-microservices
+  ```
 
-El CLI te pedirá confirmación:
+  - El CLI te pedirá confirmación:
 
-```text
-? Are you sure you want to delete the repository tu_usuario/my-microservices? (y/N)
-```
+  ```text
+  ? Are you sure you want to delete the repository tu_usuario/my-microservices? (y/N)
+  ```
 
-- Escribe `y` para confirmar y eliminarlo.
-- Si deseas **evitar la confirmación**, añade la bandera `--yes`:
+  - Escribe `y` para confirmar y eliminarlo.
+  - Si deseas **evitar la confirmación**, añade la bandera `--yes`:
 
-```bash
-gh repo delete tu_usuario/my-microservices --yes
-```
+  ```bash
+  gh repo delete tu_usuario/my-microservices --yes
+  ```
 
 🔥 3. Ejecuta el siguiente comando para eliminar la carpeta local (opcional), por ejemplo:
 
-⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
+  - ⚠️ Este comando elimina definitivamente la carpeta. Asegúrate de estar en el directorio correcto antes de ejecutarlo.
 
-```bash
-cd ~/docker-projects
-rm -rf my-microservices
-```
+  ```bash
+  cd ~/docker-projects
+  rm -rf my-microservices
+  ```
 
 ✅ **Listo:** tu repositorio ha sido eliminado tanto en GitHub como (opcionalmente) de tu entorno local.
 
