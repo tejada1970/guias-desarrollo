@@ -66,7 +66,7 @@ sudo apt update && sudo apt install tree -y
 Los proyectos Laravel suelen tener miles de archivos en `vendor/` y `node_modules/`, por lo que es recomendable filtrar la salida.
 
 ### 📂 Mostrar solo directorios
-
+ggg
 ```bash
 tree -d -I "vendor|node_modules|storage|.git"
 ```
