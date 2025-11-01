@@ -78,13 +78,15 @@ Esto también puede ayudar a que desaparezcan errores de arranque y problemas de
 
 **Desde Docker Desktop/Settings/General:**
 
-- Desactiva "Start Docker Desktop when you log in" para evitar errores de arranque, y activa "Open Docker Dashboard when Docker starts".
+- Desactiva "Start Docker Desktop when you sign in to your computer" para evitar errores de arranque, y activa "Open Docker Dashboard when Docker starts".
 
 - Si quieres arranque automático, añade un retraso de 15–30s usando el "Programador de tareas" de Windows.
 
+- Choose container terminal -> Seleeciona Integrated
+
 **Desde Docker Desktop/Settings/Software updates:**
 
-- Desactiva la casilla "Automatically check for updates" y marca la casilla "Always downdolad updates" para descargar automaticamente actualizaciones en segundo plano y así tener tu Docker Desktop siempre actualizado y al día.
+- Desactiva la casilla "Automatically check for updates" y marca las casillas "Always downdolad updates" y "Automatically update components" para tener tu **Docker Desktop** siempre actualizado y al día.
 
 **Desde Docker Desktop/Settings/Resources/WSL Integration**:
 
@@ -96,7 +98,15 @@ Esto también puede ayudar a que desaparezcan errores de arranque y problemas de
 
 ## 💡 Probar Docker
 
-1. Abre **Ubuntu en WSL** o tu terminal de preferencia (Git Bash, PowerShell, CMD).  
+⚠️ Importante: Antes de probar Docker desde **Ubuntu en WSL**, asegúrate de tener instalado el cliente de Docker (`docker-cli`) dentro de tu distribución WSL.
+
+Consulta la guía:
+- 📖 [instalar-docker-cli-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-docker-cli-en-wsl.md)
+
+**Pasos para probar Docker:**
+
+1. Abre **Ubuntu en WSL** o tu terminal de preferencia (Git Bash, PowerShell, CMD). 
+
 2. Ejecuta:  
 
 ```bash

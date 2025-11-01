@@ -18,6 +18,7 @@
 - 📖 [consejo-para-usar-nodejs-en-docker-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/consejos/consejo-para-usar-nodejs-en-docker-wsl.md)
 
 ### 🧰 Instalar
+- 📖 [instalar-docker-cli-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-docker-cli-en-wsl.md)
 - 📖 [instalar-kubectl-kind-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-kubectl-kind-en-wsl.md)
 - 📖 [instalar-php-composer-nodejs-laravel-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-php-composer-nodejs-laravel-en-wsl.md)
 - 📖 [instalar-github-cli-gh-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-github-cli-gh-en-wsl.md)
