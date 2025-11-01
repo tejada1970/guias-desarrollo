@@ -67,9 +67,7 @@ Los proyectos Laravel suelen tener miles de archivos en `vendor/` y `node_module
 
 ### 📂 Mostrar solo directorios
 
-```bash
-tree -d -I "vendor|node_modules|storage|.git"
-```
+
 
 🔍 **Ejemplo de salida:**
 
