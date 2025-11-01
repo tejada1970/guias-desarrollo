@@ -20,7 +20,7 @@ Gracias a Docker:
 1. Ve a la página oficial 👉 [Docker Desktop para Windows](https://www.docker.com/products/docker-desktop/)  
 2. Descarga el instalador para Windows 11 (x86_64 o ARM64 según tu PC):
 
-   - 👉 ¿Cómo saber si tu equipo es x86_64 o ARM64?
+   - 🤔 ¿Cómo saber si tu equipo es x86_64 o ARM64?
 
    - Abre PowerShell y ejecuta:  
 
@@ -82,7 +82,7 @@ Esto también puede ayudar a que desaparezcan errores de arranque y problemas de
 
 - Si quieres arranque automático, añade un retraso de 15–30s usando el "Programador de tareas" de Windows.
 
-- Choose container terminal -> Seleeciona Integrated
+- Choose container terminal -> Integrated
 
 **Desde Docker Desktop/Settings/Software updates:**
 
@@ -98,14 +98,14 @@ Esto también puede ayudar a que desaparezcan errores de arranque y problemas de
 
 ## 💡 Probar Docker
 
-⚠️ Importante: Antes de probar Docker desde **Ubuntu en WSL**, asegúrate de tener instalado el cliente de Docker (`docker-cli`) dentro de tu distribución WSL.
+⚠️ **Importante:** Antes de probar Docker desde **Ubuntu en WSL**, asegúrate de tener instalado el cliente de Docker (`docker-cli`) dentro de tu distribución WSL.
 
-Consulta la guía:
+**Consulta la guía:**
 - 📖 [instalar-docker-cli-en-wsl](https://github.com/tejada1970/guias-desarrollo/blob/master/entorno-wsl/instalar/instalar-docker-cli-en-wsl.md)
 
 **Pasos para probar Docker:**
 
-1. Abre **Ubuntu en WSL** o tu terminal de preferencia (Git Bash, PowerShell, CMD). 
+1. Abre **WSL (Ubuntu)** o una terminal de tu preferencia (Git Bash, PowerShell, CMD). 
 
 2. Ejecuta:  
 
