@@ -214,8 +214,7 @@ Esto:
 Ejecutar desde tu carpeta base de proyectos, por ejemplo:
 
 ```bash
-cd ~/docker-projects
-gh repo create ejemplo-repo-docs --private
+gh repo create ejemplo-repo-docs --private --description "Descripción para repositorio de prueba."
 ```
 
 🔍 **Salida esperada:** (ejemplo)
@@ -342,7 +341,7 @@ cd ~/docker-projects
 ### 1. 📁 Crear un repositorio privado desde la terminal
 
 ```bash
-gh repo create my-microservices --private
+gh repo create my-microservices --private --description "Descripción para repositorio de prueba."
 ```
 
 🔍 **Salida esperada:** (ejemplo)
