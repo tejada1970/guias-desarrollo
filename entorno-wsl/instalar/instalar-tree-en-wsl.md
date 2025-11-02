@@ -61,6 +61,26 @@ sudo apt update && sudo apt install tree -y
 
 ---
 
+## 🌳 Uso de ejemplo en directorio personal 
+
+Muestra todos los proyectos almacenados en el directorio:
+
+```bash
+cd ~/docker-projects
+tree -L 1 ~/docker-projects
+``` 
+
+🔍 **Ejemplo de salida:**
+
+```text
+
+~/docker-projects/
+├── project-1/          
+├── project-2/           
+├── project-3/           
+├── project-4/                 
+```
+
 ## 🌳 Uso práctico en Laravel
 
 Los proyectos Laravel suelen tener miles de archivos en `vendor/` y `node_modules/`, por lo que es recomendable filtrar la salida.
